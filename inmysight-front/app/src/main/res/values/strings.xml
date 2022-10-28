@@ -1,8 +1,18 @@
 <resources>
     <string name="app_name">InMySight</string>
-    <string name="title1">In My Sight</string>
-    <string name="title2">재고 관리를 한 눈에</string>
+    <string name="title1">INMYSIGHT</string>
+    <string name="title2">재고 관리를 쉽고 간편하게</string>
     <string name="start_button">START</string>
     <string name="sign_up_button">회원가입</string>
     <string name="sign_in_button">로그인</string>
+
+    <string name="signin_hint_id">아이디를 입력하세요</string>
+    <string name="signin_hint_password">비밀번호를 입력하세요</string>
+    <string name="signin_login_button">로그인</string>
+    <string name="signin_login_button2">취소</string>
+
+    <string name="signup_hint_id">아이디를 입력하세요</string>
+    <string name="signup_hint_password">비밀번호를 입력하세요</string>
+    <string name="signup_button">회원가입</string>
+    <string name="signup_button2">취소</string>
 </resources>
