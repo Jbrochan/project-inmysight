@@ -15,4 +15,8 @@
     <string name="signup_hint_password">비밀번호를 입력하세요</string>
     <string name="signup_button">회원가입</string>
     <string name="signup_button2">취소</string>
+    
+    <string name="lobby_stock">입고하기</string>
+    <string name="lobby_release">출고하기</string>
+    <string name="lobby_storage">내 창고</string>
 </resources>
