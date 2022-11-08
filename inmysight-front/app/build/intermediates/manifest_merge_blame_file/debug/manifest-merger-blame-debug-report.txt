@@ -1,0 +1,108 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.inmysight"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/Users/johyeongchan/MediaProject-2022-2/inmysight-project/inmysight-front/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="32" />
+9-->/Users/johyeongchan/MediaProject-2022-2/inmysight-project/inmysight-front/app/src/main/AndroidManifest.xml
+10
+11    <application
+11-->/Users/johyeongchan/MediaProject-2022-2/inmysight-project/inmysight-front/app/src/main/AndroidManifest.xml:5:5-41:19
+12        android:allowBackup="true"
+12-->/Users/johyeongchan/MediaProject-2022-2/inmysight-project/inmysight-front/app/src/main/AndroidManifest.xml:6:9-35
+13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+13-->[androidx.core:core:1.8.0] /Users/johyeongchan/.gradle/caches/transforms-3/6a19de105318aab1da00cfa3c60fb56e/transformed/core-1.8.0/AndroidManifest.xml:24:18-86
+14        android:dataExtractionRules="@xml/data_extraction_rules"
+14-->/Users/johyeongchan/MediaProject-2022-2/inmysight-project/inmysight-front/app/src/main/AndroidManifest.xml:7:9-65
+15        android:debuggable="true"
+16        android:fullBackupContent="@xml/backup_rules"
+16-->/Users/johyeongchan/MediaProject-2022-2/inmysight-project/inmysight-front/app/src/main/AndroidManifest.xml:8:9-54
+17        android:icon="@mipmap/ic_launcher"
+17-->/Users/johyeongchan/MediaProject-2022-2/inmysight-project/inmysight-front/app/src/main/AndroidManifest.xml:9:9-43
+18        android:label="@string/app_name"
+18-->/Users/johyeongchan/MediaProject-2022-2/inmysight-project/inmysight-front/app/src/main/AndroidManifest.xml:10:9-41
+19        android:roundIcon="@mipmap/ic_launcher_round"
+19-->/Users/johyeongchan/MediaProject-2022-2/inmysight-project/inmysight-front/app/src/main/AndroidManifest.xml:11:9-54
+20        android:supportsRtl="true"
+20-->/Users/johyeongchan/MediaProject-2022-2/inmysight-project/inmysight-front/app/src/main/AndroidManifest.xml:12:9-35
+21        android:testOnly="true"
+22        android:theme="@style/Theme.InMySight" >
+22-->/Users/johyeongchan/MediaProject-2022-2/inmysight-project/inmysight-front/app/src/main/AndroidManifest.xml:13:9-47
+23        <activity
+23-->/Users/johyeongchan/MediaProject-2022-2/inmysight-project/inmysight-front/app/src/main/AndroidManifest.xml:15:9-21:20
+24            android:name="com.example.inmysight.LobbyActivity"
+24-->/Users/johyeongchan/MediaProject-2022-2/inmysight-project/inmysight-front/app/src/main/AndroidManifest.xml:16:13-42
+25            android:exported="false" >
+25-->/Users/johyeongchan/MediaProject-2022-2/inmysight-project/inmysight-front/app/src/main/AndroidManifest.xml:17:13-37
+26            <meta-data
+26-->/Users/johyeongchan/MediaProject-2022-2/inmysight-project/inmysight-front/app/src/main/AndroidManifest.xml:18:13-20:36
+27                android:name="android.app.lib_name"
+27-->/Users/johyeongchan/MediaProject-2022-2/inmysight-project/inmysight-front/app/src/main/AndroidManifest.xml:19:17-52
+28                android:value="" />
+28-->/Users/johyeongchan/MediaProject-2022-2/inmysight-project/inmysight-front/app/src/main/AndroidManifest.xml:20:17-33
+29        </activity>
+30        <activity
+30-->/Users/johyeongchan/MediaProject-2022-2/inmysight-project/inmysight-front/app/src/main/AndroidManifest.xml:22:9-34:20
+31            android:name="com.example.inmysight.MainActivity"
+31-->/Users/johyeongchan/MediaProject-2022-2/inmysight-project/inmysight-front/app/src/main/AndroidManifest.xml:23:13-41
+32            android:exported="true" >
+32-->/Users/johyeongchan/MediaProject-2022-2/inmysight-project/inmysight-front/app/src/main/AndroidManifest.xml:24:13-36
+33            <intent-filter>
+33-->/Users/johyeongchan/MediaProject-2022-2/inmysight-project/inmysight-front/app/src/main/AndroidManifest.xml:25:13-29:29
+34                <action android:name="android.intent.action.MAIN" />
+34-->/Users/johyeongchan/MediaProject-2022-2/inmysight-project/inmysight-front/app/src/main/AndroidManifest.xml:26:17-69
+34-->/Users/johyeongchan/MediaProject-2022-2/inmysight-project/inmysight-front/app/src/main/AndroidManifest.xml:26:25-66
+35
+36                <category android:name="android.intent.category.LAUNCHER" />
+36-->/Users/johyeongchan/MediaProject-2022-2/inmysight-project/inmysight-front/app/src/main/AndroidManifest.xml:28:17-77
+36-->/Users/johyeongchan/MediaProject-2022-2/inmysight-project/inmysight-front/app/src/main/AndroidManifest.xml:28:27-74
+37            </intent-filter>
+38
+39            <meta-data
+39-->/Users/johyeongchan/MediaProject-2022-2/inmysight-project/inmysight-front/app/src/main/AndroidManifest.xml:18:13-20:36
+40                android:name="android.app.lib_name"
+40-->/Users/johyeongchan/MediaProject-2022-2/inmysight-project/inmysight-front/app/src/main/AndroidManifest.xml:19:17-52
+41                android:value="" />
+41-->/Users/johyeongchan/MediaProject-2022-2/inmysight-project/inmysight-front/app/src/main/AndroidManifest.xml:20:17-33
+42        </activity>
+43        <activity
+43-->/Users/johyeongchan/MediaProject-2022-2/inmysight-project/inmysight-front/app/src/main/AndroidManifest.xml:35:9-37:39
+44            android:name="com.example.inmysight.SignInActivity"
+44-->/Users/johyeongchan/MediaProject-2022-2/inmysight-project/inmysight-front/app/src/main/AndroidManifest.xml:36:13-43
+45            android:exported="true" />
+45-->/Users/johyeongchan/MediaProject-2022-2/inmysight-project/inmysight-front/app/src/main/AndroidManifest.xml:37:13-36
+46        <activity
+46-->/Users/johyeongchan/MediaProject-2022-2/inmysight-project/inmysight-front/app/src/main/AndroidManifest.xml:38:9-40:39
+47            android:name="com.example.inmysight.SignUpActivity"
+47-->/Users/johyeongchan/MediaProject-2022-2/inmysight-project/inmysight-front/app/src/main/AndroidManifest.xml:39:13-43
+48            android:exported="true" />
+48-->/Users/johyeongchan/MediaProject-2022-2/inmysight-project/inmysight-front/app/src/main/AndroidManifest.xml:40:13-36
+49
+50        <provider
+50-->[androidx.emoji2:emoji2:1.2.0] /Users/johyeongchan/.gradle/caches/transforms-3/848773e611bbde5d3ec0ec3e63d01c98/transformed/emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+51            android:name="androidx.startup.InitializationProvider"
+51-->[androidx.emoji2:emoji2:1.2.0] /Users/johyeongchan/.gradle/caches/transforms-3/848773e611bbde5d3ec0ec3e63d01c98/transformed/emoji2-1.2.0/AndroidManifest.xml:25:13-67
+52            android:authorities="com.example.inmysight.androidx-startup"
+52-->[androidx.emoji2:emoji2:1.2.0] /Users/johyeongchan/.gradle/caches/transforms-3/848773e611bbde5d3ec0ec3e63d01c98/transformed/emoji2-1.2.0/AndroidManifest.xml:26:13-68
+53            android:exported="false" >
+53-->[androidx.emoji2:emoji2:1.2.0] /Users/johyeongchan/.gradle/caches/transforms-3/848773e611bbde5d3ec0ec3e63d01c98/transformed/emoji2-1.2.0/AndroidManifest.xml:27:13-37
+54            <meta-data
+54-->[androidx.emoji2:emoji2:1.2.0] /Users/johyeongchan/.gradle/caches/transforms-3/848773e611bbde5d3ec0ec3e63d01c98/transformed/emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+55                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+55-->[androidx.emoji2:emoji2:1.2.0] /Users/johyeongchan/.gradle/caches/transforms-3/848773e611bbde5d3ec0ec3e63d01c98/transformed/emoji2-1.2.0/AndroidManifest.xml:30:17-75
+56                android:value="androidx.startup" />
+56-->[androidx.emoji2:emoji2:1.2.0] /Users/johyeongchan/.gradle/caches/transforms-3/848773e611bbde5d3ec0ec3e63d01c98/transformed/emoji2-1.2.0/AndroidManifest.xml:31:17-49
+57            <meta-data
+57-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/johyeongchan/.gradle/caches/transforms-3/a4f0fb44e9b56370f8c2ed23c9d5d030/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
+58                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+58-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/johyeongchan/.gradle/caches/transforms-3/a4f0fb44e9b56370f8c2ed23c9d5d030/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
+59                android:value="androidx.startup" />
+59-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/johyeongchan/.gradle/caches/transforms-3/a4f0fb44e9b56370f8c2ed23c9d5d030/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
+60        </provider>
+61    </application>
+62
+63</manifest>
