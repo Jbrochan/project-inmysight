@@ -2650,7 +2650,6 @@ int id bounce 0x7f080060
 int id bounceBoth 0x7f080061
 int id bounceEnd 0x7f080062
 int id bounceStart 0x7f080063
-int id button1 0x7f080064
 int id buttonPanel 0x7f080065
 int id cache_measures 0x7f080066
 int id callMeasure 0x7f080067
@@ -2945,6 +2944,7 @@ int id showCustom 0x7f080187
 int id showHome 0x7f080188
 int id showTitle 0x7f080189
 int id signIn 0x7f08018a
+int id signInButton 0x7f0801fa
 int id signUp 0x7f08018b
 int id signinLayout 0x7f08018c
 int id signupLayout 0x7f08018d

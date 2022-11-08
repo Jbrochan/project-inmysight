@@ -28,7 +28,7 @@
         android:hint="@string/signup_hint_password"
         android:inputType="textPersonName"
         android:minHeight="48dp"
-        app:layout_constraintBottom_toTopOf="@+id/button1"
+        app:layout_constraintBottom_toTopOf="@+id/signInButton"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintStart_toStartOf="parent"
@@ -36,7 +36,7 @@
         app:layout_constraintVertical_bias="0.541" />
 
     <Button
-        android:id="@+id/button1"
+        android:id="@+id/signInButton"
         android:layout_width="210dp"
         android:layout_height="48dp"
         android:layout_marginTop="84dp"

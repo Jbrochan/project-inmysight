@@ -2651,7 +2651,6 @@ id bounce
 id bounceBoth
 id bounceEnd
 id bounceStart
-id button1
 id buttonPanel
 id cache_measures
 id callMeasure
@@ -2946,6 +2945,7 @@ id showCustom
 id showHome
 id showTitle
 id signIn
+id signInButton
 id signUp
 id signinLayout
 id signupLayout

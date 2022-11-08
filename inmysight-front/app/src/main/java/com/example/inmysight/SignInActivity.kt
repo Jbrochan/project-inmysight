@@ -1,5 +1,6 @@
 package com.example.inmysight
 
+import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
 import androidx.appcompat.app.AppCompatActivity
@@ -9,7 +10,13 @@ class SignInActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_signin)
 
-        // Sign in function
+        // Move to main activity when press sign-in button
+        val signInButton: Button = findViewById(R.id.signInButton)
+        signInButton.setOnClickListener {
+            intent = Intent(this, LobbyActivity::class.java)
+            startActivity(intent)
+        }
+
 
         // Move to main activity when press close button
         val closeButton: Button = findViewById(R.id.cancelButton)

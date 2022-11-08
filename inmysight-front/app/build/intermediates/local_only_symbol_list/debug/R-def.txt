@@ -9,7 +9,6 @@ color teal_700
 color white
 drawable ic_launcher_background
 drawable ic_launcher_foreground
-id button1
 id cancelButton
 id idInput
 id lobby1Title
@@ -19,6 +18,7 @@ id lobbyTitle
 id passwordInput
 id releaseButton
 id signIn
+id signInButton
 id signUp
 id signinLayout
 id signupLayout
