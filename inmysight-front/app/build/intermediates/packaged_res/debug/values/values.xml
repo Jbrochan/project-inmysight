@@ -8,9 +8,16 @@
     <color name="teal_700">#FF018786</color>
     <color name="white">#FFFFFFFF</color>
     <string name="app_name">InMySight</string>
+    <string name="default_web_client_id" translatable="false">648791821865-faclu6nfookos0ui4un0bujk8mpu9fas.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">648791821865</string>
+    <string name="google_api_key" translatable="false">AIzaSyBQpr195qZE876QyYlPTr6ABRxElTaRRtI</string>
+    <string name="google_app_id" translatable="false">1:648791821865:android:43c939ffc04e9e94461638</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBQpr195qZE876QyYlPTr6ABRxElTaRRtI</string>
+    <string name="google_storage_bucket" translatable="false">inmysight-7af8a.appspot.com</string>
     <string name="lobby_release">출고하기</string>
     <string name="lobby_stock">입고하기</string>
     <string name="lobby_storage">내 창고</string>
+    <string name="project_id" translatable="false">inmysight-7af8a</string>
     <string name="sign_in_button">로그인</string>
     <string name="sign_up_button">회원가입</string>
     <string name="signin_hint_id">아이디를 입력하세요</string>

@@ -10,99 +10,221 @@
 9        android:targetSdkVersion="32" />
 9-->/Users/johyeongchan/MediaProject-2022-2/inmysight-project/inmysight-front/app/src/main/AndroidManifest.xml
 10
-11    <application
-11-->/Users/johyeongchan/MediaProject-2022-2/inmysight-project/inmysight-front/app/src/main/AndroidManifest.xml:5:5-41:19
-12        android:allowBackup="true"
-12-->/Users/johyeongchan/MediaProject-2022-2/inmysight-project/inmysight-front/app/src/main/AndroidManifest.xml:6:9-35
-13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-13-->[androidx.core:core:1.8.0] /Users/johyeongchan/.gradle/caches/transforms-3/6a19de105318aab1da00cfa3c60fb56e/transformed/core-1.8.0/AndroidManifest.xml:24:18-86
-14        android:dataExtractionRules="@xml/data_extraction_rules"
-14-->/Users/johyeongchan/MediaProject-2022-2/inmysight-project/inmysight-front/app/src/main/AndroidManifest.xml:7:9-65
-15        android:debuggable="true"
-16        android:fullBackupContent="@xml/backup_rules"
-16-->/Users/johyeongchan/MediaProject-2022-2/inmysight-project/inmysight-front/app/src/main/AndroidManifest.xml:8:9-54
-17        android:icon="@mipmap/ic_launcher"
-17-->/Users/johyeongchan/MediaProject-2022-2/inmysight-project/inmysight-front/app/src/main/AndroidManifest.xml:9:9-43
-18        android:label="@string/app_name"
-18-->/Users/johyeongchan/MediaProject-2022-2/inmysight-project/inmysight-front/app/src/main/AndroidManifest.xml:10:9-41
-19        android:roundIcon="@mipmap/ic_launcher_round"
-19-->/Users/johyeongchan/MediaProject-2022-2/inmysight-project/inmysight-front/app/src/main/AndroidManifest.xml:11:9-54
-20        android:supportsRtl="true"
-20-->/Users/johyeongchan/MediaProject-2022-2/inmysight-project/inmysight-front/app/src/main/AndroidManifest.xml:12:9-35
-21        android:testOnly="true"
-22        android:theme="@style/Theme.InMySight" >
-22-->/Users/johyeongchan/MediaProject-2022-2/inmysight-project/inmysight-front/app/src/main/AndroidManifest.xml:13:9-47
-23        <activity
-23-->/Users/johyeongchan/MediaProject-2022-2/inmysight-project/inmysight-front/app/src/main/AndroidManifest.xml:15:9-21:20
-24            android:name="com.example.inmysight.LobbyActivity"
-24-->/Users/johyeongchan/MediaProject-2022-2/inmysight-project/inmysight-front/app/src/main/AndroidManifest.xml:16:13-42
-25            android:exported="false" >
-25-->/Users/johyeongchan/MediaProject-2022-2/inmysight-project/inmysight-front/app/src/main/AndroidManifest.xml:17:13-37
-26            <meta-data
-26-->/Users/johyeongchan/MediaProject-2022-2/inmysight-project/inmysight-front/app/src/main/AndroidManifest.xml:18:13-20:36
-27                android:name="android.app.lib_name"
-27-->/Users/johyeongchan/MediaProject-2022-2/inmysight-project/inmysight-front/app/src/main/AndroidManifest.xml:19:17-52
-28                android:value="" />
-28-->/Users/johyeongchan/MediaProject-2022-2/inmysight-project/inmysight-front/app/src/main/AndroidManifest.xml:20:17-33
-29        </activity>
-30        <activity
-30-->/Users/johyeongchan/MediaProject-2022-2/inmysight-project/inmysight-front/app/src/main/AndroidManifest.xml:22:9-34:20
-31            android:name="com.example.inmysight.MainActivity"
-31-->/Users/johyeongchan/MediaProject-2022-2/inmysight-project/inmysight-front/app/src/main/AndroidManifest.xml:23:13-41
-32            android:exported="true" >
-32-->/Users/johyeongchan/MediaProject-2022-2/inmysight-project/inmysight-front/app/src/main/AndroidManifest.xml:24:13-36
-33            <intent-filter>
-33-->/Users/johyeongchan/MediaProject-2022-2/inmysight-project/inmysight-front/app/src/main/AndroidManifest.xml:25:13-29:29
-34                <action android:name="android.intent.action.MAIN" />
-34-->/Users/johyeongchan/MediaProject-2022-2/inmysight-project/inmysight-front/app/src/main/AndroidManifest.xml:26:17-69
-34-->/Users/johyeongchan/MediaProject-2022-2/inmysight-project/inmysight-front/app/src/main/AndroidManifest.xml:26:25-66
-35
-36                <category android:name="android.intent.category.LAUNCHER" />
-36-->/Users/johyeongchan/MediaProject-2022-2/inmysight-project/inmysight-front/app/src/main/AndroidManifest.xml:28:17-77
-36-->/Users/johyeongchan/MediaProject-2022-2/inmysight-project/inmysight-front/app/src/main/AndroidManifest.xml:28:27-74
-37            </intent-filter>
-38
-39            <meta-data
-39-->/Users/johyeongchan/MediaProject-2022-2/inmysight-project/inmysight-front/app/src/main/AndroidManifest.xml:18:13-20:36
-40                android:name="android.app.lib_name"
-40-->/Users/johyeongchan/MediaProject-2022-2/inmysight-project/inmysight-front/app/src/main/AndroidManifest.xml:19:17-52
-41                android:value="" />
-41-->/Users/johyeongchan/MediaProject-2022-2/inmysight-project/inmysight-front/app/src/main/AndroidManifest.xml:20:17-33
-42        </activity>
-43        <activity
-43-->/Users/johyeongchan/MediaProject-2022-2/inmysight-project/inmysight-front/app/src/main/AndroidManifest.xml:35:9-37:39
-44            android:name="com.example.inmysight.SignInActivity"
-44-->/Users/johyeongchan/MediaProject-2022-2/inmysight-project/inmysight-front/app/src/main/AndroidManifest.xml:36:13-43
-45            android:exported="true" />
-45-->/Users/johyeongchan/MediaProject-2022-2/inmysight-project/inmysight-front/app/src/main/AndroidManifest.xml:37:13-36
-46        <activity
-46-->/Users/johyeongchan/MediaProject-2022-2/inmysight-project/inmysight-front/app/src/main/AndroidManifest.xml:38:9-40:39
-47            android:name="com.example.inmysight.SignUpActivity"
-47-->/Users/johyeongchan/MediaProject-2022-2/inmysight-project/inmysight-front/app/src/main/AndroidManifest.xml:39:13-43
-48            android:exported="true" />
-48-->/Users/johyeongchan/MediaProject-2022-2/inmysight-project/inmysight-front/app/src/main/AndroidManifest.xml:40:13-36
-49
-50        <provider
-50-->[androidx.emoji2:emoji2:1.2.0] /Users/johyeongchan/.gradle/caches/transforms-3/848773e611bbde5d3ec0ec3e63d01c98/transformed/emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
-51            android:name="androidx.startup.InitializationProvider"
-51-->[androidx.emoji2:emoji2:1.2.0] /Users/johyeongchan/.gradle/caches/transforms-3/848773e611bbde5d3ec0ec3e63d01c98/transformed/emoji2-1.2.0/AndroidManifest.xml:25:13-67
-52            android:authorities="com.example.inmysight.androidx-startup"
-52-->[androidx.emoji2:emoji2:1.2.0] /Users/johyeongchan/.gradle/caches/transforms-3/848773e611bbde5d3ec0ec3e63d01c98/transformed/emoji2-1.2.0/AndroidManifest.xml:26:13-68
-53            android:exported="false" >
-53-->[androidx.emoji2:emoji2:1.2.0] /Users/johyeongchan/.gradle/caches/transforms-3/848773e611bbde5d3ec0ec3e63d01c98/transformed/emoji2-1.2.0/AndroidManifest.xml:27:13-37
-54            <meta-data
-54-->[androidx.emoji2:emoji2:1.2.0] /Users/johyeongchan/.gradle/caches/transforms-3/848773e611bbde5d3ec0ec3e63d01c98/transformed/emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
-55                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-55-->[androidx.emoji2:emoji2:1.2.0] /Users/johyeongchan/.gradle/caches/transforms-3/848773e611bbde5d3ec0ec3e63d01c98/transformed/emoji2-1.2.0/AndroidManifest.xml:30:17-75
-56                android:value="androidx.startup" />
-56-->[androidx.emoji2:emoji2:1.2.0] /Users/johyeongchan/.gradle/caches/transforms-3/848773e611bbde5d3ec0ec3e63d01c98/transformed/emoji2-1.2.0/AndroidManifest.xml:31:17-49
-57            <meta-data
-57-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/johyeongchan/.gradle/caches/transforms-3/a4f0fb44e9b56370f8c2ed23c9d5d030/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
-58                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-58-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/johyeongchan/.gradle/caches/transforms-3/a4f0fb44e9b56370f8c2ed23c9d5d030/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
-59                android:value="androidx.startup" />
-59-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/johyeongchan/.gradle/caches/transforms-3/a4f0fb44e9b56370f8c2ed23c9d5d030/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
-60        </provider>
-61    </application>
-62
-63</manifest>
+11    <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+12    <!-- <uses-sdk android:minSdkVersion="14" /> -->
+13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+13-->[com.google.firebase:firebase-firestore:24.4.0] /Users/johyeongchan/.gradle/caches/transforms-3/a19c1ee8cba3775934599f4bf2729fd4/transformed/firebase-firestore-24.4.0/AndroidManifest.xml:12:5-79
+13-->[com.google.firebase:firebase-firestore:24.4.0] /Users/johyeongchan/.gradle/caches/transforms-3/a19c1ee8cba3775934599f4bf2729fd4/transformed/firebase-firestore-24.4.0/AndroidManifest.xml:12:22-76
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->[com.google.firebase:firebase-firestore:24.4.0] /Users/johyeongchan/.gradle/caches/transforms-3/a19c1ee8cba3775934599f4bf2729fd4/transformed/firebase-firestore-24.4.0/AndroidManifest.xml:13:5-67
+14-->[com.google.firebase:firebase-firestore:24.4.0] /Users/johyeongchan/.gradle/caches/transforms-3/a19c1ee8cba3775934599f4bf2729fd4/transformed/firebase-firestore-24.4.0/AndroidManifest.xml:13:22-64
+15    <uses-permission android:name="android.permission.WAKE_LOCK" />
+15-->[com.google.android.gms:play-services-measurement-api:21.2.0] /Users/johyeongchan/.gradle/caches/transforms-3/55d7b9ce7714096f4aef16c27754ce7d/transformed/play-services-measurement-api-21.2.0/AndroidManifest.xml:24:5-68
+15-->[com.google.android.gms:play-services-measurement-api:21.2.0] /Users/johyeongchan/.gradle/caches/transforms-3/55d7b9ce7714096f4aef16c27754ce7d/transformed/play-services-measurement-api-21.2.0/AndroidManifest.xml:24:22-65
+16    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+16-->[com.google.android.gms:play-services-measurement-api:21.2.0] /Users/johyeongchan/.gradle/caches/transforms-3/55d7b9ce7714096f4aef16c27754ce7d/transformed/play-services-measurement-api-21.2.0/AndroidManifest.xml:25:5-79
+16-->[com.google.android.gms:play-services-measurement-api:21.2.0] /Users/johyeongchan/.gradle/caches/transforms-3/55d7b9ce7714096f4aef16c27754ce7d/transformed/play-services-measurement-api-21.2.0/AndroidManifest.xml:25:22-76
+17    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+17-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/johyeongchan/.gradle/caches/transforms-3/da805760ed1491584f6be4931a06ec7d/transformed/play-services-measurement-21.2.0/AndroidManifest.xml:26:5-110
+17-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/johyeongchan/.gradle/caches/transforms-3/da805760ed1491584f6be4931a06ec7d/transformed/play-services-measurement-21.2.0/AndroidManifest.xml:26:22-107
+18
+19    <application
+19-->/Users/johyeongchan/MediaProject-2022-2/inmysight-project/inmysight-front/app/src/main/AndroidManifest.xml:5:5-41:19
+20        android:allowBackup="true"
+20-->/Users/johyeongchan/MediaProject-2022-2/inmysight-project/inmysight-front/app/src/main/AndroidManifest.xml:6:9-35
+21        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+21-->[androidx.core:core:1.8.0] /Users/johyeongchan/.gradle/caches/transforms-3/9febd1ce4d4b7c6a9a839d5e3e558b1d/transformed/core-1.8.0/AndroidManifest.xml:24:18-86
+22        android:dataExtractionRules="@xml/data_extraction_rules"
+22-->/Users/johyeongchan/MediaProject-2022-2/inmysight-project/inmysight-front/app/src/main/AndroidManifest.xml:7:9-65
+23        android:debuggable="true"
+24        android:fullBackupContent="@xml/backup_rules"
+24-->/Users/johyeongchan/MediaProject-2022-2/inmysight-project/inmysight-front/app/src/main/AndroidManifest.xml:8:9-54
+25        android:icon="@mipmap/ic_launcher"
+25-->/Users/johyeongchan/MediaProject-2022-2/inmysight-project/inmysight-front/app/src/main/AndroidManifest.xml:9:9-43
+26        android:label="@string/app_name"
+26-->/Users/johyeongchan/MediaProject-2022-2/inmysight-project/inmysight-front/app/src/main/AndroidManifest.xml:10:9-41
+27        android:roundIcon="@mipmap/ic_launcher_round"
+27-->/Users/johyeongchan/MediaProject-2022-2/inmysight-project/inmysight-front/app/src/main/AndroidManifest.xml:11:9-54
+28        android:supportsRtl="true"
+28-->/Users/johyeongchan/MediaProject-2022-2/inmysight-project/inmysight-front/app/src/main/AndroidManifest.xml:12:9-35
+29        android:testOnly="true"
+30        android:theme="@style/Theme.InMySight" >
+30-->/Users/johyeongchan/MediaProject-2022-2/inmysight-project/inmysight-front/app/src/main/AndroidManifest.xml:13:9-47
+31        <activity
+31-->/Users/johyeongchan/MediaProject-2022-2/inmysight-project/inmysight-front/app/src/main/AndroidManifest.xml:15:9-21:20
+32            android:name="com.example.inmysight.LobbyActivity"
+32-->/Users/johyeongchan/MediaProject-2022-2/inmysight-project/inmysight-front/app/src/main/AndroidManifest.xml:16:13-42
+33            android:exported="false" >
+33-->/Users/johyeongchan/MediaProject-2022-2/inmysight-project/inmysight-front/app/src/main/AndroidManifest.xml:17:13-37
+34            <meta-data
+34-->/Users/johyeongchan/MediaProject-2022-2/inmysight-project/inmysight-front/app/src/main/AndroidManifest.xml:18:13-20:36
+35                android:name="android.app.lib_name"
+35-->/Users/johyeongchan/MediaProject-2022-2/inmysight-project/inmysight-front/app/src/main/AndroidManifest.xml:19:17-52
+36                android:value="" />
+36-->/Users/johyeongchan/MediaProject-2022-2/inmysight-project/inmysight-front/app/src/main/AndroidManifest.xml:20:17-33
+37        </activity>
+38        <activity
+38-->/Users/johyeongchan/MediaProject-2022-2/inmysight-project/inmysight-front/app/src/main/AndroidManifest.xml:22:9-34:20
+39            android:name="com.example.inmysight.MainActivity"
+39-->/Users/johyeongchan/MediaProject-2022-2/inmysight-project/inmysight-front/app/src/main/AndroidManifest.xml:23:13-41
+40            android:exported="true" >
+40-->/Users/johyeongchan/MediaProject-2022-2/inmysight-project/inmysight-front/app/src/main/AndroidManifest.xml:24:13-36
+41            <intent-filter>
+41-->/Users/johyeongchan/MediaProject-2022-2/inmysight-project/inmysight-front/app/src/main/AndroidManifest.xml:25:13-29:29
+42                <action android:name="android.intent.action.MAIN" />
+42-->/Users/johyeongchan/MediaProject-2022-2/inmysight-project/inmysight-front/app/src/main/AndroidManifest.xml:26:17-69
+42-->/Users/johyeongchan/MediaProject-2022-2/inmysight-project/inmysight-front/app/src/main/AndroidManifest.xml:26:25-66
+43
+44                <category android:name="android.intent.category.LAUNCHER" />
+44-->/Users/johyeongchan/MediaProject-2022-2/inmysight-project/inmysight-front/app/src/main/AndroidManifest.xml:28:17-77
+44-->/Users/johyeongchan/MediaProject-2022-2/inmysight-project/inmysight-front/app/src/main/AndroidManifest.xml:28:27-74
+45            </intent-filter>
+46
+47            <meta-data
+47-->/Users/johyeongchan/MediaProject-2022-2/inmysight-project/inmysight-front/app/src/main/AndroidManifest.xml:18:13-20:36
+48                android:name="android.app.lib_name"
+48-->/Users/johyeongchan/MediaProject-2022-2/inmysight-project/inmysight-front/app/src/main/AndroidManifest.xml:19:17-52
+49                android:value="" />
+49-->/Users/johyeongchan/MediaProject-2022-2/inmysight-project/inmysight-front/app/src/main/AndroidManifest.xml:20:17-33
+50        </activity>
+51        <activity
+51-->/Users/johyeongchan/MediaProject-2022-2/inmysight-project/inmysight-front/app/src/main/AndroidManifest.xml:35:9-37:39
+52            android:name="com.example.inmysight.SignInActivity"
+52-->/Users/johyeongchan/MediaProject-2022-2/inmysight-project/inmysight-front/app/src/main/AndroidManifest.xml:36:13-43
+53            android:exported="true" />
+53-->/Users/johyeongchan/MediaProject-2022-2/inmysight-project/inmysight-front/app/src/main/AndroidManifest.xml:37:13-36
+54        <activity
+54-->/Users/johyeongchan/MediaProject-2022-2/inmysight-project/inmysight-front/app/src/main/AndroidManifest.xml:38:9-40:39
+55            android:name="com.example.inmysight.SignUpActivity"
+55-->/Users/johyeongchan/MediaProject-2022-2/inmysight-project/inmysight-front/app/src/main/AndroidManifest.xml:39:13-43
+56            android:exported="true" />
+56-->/Users/johyeongchan/MediaProject-2022-2/inmysight-project/inmysight-front/app/src/main/AndroidManifest.xml:40:13-36
+57
+58        <service
+58-->[com.google.firebase:firebase-firestore-ktx:24.4.0] /Users/johyeongchan/.gradle/caches/transforms-3/a9b6d0bfde2e831ab008d73b64ea42ba/transformed/firebase-firestore-ktx-24.4.0/AndroidManifest.xml:11:9-17:19
+59            android:name="com.google.firebase.components.ComponentDiscoveryService"
+59-->[com.google.firebase:firebase-firestore-ktx:24.4.0] /Users/johyeongchan/.gradle/caches/transforms-3/a9b6d0bfde2e831ab008d73b64ea42ba/transformed/firebase-firestore-ktx-24.4.0/AndroidManifest.xml:12:13-84
+60            android:directBootAware="true"
+60-->[com.google.firebase:firebase-common:20.2.0] /Users/johyeongchan/.gradle/caches/transforms-3/33d441273fd25f7872fbf5cf027e181f/transformed/firebase-common-20.2.0/AndroidManifest.xml:34:13-43
+61            android:exported="false" >
+61-->[com.google.firebase:firebase-firestore-ktx:24.4.0] /Users/johyeongchan/.gradle/caches/transforms-3/a9b6d0bfde2e831ab008d73b64ea42ba/transformed/firebase-firestore-ktx-24.4.0/AndroidManifest.xml:13:13-37
+62            <meta-data
+62-->[com.google.firebase:firebase-firestore-ktx:24.4.0] /Users/johyeongchan/.gradle/caches/transforms-3/a9b6d0bfde2e831ab008d73b64ea42ba/transformed/firebase-firestore-ktx-24.4.0/AndroidManifest.xml:14:13-16:85
+63                android:name="com.google.firebase.components:com.google.firebase.firestore.ktx.FirebaseFirestoreKtxRegistrar"
+63-->[com.google.firebase:firebase-firestore-ktx:24.4.0] /Users/johyeongchan/.gradle/caches/transforms-3/a9b6d0bfde2e831ab008d73b64ea42ba/transformed/firebase-firestore-ktx-24.4.0/AndroidManifest.xml:15:17-126
+64                android:value="com.google.firebase.components.ComponentRegistrar" />
+64-->[com.google.firebase:firebase-firestore-ktx:24.4.0] /Users/johyeongchan/.gradle/caches/transforms-3/a9b6d0bfde2e831ab008d73b64ea42ba/transformed/firebase-firestore-ktx-24.4.0/AndroidManifest.xml:16:17-82
+65            <meta-data
+65-->[com.google.firebase:firebase-analytics-ktx:21.2.0] /Users/johyeongchan/.gradle/caches/transforms-3/8de6f5791aaa35082136d849cf72f2c9/transformed/firebase-analytics-ktx-21.2.0/AndroidManifest.xml:11:13-13:85
+66                android:name="com.google.firebase.components:com.google.firebase.analytics.ktx.FirebaseAnalyticsKtxRegistrar"
+66-->[com.google.firebase:firebase-analytics-ktx:21.2.0] /Users/johyeongchan/.gradle/caches/transforms-3/8de6f5791aaa35082136d849cf72f2c9/transformed/firebase-analytics-ktx-21.2.0/AndroidManifest.xml:12:17-126
+67                android:value="com.google.firebase.components.ComponentRegistrar" />
+67-->[com.google.firebase:firebase-analytics-ktx:21.2.0] /Users/johyeongchan/.gradle/caches/transforms-3/8de6f5791aaa35082136d849cf72f2c9/transformed/firebase-analytics-ktx-21.2.0/AndroidManifest.xml:13:17-82
+68            <meta-data
+68-->[com.google.firebase:firebase-common-ktx:20.2.0] /Users/johyeongchan/.gradle/caches/transforms-3/dbd44cf8c8b491ea85f206844969bf3d/transformed/firebase-common-ktx-20.2.0/AndroidManifest.xml:14:13-16:85
+69                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonKtxRegistrar"
+69-->[com.google.firebase:firebase-common-ktx:20.2.0] /Users/johyeongchan/.gradle/caches/transforms-3/dbd44cf8c8b491ea85f206844969bf3d/transformed/firebase-common-ktx-20.2.0/AndroidManifest.xml:15:17-113
+70                android:value="com.google.firebase.components.ComponentRegistrar" />
+70-->[com.google.firebase:firebase-common-ktx:20.2.0] /Users/johyeongchan/.gradle/caches/transforms-3/dbd44cf8c8b491ea85f206844969bf3d/transformed/firebase-common-ktx-20.2.0/AndroidManifest.xml:16:17-82
+71            <meta-data
+71-->[com.google.firebase:firebase-firestore:24.4.0] /Users/johyeongchan/.gradle/caches/transforms-3/a19c1ee8cba3775934599f4bf2729fd4/transformed/firebase-firestore-24.4.0/AndroidManifest.xml:19:13-21:85
+72                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+72-->[com.google.firebase:firebase-firestore:24.4.0] /Users/johyeongchan/.gradle/caches/transforms-3/a19c1ee8cba3775934599f4bf2729fd4/transformed/firebase-firestore-24.4.0/AndroidManifest.xml:20:17-111
+73                android:value="com.google.firebase.components.ComponentRegistrar" />
+73-->[com.google.firebase:firebase-firestore:24.4.0] /Users/johyeongchan/.gradle/caches/transforms-3/a19c1ee8cba3775934599f4bf2729fd4/transformed/firebase-firestore-24.4.0/AndroidManifest.xml:21:17-82
+74            <meta-data
+74-->[com.google.android.gms:play-services-measurement-api:21.2.0] /Users/johyeongchan/.gradle/caches/transforms-3/55d7b9ce7714096f4aef16c27754ce7d/transformed/play-services-measurement-api-21.2.0/AndroidManifest.xml:31:13-33:85
+75                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+75-->[com.google.android.gms:play-services-measurement-api:21.2.0] /Users/johyeongchan/.gradle/caches/transforms-3/55d7b9ce7714096f4aef16c27754ce7d/transformed/play-services-measurement-api-21.2.0/AndroidManifest.xml:32:17-139
+76                android:value="com.google.firebase.components.ComponentRegistrar" />
+76-->[com.google.android.gms:play-services-measurement-api:21.2.0] /Users/johyeongchan/.gradle/caches/transforms-3/55d7b9ce7714096f4aef16c27754ce7d/transformed/play-services-measurement-api-21.2.0/AndroidManifest.xml:33:17-82
+77            <meta-data
+77-->[com.google.firebase:firebase-installations:17.1.0] /Users/johyeongchan/.gradle/caches/transforms-3/3c69217f7b584033cda1e9dfa82cc9d0/transformed/firebase-installations-17.1.0/AndroidManifest.xml:17:13-19:85
+78                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+78-->[com.google.firebase:firebase-installations:17.1.0] /Users/johyeongchan/.gradle/caches/transforms-3/3c69217f7b584033cda1e9dfa82cc9d0/transformed/firebase-installations-17.1.0/AndroidManifest.xml:18:17-127
+79                android:value="com.google.firebase.components.ComponentRegistrar" />
+79-->[com.google.firebase:firebase-installations:17.1.0] /Users/johyeongchan/.gradle/caches/transforms-3/3c69217f7b584033cda1e9dfa82cc9d0/transformed/firebase-installations-17.1.0/AndroidManifest.xml:19:17-82
+80        </service>
+81
+82        <provider
+82-->[com.google.firebase:firebase-common:20.2.0] /Users/johyeongchan/.gradle/caches/transforms-3/33d441273fd25f7872fbf5cf027e181f/transformed/firebase-common-20.2.0/AndroidManifest.xml:25:9-30:39
+83            android:name="com.google.firebase.provider.FirebaseInitProvider"
+83-->[com.google.firebase:firebase-common:20.2.0] /Users/johyeongchan/.gradle/caches/transforms-3/33d441273fd25f7872fbf5cf027e181f/transformed/firebase-common-20.2.0/AndroidManifest.xml:26:13-77
+84            android:authorities="com.example.inmysight.firebaseinitprovider"
+84-->[com.google.firebase:firebase-common:20.2.0] /Users/johyeongchan/.gradle/caches/transforms-3/33d441273fd25f7872fbf5cf027e181f/transformed/firebase-common-20.2.0/AndroidManifest.xml:27:13-72
+85            android:directBootAware="true"
+85-->[com.google.firebase:firebase-common:20.2.0] /Users/johyeongchan/.gradle/caches/transforms-3/33d441273fd25f7872fbf5cf027e181f/transformed/firebase-common-20.2.0/AndroidManifest.xml:28:13-43
+86            android:exported="false"
+86-->[com.google.firebase:firebase-common:20.2.0] /Users/johyeongchan/.gradle/caches/transforms-3/33d441273fd25f7872fbf5cf027e181f/transformed/firebase-common-20.2.0/AndroidManifest.xml:29:13-37
+87            android:initOrder="100" />
+87-->[com.google.firebase:firebase-common:20.2.0] /Users/johyeongchan/.gradle/caches/transforms-3/33d441273fd25f7872fbf5cf027e181f/transformed/firebase-common-20.2.0/AndroidManifest.xml:30:13-36
+88
+89        <activity
+89-->[com.google.android.gms:play-services-base:18.0.1] /Users/johyeongchan/.gradle/caches/transforms-3/f0a5589636bb4119bc21053f354c6b97/transformed/play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+90            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+90-->[com.google.android.gms:play-services-base:18.0.1] /Users/johyeongchan/.gradle/caches/transforms-3/f0a5589636bb4119bc21053f354c6b97/transformed/play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+91            android:exported="false"
+91-->[com.google.android.gms:play-services-base:18.0.1] /Users/johyeongchan/.gradle/caches/transforms-3/f0a5589636bb4119bc21053f354c6b97/transformed/play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+92            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+92-->[com.google.android.gms:play-services-base:18.0.1] /Users/johyeongchan/.gradle/caches/transforms-3/f0a5589636bb4119bc21053f354c6b97/transformed/play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+93
+94        <receiver
+94-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/johyeongchan/.gradle/caches/transforms-3/da805760ed1491584f6be4931a06ec7d/transformed/play-services-measurement-21.2.0/AndroidManifest.xml:29:9-33:20
+95            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+95-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/johyeongchan/.gradle/caches/transforms-3/da805760ed1491584f6be4931a06ec7d/transformed/play-services-measurement-21.2.0/AndroidManifest.xml:30:13-85
+96            android:enabled="true"
+96-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/johyeongchan/.gradle/caches/transforms-3/da805760ed1491584f6be4931a06ec7d/transformed/play-services-measurement-21.2.0/AndroidManifest.xml:31:13-35
+97            android:exported="false" >
+97-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/johyeongchan/.gradle/caches/transforms-3/da805760ed1491584f6be4931a06ec7d/transformed/play-services-measurement-21.2.0/AndroidManifest.xml:32:13-37
+98        </receiver>
+99
+100        <service
+100-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/johyeongchan/.gradle/caches/transforms-3/da805760ed1491584f6be4931a06ec7d/transformed/play-services-measurement-21.2.0/AndroidManifest.xml:35:9-38:40
+101            android:name="com.google.android.gms.measurement.AppMeasurementService"
+101-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/johyeongchan/.gradle/caches/transforms-3/da805760ed1491584f6be4931a06ec7d/transformed/play-services-measurement-21.2.0/AndroidManifest.xml:36:13-84
+102            android:enabled="true"
+102-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/johyeongchan/.gradle/caches/transforms-3/da805760ed1491584f6be4931a06ec7d/transformed/play-services-measurement-21.2.0/AndroidManifest.xml:37:13-35
+103            android:exported="false" />
+103-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/johyeongchan/.gradle/caches/transforms-3/da805760ed1491584f6be4931a06ec7d/transformed/play-services-measurement-21.2.0/AndroidManifest.xml:38:13-37
+104        <service
+104-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/johyeongchan/.gradle/caches/transforms-3/da805760ed1491584f6be4931a06ec7d/transformed/play-services-measurement-21.2.0/AndroidManifest.xml:39:9-43:72
+105            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+105-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/johyeongchan/.gradle/caches/transforms-3/da805760ed1491584f6be4931a06ec7d/transformed/play-services-measurement-21.2.0/AndroidManifest.xml:40:13-87
+106            android:enabled="true"
+106-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/johyeongchan/.gradle/caches/transforms-3/da805760ed1491584f6be4931a06ec7d/transformed/play-services-measurement-21.2.0/AndroidManifest.xml:41:13-35
+107            android:exported="false"
+107-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/johyeongchan/.gradle/caches/transforms-3/da805760ed1491584f6be4931a06ec7d/transformed/play-services-measurement-21.2.0/AndroidManifest.xml:42:13-37
+108            android:permission="android.permission.BIND_JOB_SERVICE" />
+108-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/johyeongchan/.gradle/caches/transforms-3/da805760ed1491584f6be4931a06ec7d/transformed/play-services-measurement-21.2.0/AndroidManifest.xml:43:13-69
+109
+110        <meta-data
+110-->[com.google.android.gms:play-services-basement:18.1.0] /Users/johyeongchan/.gradle/caches/transforms-3/fff0785151b6c31c688512a42c37aeb9/transformed/play-services-basement-18.1.0/AndroidManifest.xml:21:9-23:69
+111            android:name="com.google.android.gms.version"
+111-->[com.google.android.gms:play-services-basement:18.1.0] /Users/johyeongchan/.gradle/caches/transforms-3/fff0785151b6c31c688512a42c37aeb9/transformed/play-services-basement-18.1.0/AndroidManifest.xml:22:13-58
+112            android:value="@integer/google_play_services_version" />
+112-->[com.google.android.gms:play-services-basement:18.1.0] /Users/johyeongchan/.gradle/caches/transforms-3/fff0785151b6c31c688512a42c37aeb9/transformed/play-services-basement-18.1.0/AndroidManifest.xml:23:13-66
+113
+114        <provider
+114-->[androidx.emoji2:emoji2:1.2.0] /Users/johyeongchan/.gradle/caches/transforms-3/283a5b61b5bf610ff27303faf492a8d6/transformed/emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+115            android:name="androidx.startup.InitializationProvider"
+115-->[androidx.emoji2:emoji2:1.2.0] /Users/johyeongchan/.gradle/caches/transforms-3/283a5b61b5bf610ff27303faf492a8d6/transformed/emoji2-1.2.0/AndroidManifest.xml:25:13-67
+116            android:authorities="com.example.inmysight.androidx-startup"
+116-->[androidx.emoji2:emoji2:1.2.0] /Users/johyeongchan/.gradle/caches/transforms-3/283a5b61b5bf610ff27303faf492a8d6/transformed/emoji2-1.2.0/AndroidManifest.xml:26:13-68
+117            android:exported="false" >
+117-->[androidx.emoji2:emoji2:1.2.0] /Users/johyeongchan/.gradle/caches/transforms-3/283a5b61b5bf610ff27303faf492a8d6/transformed/emoji2-1.2.0/AndroidManifest.xml:27:13-37
+118            <meta-data
+118-->[androidx.emoji2:emoji2:1.2.0] /Users/johyeongchan/.gradle/caches/transforms-3/283a5b61b5bf610ff27303faf492a8d6/transformed/emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+119                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+119-->[androidx.emoji2:emoji2:1.2.0] /Users/johyeongchan/.gradle/caches/transforms-3/283a5b61b5bf610ff27303faf492a8d6/transformed/emoji2-1.2.0/AndroidManifest.xml:30:17-75
+120                android:value="androidx.startup" />
+120-->[androidx.emoji2:emoji2:1.2.0] /Users/johyeongchan/.gradle/caches/transforms-3/283a5b61b5bf610ff27303faf492a8d6/transformed/emoji2-1.2.0/AndroidManifest.xml:31:17-49
+121            <meta-data
+121-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/johyeongchan/.gradle/caches/transforms-3/f560ecddab3b7d3a6ce1c41e99097a1e/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
+122                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+122-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/johyeongchan/.gradle/caches/transforms-3/f560ecddab3b7d3a6ce1c41e99097a1e/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
+123                android:value="androidx.startup" />
+123-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/johyeongchan/.gradle/caches/transforms-3/f560ecddab3b7d3a6ce1c41e99097a1e/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
+124        </provider>
+125    </application>
+126
+127</manifest>

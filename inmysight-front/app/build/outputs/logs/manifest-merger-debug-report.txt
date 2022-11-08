@@ -4,46 +4,72 @@ ADDED from /Users/johyeongchan/MediaProject-2022-2/inmysight-project/inmysight-f
 INJECTED from /Users/johyeongchan/MediaProject-2022-2/inmysight-project/inmysight-front/app/src/main/AndroidManifest.xml:2:1-43:12
 INJECTED from /Users/johyeongchan/MediaProject-2022-2/inmysight-project/inmysight-front/app/src/main/AndroidManifest.xml:2:1-43:12
 INJECTED from /Users/johyeongchan/MediaProject-2022-2/inmysight-project/inmysight-front/app/src/main/AndroidManifest.xml:2:1-43:12
-MERGED from [com.google.android.material:material:1.6.1] /Users/johyeongchan/.gradle/caches/transforms-3/0700c079a9361c9bc5e6404d34690c50/transformed/material-1.6.1/AndroidManifest.xml:17:1-26:12
-MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/johyeongchan/.gradle/caches/transforms-3/9827ec6617366e82ed5e7c7a909d86e6/transformed/constraintlayout-2.1.4/AndroidManifest.xml:2:1-11:12
-MERGED from [androidx.appcompat:appcompat-resources:1.5.1] /Users/johyeongchan/.gradle/caches/transforms-3/04b99c2d3ee38714c14bf3d221b2a08b/transformed/appcompat-resources-1.5.1/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.appcompat:appcompat:1.5.1] /Users/johyeongchan/.gradle/caches/transforms-3/685980b024686d78956b91eec9b43f3b/transformed/appcompat-1.5.1/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/johyeongchan/.gradle/caches/transforms-3/4bec0276ba6259360fdac8888ee312fa/transformed/viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.fragment:fragment:1.3.6] /Users/johyeongchan/.gradle/caches/transforms-3/52a35ffae9473845de56d1ef9f964929/transformed/fragment-1.3.6/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.activity:activity:1.5.1] /Users/johyeongchan/.gradle/caches/transforms-3/72aa18d267fcea65a67f1c67469f91b1/transformed/activity-1.5.1/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/johyeongchan/.gradle/caches/transforms-3/ce1d2a9a011b7d266bdabac9f5af30f5/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/johyeongchan/.gradle/caches/transforms-3/7b931d1d8da871744894709d535f32cd/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.loader:loader:1.0.0] /Users/johyeongchan/.gradle/caches/transforms-3/d31416bf3b7101f1cffdb06a14f1b2b7/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.1] /Users/johyeongchan/.gradle/caches/transforms-3/83a8f2ff4fefab06a91b8a5cb0437f5b/transformed/lifecycle-viewmodel-2.5.1/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1] /Users/johyeongchan/.gradle/caches/transforms-3/f1c05abca8b731045f6324e39a2dc706/transformed/lifecycle-viewmodel-savedstate-2.5.1/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.core:core-ktx:1.8.0] /Users/johyeongchan/.gradle/caches/transforms-3/9f2d8786483f16acab3469f1ecada2e8/transformed/core-ktx-1.8.0/AndroidManifest.xml:2:1-9:12
-MERGED from [androidx.savedstate:savedstate:1.2.0] /Users/johyeongchan/.gradle/caches/transforms-3/02d9a1c992ba142a6f1c7f5d7ffca310/transformed/savedstate-1.2.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] /Users/johyeongchan/.gradle/caches/transforms-3/0b622ae0009252fd9de3ea6d232488c7/transformed/emoji2-views-helper-1.2.0/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/johyeongchan/.gradle/caches/transforms-3/848773e611bbde5d3ec0ec3e63d01c98/transformed/emoji2-1.2.0/AndroidManifest.xml:17:1-35:12
-MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/johyeongchan/.gradle/caches/transforms-3/89f334ed0aaa1263b47c6d75629cdccc/transformed/drawerlayout-1.1.1/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/johyeongchan/.gradle/caches/transforms-3/ff339137cecee5be0e91e8f58664aa0c/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.transition:transition:1.2.0] /Users/johyeongchan/.gradle/caches/transforms-3/d9ab7ff9bc4a114cf32a2090c5357a01/transformed/transition-1.2.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/johyeongchan/.gradle/caches/transforms-3/3a69fdc313f531835a0943e457c4cc93/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/johyeongchan/.gradle/caches/transforms-3/912f437e477b893e1bc649d739324a83/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/johyeongchan/.gradle/caches/transforms-3/595d6f5ec2a32b18a0a929af79e9c217/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/johyeongchan/.gradle/caches/transforms-3/4b680873f5535aea704d3a34b63b6935/transformed/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.customview:customview:1.1.0] /Users/johyeongchan/.gradle/caches/transforms-3/f99e13ac6b091b958c0a77e57b12da22/transformed/customview-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.core:core:1.8.0] /Users/johyeongchan/.gradle/caches/transforms-3/6a19de105318aab1da00cfa3c60fb56e/transformed/core-1.8.0/AndroidManifest.xml:17:1-26:12
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/johyeongchan/.gradle/caches/transforms-3/d2d5e40d280a225a883e9226566e523b/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /Users/johyeongchan/.gradle/caches/transforms-3/a4f0fb44e9b56370f8c2ed23c9d5d030/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:17:1-37:12
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.1] /Users/johyeongchan/.gradle/caches/transforms-3/b1625850bd12ed5a169353107cc1dd79/transformed/lifecycle-runtime-2.5.1/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.cardview:cardview:1.0.0] /Users/johyeongchan/.gradle/caches/transforms-3/ecb62397fcd2d0e31dd8cc20a358496e/transformed/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/johyeongchan/.gradle/caches/transforms-3/ced32f29a036624fcee3c102df5f076d/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
-MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/johyeongchan/.gradle/caches/transforms-3/baef32cd3c953915a0114f73cc9cca3f/transformed/startup-runtime-1.1.1/AndroidManifest.xml:17:1-33:12
-MERGED from [androidx.tracing:tracing:1.0.0] /Users/johyeongchan/.gradle/caches/transforms-3/0e5cedd280decaba83b935974adbb486/transformed/tracing-1.0.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/johyeongchan/.gradle/caches/transforms-3/984458306690357f412fd092257314a4/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.1] /Users/johyeongchan/.gradle/caches/transforms-3/0ff8f254ca685ecf1cb4e6f520f40b73/transformed/lifecycle-livedata-core-2.5.1/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/johyeongchan/.gradle/caches/transforms-3/cfeebfd8cd9b91764c6616b31ef99b3d/transformed/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/johyeongchan/.gradle/caches/transforms-3/f5d6926c8dc9c0b352568d1177041a34/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/johyeongchan/.gradle/caches/transforms-3/57befbfe6433a4d395d176f925cb9834/transformed/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/johyeongchan/.gradle/caches/transforms-3/3ac119fa795bc1ef3ecdd8c6ea4af554/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.print:print:1.0.0] /Users/johyeongchan/.gradle/caches/transforms-3/5b9f05308f02d2aab4c4e2d31764b8b7/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/johyeongchan/.gradle/caches/transforms-3/760b9af4b43b4d512130ddd1633ee153/transformed/annotation-experimental-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-firestore-ktx:24.4.0] /Users/johyeongchan/.gradle/caches/transforms-3/a9b6d0bfde2e831ab008d73b64ea42ba/transformed/firebase-firestore-ktx-24.4.0/AndroidManifest.xml:2:1-20:12
+MERGED from [com.google.firebase:firebase-analytics-ktx:21.2.0] /Users/johyeongchan/.gradle/caches/transforms-3/8de6f5791aaa35082136d849cf72f2c9/transformed/firebase-analytics-ktx-21.2.0/AndroidManifest.xml:2:1-17:12
+MERGED from [com.google.firebase:firebase-common-ktx:20.2.0] /Users/johyeongchan/.gradle/caches/transforms-3/dbd44cf8c8b491ea85f206844969bf3d/transformed/firebase-common-ktx-20.2.0/AndroidManifest.xml:2:1-20:12
+MERGED from [com.google.android.material:material:1.6.1] /Users/johyeongchan/.gradle/caches/transforms-3/299f462e54b1f144ab9f5427ed236936/transformed/material-1.6.1/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/johyeongchan/.gradle/caches/transforms-3/781d5bae37f0570fa2f258edcc8e4366/transformed/constraintlayout-2.1.4/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat-resources:1.5.1] /Users/johyeongchan/.gradle/caches/transforms-3/f9ac1053a8efd00cf5e5822a2f7bc020/transformed/appcompat-resources-1.5.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat:1.5.1] /Users/johyeongchan/.gradle/caches/transforms-3/80e2ddf255aa85ed44e7ed55096608a4/transformed/appcompat-1.5.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/johyeongchan/.gradle/caches/transforms-3/ea131357df88666e68e9389d80c5cb84/transformed/viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-firestore:24.4.0] /Users/johyeongchan/.gradle/caches/transforms-3/a19c1ee8cba3775934599f4bf2729fd4/transformed/firebase-firestore-24.4.0/AndroidManifest.xml:2:1-25:12
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.1.0] /Users/johyeongchan/.gradle/caches/transforms-3/7dc6277a8909536de63ce1e97107b8f7/transformed/firebase-appcheck-interop-16.1.0/AndroidManifest.xml:15:1-25:12
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.2] /Users/johyeongchan/.gradle/caches/transforms-3/7042e8ae544362e9b04497c10174fe6c/transformed/firebase-auth-interop-19.0.2/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.firebase:firebase-analytics:21.2.0] /Users/johyeongchan/.gradle/caches/transforms-3/29c3472ee7b202dda0aececfdf703002/transformed/firebase-analytics-21.2.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-measurement-api:21.2.0] /Users/johyeongchan/.gradle/caches/transforms-3/55d7b9ce7714096f4aef16c27754ce7d/transformed/play-services-measurement-api-21.2.0/AndroidManifest.xml:17:1-37:12
+MERGED from [com.google.firebase:firebase-installations:17.1.0] /Users/johyeongchan/.gradle/caches/transforms-3/3c69217f7b584033cda1e9dfa82cc9d0/transformed/firebase-installations-17.1.0/AndroidManifest.xml:2:1-23:12
+MERGED from [com.google.firebase:firebase-common:20.2.0] /Users/johyeongchan/.gradle/caches/transforms-3/33d441273fd25f7872fbf5cf027e181f/transformed/firebase-common-20.2.0/AndroidManifest.xml:15:1-39:12
+MERGED from [com.google.firebase:firebase-database-collection:18.0.1] /Users/johyeongchan/.gradle/caches/transforms-3/3b35d92d39f85e16329eddd080c18dc3/transformed/firebase-database-collection-18.0.1/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/johyeongchan/.gradle/caches/transforms-3/f0a5589636bb4119bc21053f354c6b97/transformed/play-services-base-18.0.1/AndroidManifest.xml:16:1-24:12
+MERGED from [com.google.firebase:firebase-installations-interop:17.1.0] /Users/johyeongchan/.gradle/caches/transforms-3/bc8e300fded7fedfc4006318d413c0c6/transformed/firebase-installations-interop-17.1.0/AndroidManifest.xml:15:1-22:12
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /Users/johyeongchan/.gradle/caches/transforms-3/14f20eb45054c457bb88e5712b49436f/transformed/play-services-tasks-18.0.1/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-measurement:21.2.0] /Users/johyeongchan/.gradle/caches/transforms-3/da805760ed1491584f6be4931a06ec7d/transformed/play-services-measurement-21.2.0/AndroidManifest.xml:17:1-46:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk:21.2.0] /Users/johyeongchan/.gradle/caches/transforms-3/53ec19af29093b3cfeb82f3fc9ea1d9b/transformed/play-services-measurement-sdk-21.2.0/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.2.0] /Users/johyeongchan/.gradle/caches/transforms-3/f9b481d7747751b640507f4333f2c84b/transformed/play-services-measurement-impl-21.2.0/AndroidManifest.xml:17:1-32:12
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/johyeongchan/.gradle/caches/transforms-3/06c1d789f077eaefdae8b72d3b4473e1/transformed/play-services-ads-identifier-18.0.0/AndroidManifest.xml:17:1-27:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.2.0] /Users/johyeongchan/.gradle/caches/transforms-3/d7901f95f843cdcb2fefd4b5ec37004b/transformed/play-services-measurement-sdk-api-21.2.0/AndroidManifest.xml:17:1-28:12
+MERGED from [com.google.android.gms:play-services-measurement-base:21.2.0] /Users/johyeongchan/.gradle/caches/transforms-3/620b6e12900ef33f6a4003e1a2520571/transformed/play-services-measurement-base-21.2.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] /Users/johyeongchan/.gradle/caches/transforms-3/7a91ec62c09228dc62b68bb1663f5887/transformed/play-services-stats-17.0.2/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/johyeongchan/.gradle/caches/transforms-3/ad759023f64178129ab3b038e5b158cd/transformed/firebase-measurement-connector-19.0.0/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] /Users/johyeongchan/.gradle/caches/transforms-3/fff0785151b6c31c688512a42c37aeb9/transformed/play-services-basement-18.1.0/AndroidManifest.xml:16:1-26:12
+MERGED from [androidx.fragment:fragment:1.3.6] /Users/johyeongchan/.gradle/caches/transforms-3/a4a12adc90cd646ae89ccf3122e05b5d/transformed/fragment-1.3.6/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.5.1] /Users/johyeongchan/.gradle/caches/transforms-3/92e3eefb4ca72c065226908307c07778/transformed/activity-1.5.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/johyeongchan/.gradle/caches/transforms-3/b4ca9ad2c5ddcd169469b77cb5884719/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/johyeongchan/.gradle/caches/transforms-3/bdcb52750f9160d7a9757ca71676f6e6/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/johyeongchan/.gradle/caches/transforms-3/ebe06a3c178ad2fd58b62ab80e61278f/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.1] /Users/johyeongchan/.gradle/caches/transforms-3/f976b8a368860193f85634df43a3b26c/transformed/lifecycle-viewmodel-2.5.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1] /Users/johyeongchan/.gradle/caches/transforms-3/88fed0acad8da10f60f3f2c2667f94b8/transformed/lifecycle-viewmodel-savedstate-2.5.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core-ktx:1.8.0] /Users/johyeongchan/.gradle/caches/transforms-3/e19bb3821e0aa0404e98f5b5184badbf/transformed/core-ktx-1.8.0/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.savedstate:savedstate:1.2.0] /Users/johyeongchan/.gradle/caches/transforms-3/ea1e5b6c3eff09214b6795ad9f3e081e/transformed/savedstate-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] /Users/johyeongchan/.gradle/caches/transforms-3/47ae3b4d49c30e8d5d563395dc664a98/transformed/emoji2-views-helper-1.2.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/johyeongchan/.gradle/caches/transforms-3/283a5b61b5bf610ff27303faf492a8d6/transformed/emoji2-1.2.0/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/johyeongchan/.gradle/caches/transforms-3/852c552455e1e917ec6de75e371c8579/transformed/drawerlayout-1.1.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/johyeongchan/.gradle/caches/transforms-3/6b9b287d119aaee982e9edd0106827c1/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.2.0] /Users/johyeongchan/.gradle/caches/transforms-3/90aa94a3b77ca876bc175d76226a1440/transformed/transition-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/johyeongchan/.gradle/caches/transforms-3/88731f589fc9efadcb62fea0fc3e31ac/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/johyeongchan/.gradle/caches/transforms-3/05d66e4a876f298d83c9bc32bbe483fb/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/johyeongchan/.gradle/caches/transforms-3/b7afb6b8d889e8ba8c808b69523ea2ad/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/johyeongchan/.gradle/caches/transforms-3/3a07b6225e3bf75e5fabd2dac64ce412/transformed/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.1.0] /Users/johyeongchan/.gradle/caches/transforms-3/fbd94636d7b823c2362e4b217a33e5e4/transformed/customview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.8.0] /Users/johyeongchan/.gradle/caches/transforms-3/9febd1ce4d4b7c6a9a839d5e3e558b1d/transformed/core-1.8.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/johyeongchan/.gradle/caches/transforms-3/49464ee8b09c416971ba1bc2c091040a/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /Users/johyeongchan/.gradle/caches/transforms-3/f560ecddab3b7d3a6ce1c41e99097a1e/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:17:1-37:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.1] /Users/johyeongchan/.gradle/caches/transforms-3/96754a5721851a16f7b0fb7b02a799db/transformed/lifecycle-runtime-2.5.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/johyeongchan/.gradle/caches/transforms-3/c29466f59e6043f986a4256f06521cd5/transformed/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-components:17.0.1] /Users/johyeongchan/.gradle/caches/transforms-3/bf17d87218d323c740d20f8693a98804/transformed/firebase-components-17.0.1/AndroidManifest.xml:15:1-23:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/johyeongchan/.gradle/caches/transforms-3/62c221a3eaccf222ddf956fa7ab619fa/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/johyeongchan/.gradle/caches/transforms-3/d2b892388d4f1220c8e1335791505248/transformed/startup-runtime-1.1.1/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/johyeongchan/.gradle/caches/transforms-3/fc663e223c56b21ea95ab4560a7e9cf6/transformed/tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/johyeongchan/.gradle/caches/transforms-3/cf8ee542b8cccc6ce4fb91a35e2db156/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.1] /Users/johyeongchan/.gradle/caches/transforms-3/5134e4b2e56291515503adf052cd1468/transformed/lifecycle-livedata-core-2.5.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/johyeongchan/.gradle/caches/transforms-3/c5ddab29f2aea4f996f3200a32dcdfd9/transformed/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/johyeongchan/.gradle/caches/transforms-3/5686c67fa4c1361794fd1fa857566ece/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/johyeongchan/.gradle/caches/transforms-3/ba8913399b4a09f0ace326b0c2c99b73/transformed/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/johyeongchan/.gradle/caches/transforms-3/a08ea63b71f5f894c0c049133b288423/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/johyeongchan/.gradle/caches/transforms-3/0458474bc9a269a35ecd6983c6682222/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/johyeongchan/.gradle/caches/transforms-3/7f910f1b568381695fb20ea023101b78/transformed/annotation-experimental-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [io.grpc:grpc-android:1.48.1] /Users/johyeongchan/.gradle/caches/transforms-3/b427d44b9ef8c677701768275a50c799/transformed/grpc-android-1.48.1/AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] /Users/johyeongchan/.gradle/caches/transforms-3/ef4b76c1e5b2c96a5a3b61078afa95a4/transformed/protolite-well-known-types-18.0.0/AndroidManifest.xml:2:1-11:12
 INJECTED from /Users/johyeongchan/MediaProject-2022-2/inmysight-project/inmysight-front/app/src/main/AndroidManifest.xml:2:1-43:12
 INJECTED from /Users/johyeongchan/MediaProject-2022-2/inmysight-project/inmysight-front/app/src/main/AndroidManifest.xml:2:1-43:12
 INJECTED from /Users/johyeongchan/MediaProject-2022-2/inmysight-project/inmysight-front/app/src/main/AndroidManifest.xml:2:1-43:12
@@ -65,22 +91,62 @@ INJECTED from /Users/johyeongchan/MediaProject-2022-2/inmysight-project/inmysigh
 		ADDED from /Users/johyeongchan/MediaProject-2022-2/inmysight-project/inmysight-front/app/src/main/AndroidManifest.xml:2:11-69
 application
 ADDED from /Users/johyeongchan/MediaProject-2022-2/inmysight-project/inmysight-front/app/src/main/AndroidManifest.xml:5:5-41:19
-MERGED from [com.google.android.material:material:1.6.1] /Users/johyeongchan/.gradle/caches/transforms-3/0700c079a9361c9bc5e6404d34690c50/transformed/material-1.6.1/AndroidManifest.xml:24:5-20
-MERGED from [com.google.android.material:material:1.6.1] /Users/johyeongchan/.gradle/caches/transforms-3/0700c079a9361c9bc5e6404d34690c50/transformed/material-1.6.1/AndroidManifest.xml:24:5-20
-MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/johyeongchan/.gradle/caches/transforms-3/9827ec6617366e82ed5e7c7a909d86e6/transformed/constraintlayout-2.1.4/AndroidManifest.xml:9:5-20
-MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/johyeongchan/.gradle/caches/transforms-3/9827ec6617366e82ed5e7c7a909d86e6/transformed/constraintlayout-2.1.4/AndroidManifest.xml:9:5-20
-MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/johyeongchan/.gradle/caches/transforms-3/848773e611bbde5d3ec0ec3e63d01c98/transformed/emoji2-1.2.0/AndroidManifest.xml:23:5-33:19
-MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/johyeongchan/.gradle/caches/transforms-3/848773e611bbde5d3ec0ec3e63d01c98/transformed/emoji2-1.2.0/AndroidManifest.xml:23:5-33:19
-MERGED from [androidx.core:core:1.8.0] /Users/johyeongchan/.gradle/caches/transforms-3/6a19de105318aab1da00cfa3c60fb56e/transformed/core-1.8.0/AndroidManifest.xml:24:5-89
-MERGED from [androidx.core:core:1.8.0] /Users/johyeongchan/.gradle/caches/transforms-3/6a19de105318aab1da00cfa3c60fb56e/transformed/core-1.8.0/AndroidManifest.xml:24:5-89
-MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /Users/johyeongchan/.gradle/caches/transforms-3/a4f0fb44e9b56370f8c2ed23c9d5d030/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:25:5-35:19
-MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /Users/johyeongchan/.gradle/caches/transforms-3/a4f0fb44e9b56370f8c2ed23c9d5d030/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:25:5-35:19
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/johyeongchan/.gradle/caches/transforms-3/ced32f29a036624fcee3c102df5f076d/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/johyeongchan/.gradle/caches/transforms-3/ced32f29a036624fcee3c102df5f076d/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
-MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/johyeongchan/.gradle/caches/transforms-3/baef32cd3c953915a0114f73cc9cca3f/transformed/startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
-MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/johyeongchan/.gradle/caches/transforms-3/baef32cd3c953915a0114f73cc9cca3f/transformed/startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [com.google.firebase:firebase-firestore-ktx:24.4.0] /Users/johyeongchan/.gradle/caches/transforms-3/a9b6d0bfde2e831ab008d73b64ea42ba/transformed/firebase-firestore-ktx-24.4.0/AndroidManifest.xml:10:5-18:19
+MERGED from [com.google.firebase:firebase-firestore-ktx:24.4.0] /Users/johyeongchan/.gradle/caches/transforms-3/a9b6d0bfde2e831ab008d73b64ea42ba/transformed/firebase-firestore-ktx-24.4.0/AndroidManifest.xml:10:5-18:19
+MERGED from [com.google.firebase:firebase-analytics-ktx:21.2.0] /Users/johyeongchan/.gradle/caches/transforms-3/8de6f5791aaa35082136d849cf72f2c9/transformed/firebase-analytics-ktx-21.2.0/AndroidManifest.xml:7:5-15:19
+MERGED from [com.google.firebase:firebase-analytics-ktx:21.2.0] /Users/johyeongchan/.gradle/caches/transforms-3/8de6f5791aaa35082136d849cf72f2c9/transformed/firebase-analytics-ktx-21.2.0/AndroidManifest.xml:7:5-15:19
+MERGED from [com.google.firebase:firebase-common-ktx:20.2.0] /Users/johyeongchan/.gradle/caches/transforms-3/dbd44cf8c8b491ea85f206844969bf3d/transformed/firebase-common-ktx-20.2.0/AndroidManifest.xml:10:5-18:19
+MERGED from [com.google.firebase:firebase-common-ktx:20.2.0] /Users/johyeongchan/.gradle/caches/transforms-3/dbd44cf8c8b491ea85f206844969bf3d/transformed/firebase-common-ktx-20.2.0/AndroidManifest.xml:10:5-18:19
+MERGED from [com.google.android.material:material:1.6.1] /Users/johyeongchan/.gradle/caches/transforms-3/299f462e54b1f144ab9f5427ed236936/transformed/material-1.6.1/AndroidManifest.xml:24:5-20
+MERGED from [com.google.android.material:material:1.6.1] /Users/johyeongchan/.gradle/caches/transforms-3/299f462e54b1f144ab9f5427ed236936/transformed/material-1.6.1/AndroidManifest.xml:24:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/johyeongchan/.gradle/caches/transforms-3/781d5bae37f0570fa2f258edcc8e4366/transformed/constraintlayout-2.1.4/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/johyeongchan/.gradle/caches/transforms-3/781d5bae37f0570fa2f258edcc8e4366/transformed/constraintlayout-2.1.4/AndroidManifest.xml:9:5-20
+MERGED from [com.google.firebase:firebase-firestore:24.4.0] /Users/johyeongchan/.gradle/caches/transforms-3/a19c1ee8cba3775934599f4bf2729fd4/transformed/firebase-firestore-24.4.0/AndroidManifest.xml:15:5-23:19
+MERGED from [com.google.firebase:firebase-firestore:24.4.0] /Users/johyeongchan/.gradle/caches/transforms-3/a19c1ee8cba3775934599f4bf2729fd4/transformed/firebase-firestore-24.4.0/AndroidManifest.xml:15:5-23:19
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.1.0] /Users/johyeongchan/.gradle/caches/transforms-3/7dc6277a8909536de63ce1e97107b8f7/transformed/firebase-appcheck-interop-16.1.0/AndroidManifest.xml:23:5-20
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.1.0] /Users/johyeongchan/.gradle/caches/transforms-3/7dc6277a8909536de63ce1e97107b8f7/transformed/firebase-appcheck-interop-16.1.0/AndroidManifest.xml:23:5-20
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.2] /Users/johyeongchan/.gradle/caches/transforms-3/7042e8ae544362e9b04497c10174fe6c/transformed/firebase-auth-interop-19.0.2/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.2] /Users/johyeongchan/.gradle/caches/transforms-3/7042e8ae544362e9b04497c10174fe6c/transformed/firebase-auth-interop-19.0.2/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-analytics:21.2.0] /Users/johyeongchan/.gradle/caches/transforms-3/29c3472ee7b202dda0aececfdf703002/transformed/firebase-analytics-21.2.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-analytics:21.2.0] /Users/johyeongchan/.gradle/caches/transforms-3/29c3472ee7b202dda0aececfdf703002/transformed/firebase-analytics-21.2.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-api:21.2.0] /Users/johyeongchan/.gradle/caches/transforms-3/55d7b9ce7714096f4aef16c27754ce7d/transformed/play-services-measurement-api-21.2.0/AndroidManifest.xml:27:5-35:19
+MERGED from [com.google.android.gms:play-services-measurement-api:21.2.0] /Users/johyeongchan/.gradle/caches/transforms-3/55d7b9ce7714096f4aef16c27754ce7d/transformed/play-services-measurement-api-21.2.0/AndroidManifest.xml:27:5-35:19
+MERGED from [com.google.firebase:firebase-installations:17.1.0] /Users/johyeongchan/.gradle/caches/transforms-3/3c69217f7b584033cda1e9dfa82cc9d0/transformed/firebase-installations-17.1.0/AndroidManifest.xml:13:5-21:19
+MERGED from [com.google.firebase:firebase-installations:17.1.0] /Users/johyeongchan/.gradle/caches/transforms-3/3c69217f7b584033cda1e9dfa82cc9d0/transformed/firebase-installations-17.1.0/AndroidManifest.xml:13:5-21:19
+MERGED from [com.google.firebase:firebase-common:20.2.0] /Users/johyeongchan/.gradle/caches/transforms-3/33d441273fd25f7872fbf5cf027e181f/transformed/firebase-common-20.2.0/AndroidManifest.xml:24:5-37:19
+MERGED from [com.google.firebase:firebase-common:20.2.0] /Users/johyeongchan/.gradle/caches/transforms-3/33d441273fd25f7872fbf5cf027e181f/transformed/firebase-common-20.2.0/AndroidManifest.xml:24:5-37:19
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/johyeongchan/.gradle/caches/transforms-3/f0a5589636bb4119bc21053f354c6b97/transformed/play-services-base-18.0.1/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/johyeongchan/.gradle/caches/transforms-3/f0a5589636bb4119bc21053f354c6b97/transformed/play-services-base-18.0.1/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /Users/johyeongchan/.gradle/caches/transforms-3/14f20eb45054c457bb88e5712b49436f/transformed/play-services-tasks-18.0.1/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /Users/johyeongchan/.gradle/caches/transforms-3/14f20eb45054c457bb88e5712b49436f/transformed/play-services-tasks-18.0.1/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-measurement:21.2.0] /Users/johyeongchan/.gradle/caches/transforms-3/da805760ed1491584f6be4931a06ec7d/transformed/play-services-measurement-21.2.0/AndroidManifest.xml:28:5-44:19
+MERGED from [com.google.android.gms:play-services-measurement:21.2.0] /Users/johyeongchan/.gradle/caches/transforms-3/da805760ed1491584f6be4931a06ec7d/transformed/play-services-measurement-21.2.0/AndroidManifest.xml:28:5-44:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:21.2.0] /Users/johyeongchan/.gradle/caches/transforms-3/53ec19af29093b3cfeb82f3fc9ea1d9b/transformed/play-services-measurement-sdk-21.2.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:21.2.0] /Users/johyeongchan/.gradle/caches/transforms-3/53ec19af29093b3cfeb82f3fc9ea1d9b/transformed/play-services-measurement-sdk-21.2.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.2.0] /Users/johyeongchan/.gradle/caches/transforms-3/f9b481d7747751b640507f4333f2c84b/transformed/play-services-measurement-impl-21.2.0/AndroidManifest.xml:29:5-30:19
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.2.0] /Users/johyeongchan/.gradle/caches/transforms-3/f9b481d7747751b640507f4333f2c84b/transformed/play-services-measurement-impl-21.2.0/AndroidManifest.xml:29:5-30:19
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/johyeongchan/.gradle/caches/transforms-3/06c1d789f077eaefdae8b72d3b4473e1/transformed/play-services-ads-identifier-18.0.0/AndroidManifest.xml:25:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/johyeongchan/.gradle/caches/transforms-3/06c1d789f077eaefdae8b72d3b4473e1/transformed/play-services-ads-identifier-18.0.0/AndroidManifest.xml:25:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:21.2.0] /Users/johyeongchan/.gradle/caches/transforms-3/620b6e12900ef33f6a4003e1a2520571/transformed/play-services-measurement-base-21.2.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:21.2.0] /Users/johyeongchan/.gradle/caches/transforms-3/620b6e12900ef33f6a4003e1a2520571/transformed/play-services-measurement-base-21.2.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] /Users/johyeongchan/.gradle/caches/transforms-3/7a91ec62c09228dc62b68bb1663f5887/transformed/play-services-stats-17.0.2/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] /Users/johyeongchan/.gradle/caches/transforms-3/7a91ec62c09228dc62b68bb1663f5887/transformed/play-services-stats-17.0.2/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/johyeongchan/.gradle/caches/transforms-3/ad759023f64178129ab3b038e5b158cd/transformed/firebase-measurement-connector-19.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/johyeongchan/.gradle/caches/transforms-3/ad759023f64178129ab3b038e5b158cd/transformed/firebase-measurement-connector-19.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] /Users/johyeongchan/.gradle/caches/transforms-3/fff0785151b6c31c688512a42c37aeb9/transformed/play-services-basement-18.1.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] /Users/johyeongchan/.gradle/caches/transforms-3/fff0785151b6c31c688512a42c37aeb9/transformed/play-services-basement-18.1.0/AndroidManifest.xml:20:5-24:19
+MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/johyeongchan/.gradle/caches/transforms-3/283a5b61b5bf610ff27303faf492a8d6/transformed/emoji2-1.2.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/johyeongchan/.gradle/caches/transforms-3/283a5b61b5bf610ff27303faf492a8d6/transformed/emoji2-1.2.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.core:core:1.8.0] /Users/johyeongchan/.gradle/caches/transforms-3/9febd1ce4d4b7c6a9a839d5e3e558b1d/transformed/core-1.8.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.8.0] /Users/johyeongchan/.gradle/caches/transforms-3/9febd1ce4d4b7c6a9a839d5e3e558b1d/transformed/core-1.8.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /Users/johyeongchan/.gradle/caches/transforms-3/f560ecddab3b7d3a6ce1c41e99097a1e/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /Users/johyeongchan/.gradle/caches/transforms-3/f560ecddab3b7d3a6ce1c41e99097a1e/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/johyeongchan/.gradle/caches/transforms-3/62c221a3eaccf222ddf956fa7ab619fa/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/johyeongchan/.gradle/caches/transforms-3/62c221a3eaccf222ddf956fa7ab619fa/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/johyeongchan/.gradle/caches/transforms-3/d2b892388d4f1220c8e1335791505248/transformed/startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/johyeongchan/.gradle/caches/transforms-3/d2b892388d4f1220c8e1335791505248/transformed/startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
 	android:appComponentFactory
-		ADDED from [androidx.core:core:1.8.0] /Users/johyeongchan/.gradle/caches/transforms-3/6a19de105318aab1da00cfa3c60fb56e/transformed/core-1.8.0/AndroidManifest.xml:24:18-86
+		ADDED from [androidx.core:core:1.8.0] /Users/johyeongchan/.gradle/caches/transforms-3/9febd1ce4d4b7c6a9a839d5e3e558b1d/transformed/core-1.8.0/AndroidManifest.xml:24:18-86
 	android:supportsRtl
 		ADDED from /Users/johyeongchan/MediaProject-2022-2/inmysight-project/inmysight-front/app/src/main/AndroidManifest.xml:12:9-35
 	android:label
@@ -143,86 +209,138 @@ uses-sdk
 INJECTED from /Users/johyeongchan/MediaProject-2022-2/inmysight-project/inmysight-front/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/johyeongchan/MediaProject-2022-2/inmysight-project/inmysight-front/app/src/main/AndroidManifest.xml
 INJECTED from /Users/johyeongchan/MediaProject-2022-2/inmysight-project/inmysight-front/app/src/main/AndroidManifest.xml
-MERGED from [com.google.android.material:material:1.6.1] /Users/johyeongchan/.gradle/caches/transforms-3/0700c079a9361c9bc5e6404d34690c50/transformed/material-1.6.1/AndroidManifest.xml:20:5-22:41
-MERGED from [com.google.android.material:material:1.6.1] /Users/johyeongchan/.gradle/caches/transforms-3/0700c079a9361c9bc5e6404d34690c50/transformed/material-1.6.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/johyeongchan/.gradle/caches/transforms-3/9827ec6617366e82ed5e7c7a909d86e6/transformed/constraintlayout-2.1.4/AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/johyeongchan/.gradle/caches/transforms-3/9827ec6617366e82ed5e7c7a909d86e6/transformed/constraintlayout-2.1.4/AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.appcompat:appcompat-resources:1.5.1] /Users/johyeongchan/.gradle/caches/transforms-3/04b99c2d3ee38714c14bf3d221b2a08b/transformed/appcompat-resources-1.5.1/AndroidManifest.xml:20:5-44
-MERGED from [androidx.appcompat:appcompat-resources:1.5.1] /Users/johyeongchan/.gradle/caches/transforms-3/04b99c2d3ee38714c14bf3d221b2a08b/transformed/appcompat-resources-1.5.1/AndroidManifest.xml:20:5-44
-MERGED from [androidx.appcompat:appcompat:1.5.1] /Users/johyeongchan/.gradle/caches/transforms-3/685980b024686d78956b91eec9b43f3b/transformed/appcompat-1.5.1/AndroidManifest.xml:20:5-44
-MERGED from [androidx.appcompat:appcompat:1.5.1] /Users/johyeongchan/.gradle/caches/transforms-3/685980b024686d78956b91eec9b43f3b/transformed/appcompat-1.5.1/AndroidManifest.xml:20:5-44
-MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/johyeongchan/.gradle/caches/transforms-3/4bec0276ba6259360fdac8888ee312fa/transformed/viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/johyeongchan/.gradle/caches/transforms-3/4bec0276ba6259360fdac8888ee312fa/transformed/viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.fragment:fragment:1.3.6] /Users/johyeongchan/.gradle/caches/transforms-3/52a35ffae9473845de56d1ef9f964929/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.fragment:fragment:1.3.6] /Users/johyeongchan/.gradle/caches/transforms-3/52a35ffae9473845de56d1ef9f964929/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.activity:activity:1.5.1] /Users/johyeongchan/.gradle/caches/transforms-3/72aa18d267fcea65a67f1c67469f91b1/transformed/activity-1.5.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.activity:activity:1.5.1] /Users/johyeongchan/.gradle/caches/transforms-3/72aa18d267fcea65a67f1c67469f91b1/transformed/activity-1.5.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/johyeongchan/.gradle/caches/transforms-3/ce1d2a9a011b7d266bdabac9f5af30f5/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/johyeongchan/.gradle/caches/transforms-3/ce1d2a9a011b7d266bdabac9f5af30f5/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/johyeongchan/.gradle/caches/transforms-3/7b931d1d8da871744894709d535f32cd/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/johyeongchan/.gradle/caches/transforms-3/7b931d1d8da871744894709d535f32cd/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] /Users/johyeongchan/.gradle/caches/transforms-3/d31416bf3b7101f1cffdb06a14f1b2b7/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] /Users/johyeongchan/.gradle/caches/transforms-3/d31416bf3b7101f1cffdb06a14f1b2b7/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.1] /Users/johyeongchan/.gradle/caches/transforms-3/83a8f2ff4fefab06a91b8a5cb0437f5b/transformed/lifecycle-viewmodel-2.5.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.1] /Users/johyeongchan/.gradle/caches/transforms-3/83a8f2ff4fefab06a91b8a5cb0437f5b/transformed/lifecycle-viewmodel-2.5.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1] /Users/johyeongchan/.gradle/caches/transforms-3/f1c05abca8b731045f6324e39a2dc706/transformed/lifecycle-viewmodel-savedstate-2.5.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1] /Users/johyeongchan/.gradle/caches/transforms-3/f1c05abca8b731045f6324e39a2dc706/transformed/lifecycle-viewmodel-savedstate-2.5.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.core:core-ktx:1.8.0] /Users/johyeongchan/.gradle/caches/transforms-3/9f2d8786483f16acab3469f1ecada2e8/transformed/core-ktx-1.8.0/AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.core:core-ktx:1.8.0] /Users/johyeongchan/.gradle/caches/transforms-3/9f2d8786483f16acab3469f1ecada2e8/transformed/core-ktx-1.8.0/AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.savedstate:savedstate:1.2.0] /Users/johyeongchan/.gradle/caches/transforms-3/02d9a1c992ba142a6f1c7f5d7ffca310/transformed/savedstate-1.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.savedstate:savedstate:1.2.0] /Users/johyeongchan/.gradle/caches/transforms-3/02d9a1c992ba142a6f1c7f5d7ffca310/transformed/savedstate-1.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] /Users/johyeongchan/.gradle/caches/transforms-3/0b622ae0009252fd9de3ea6d232488c7/transformed/emoji2-views-helper-1.2.0/AndroidManifest.xml:5:5-44
-MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] /Users/johyeongchan/.gradle/caches/transforms-3/0b622ae0009252fd9de3ea6d232488c7/transformed/emoji2-views-helper-1.2.0/AndroidManifest.xml:5:5-44
-MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/johyeongchan/.gradle/caches/transforms-3/848773e611bbde5d3ec0ec3e63d01c98/transformed/emoji2-1.2.0/AndroidManifest.xml:21:5-44
-MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/johyeongchan/.gradle/caches/transforms-3/848773e611bbde5d3ec0ec3e63d01c98/transformed/emoji2-1.2.0/AndroidManifest.xml:21:5-44
-MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/johyeongchan/.gradle/caches/transforms-3/89f334ed0aaa1263b47c6d75629cdccc/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/johyeongchan/.gradle/caches/transforms-3/89f334ed0aaa1263b47c6d75629cdccc/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/johyeongchan/.gradle/caches/transforms-3/ff339137cecee5be0e91e8f58664aa0c/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/johyeongchan/.gradle/caches/transforms-3/ff339137cecee5be0e91e8f58664aa0c/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.transition:transition:1.2.0] /Users/johyeongchan/.gradle/caches/transforms-3/d9ab7ff9bc4a114cf32a2090c5357a01/transformed/transition-1.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.transition:transition:1.2.0] /Users/johyeongchan/.gradle/caches/transforms-3/d9ab7ff9bc4a114cf32a2090c5357a01/transformed/transition-1.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/johyeongchan/.gradle/caches/transforms-3/3a69fdc313f531835a0943e457c4cc93/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/johyeongchan/.gradle/caches/transforms-3/3a69fdc313f531835a0943e457c4cc93/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/johyeongchan/.gradle/caches/transforms-3/912f437e477b893e1bc649d739324a83/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/johyeongchan/.gradle/caches/transforms-3/912f437e477b893e1bc649d739324a83/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/johyeongchan/.gradle/caches/transforms-3/595d6f5ec2a32b18a0a929af79e9c217/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/johyeongchan/.gradle/caches/transforms-3/595d6f5ec2a32b18a0a929af79e9c217/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/johyeongchan/.gradle/caches/transforms-3/4b680873f5535aea704d3a34b63b6935/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/johyeongchan/.gradle/caches/transforms-3/4b680873f5535aea704d3a34b63b6935/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.customview:customview:1.1.0] /Users/johyeongchan/.gradle/caches/transforms-3/f99e13ac6b091b958c0a77e57b12da22/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.customview:customview:1.1.0] /Users/johyeongchan/.gradle/caches/transforms-3/f99e13ac6b091b958c0a77e57b12da22/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.core:core:1.8.0] /Users/johyeongchan/.gradle/caches/transforms-3/6a19de105318aab1da00cfa3c60fb56e/transformed/core-1.8.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.core:core:1.8.0] /Users/johyeongchan/.gradle/caches/transforms-3/6a19de105318aab1da00cfa3c60fb56e/transformed/core-1.8.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/johyeongchan/.gradle/caches/transforms-3/d2d5e40d280a225a883e9226566e523b/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/johyeongchan/.gradle/caches/transforms-3/d2d5e40d280a225a883e9226566e523b/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /Users/johyeongchan/.gradle/caches/transforms-3/a4f0fb44e9b56370f8c2ed23c9d5d030/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:21:5-23:41
-MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /Users/johyeongchan/.gradle/caches/transforms-3/a4f0fb44e9b56370f8c2ed23c9d5d030/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:21:5-23:41
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.1] /Users/johyeongchan/.gradle/caches/transforms-3/b1625850bd12ed5a169353107cc1dd79/transformed/lifecycle-runtime-2.5.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.1] /Users/johyeongchan/.gradle/caches/transforms-3/b1625850bd12ed5a169353107cc1dd79/transformed/lifecycle-runtime-2.5.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.cardview:cardview:1.0.0] /Users/johyeongchan/.gradle/caches/transforms-3/ecb62397fcd2d0e31dd8cc20a358496e/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.cardview:cardview:1.0.0] /Users/johyeongchan/.gradle/caches/transforms-3/ecb62397fcd2d0e31dd8cc20a358496e/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/johyeongchan/.gradle/caches/transforms-3/ced32f29a036624fcee3c102df5f076d/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/johyeongchan/.gradle/caches/transforms-3/ced32f29a036624fcee3c102df5f076d/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/johyeongchan/.gradle/caches/transforms-3/baef32cd3c953915a0114f73cc9cca3f/transformed/startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
-MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/johyeongchan/.gradle/caches/transforms-3/baef32cd3c953915a0114f73cc9cca3f/transformed/startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
-MERGED from [androidx.tracing:tracing:1.0.0] /Users/johyeongchan/.gradle/caches/transforms-3/0e5cedd280decaba83b935974adbb486/transformed/tracing-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.tracing:tracing:1.0.0] /Users/johyeongchan/.gradle/caches/transforms-3/0e5cedd280decaba83b935974adbb486/transformed/tracing-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/johyeongchan/.gradle/caches/transforms-3/984458306690357f412fd092257314a4/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/johyeongchan/.gradle/caches/transforms-3/984458306690357f412fd092257314a4/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.1] /Users/johyeongchan/.gradle/caches/transforms-3/0ff8f254ca685ecf1cb4e6f520f40b73/transformed/lifecycle-livedata-core-2.5.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.1] /Users/johyeongchan/.gradle/caches/transforms-3/0ff8f254ca685ecf1cb4e6f520f40b73/transformed/lifecycle-livedata-core-2.5.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/johyeongchan/.gradle/caches/transforms-3/cfeebfd8cd9b91764c6616b31ef99b3d/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/johyeongchan/.gradle/caches/transforms-3/cfeebfd8cd9b91764c6616b31ef99b3d/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/johyeongchan/.gradle/caches/transforms-3/f5d6926c8dc9c0b352568d1177041a34/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/johyeongchan/.gradle/caches/transforms-3/f5d6926c8dc9c0b352568d1177041a34/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/johyeongchan/.gradle/caches/transforms-3/57befbfe6433a4d395d176f925cb9834/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/johyeongchan/.gradle/caches/transforms-3/57befbfe6433a4d395d176f925cb9834/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/johyeongchan/.gradle/caches/transforms-3/3ac119fa795bc1ef3ecdd8c6ea4af554/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/johyeongchan/.gradle/caches/transforms-3/3ac119fa795bc1ef3ecdd8c6ea4af554/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.print:print:1.0.0] /Users/johyeongchan/.gradle/caches/transforms-3/5b9f05308f02d2aab4c4e2d31764b8b7/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.print:print:1.0.0] /Users/johyeongchan/.gradle/caches/transforms-3/5b9f05308f02d2aab4c4e2d31764b8b7/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/johyeongchan/.gradle/caches/transforms-3/760b9af4b43b4d512130ddd1633ee153/transformed/annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/johyeongchan/.gradle/caches/transforms-3/760b9af4b43b4d512130ddd1633ee153/transformed/annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-firestore-ktx:24.4.0] /Users/johyeongchan/.gradle/caches/transforms-3/a9b6d0bfde2e831ab008d73b64ea42ba/transformed/firebase-firestore-ktx-24.4.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-firestore-ktx:24.4.0] /Users/johyeongchan/.gradle/caches/transforms-3/a9b6d0bfde2e831ab008d73b64ea42ba/transformed/firebase-firestore-ktx-24.4.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-analytics-ktx:21.2.0] /Users/johyeongchan/.gradle/caches/transforms-3/8de6f5791aaa35082136d849cf72f2c9/transformed/firebase-analytics-ktx-21.2.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-analytics-ktx:21.2.0] /Users/johyeongchan/.gradle/caches/transforms-3/8de6f5791aaa35082136d849cf72f2c9/transformed/firebase-analytics-ktx-21.2.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common-ktx:20.2.0] /Users/johyeongchan/.gradle/caches/transforms-3/dbd44cf8c8b491ea85f206844969bf3d/transformed/firebase-common-ktx-20.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-common-ktx:20.2.0] /Users/johyeongchan/.gradle/caches/transforms-3/dbd44cf8c8b491ea85f206844969bf3d/transformed/firebase-common-ktx-20.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.material:material:1.6.1] /Users/johyeongchan/.gradle/caches/transforms-3/299f462e54b1f144ab9f5427ed236936/transformed/material-1.6.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.material:material:1.6.1] /Users/johyeongchan/.gradle/caches/transforms-3/299f462e54b1f144ab9f5427ed236936/transformed/material-1.6.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/johyeongchan/.gradle/caches/transforms-3/781d5bae37f0570fa2f258edcc8e4366/transformed/constraintlayout-2.1.4/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/johyeongchan/.gradle/caches/transforms-3/781d5bae37f0570fa2f258edcc8e4366/transformed/constraintlayout-2.1.4/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat-resources:1.5.1] /Users/johyeongchan/.gradle/caches/transforms-3/f9ac1053a8efd00cf5e5822a2f7bc020/transformed/appcompat-resources-1.5.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.5.1] /Users/johyeongchan/.gradle/caches/transforms-3/f9ac1053a8efd00cf5e5822a2f7bc020/transformed/appcompat-resources-1.5.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.5.1] /Users/johyeongchan/.gradle/caches/transforms-3/80e2ddf255aa85ed44e7ed55096608a4/transformed/appcompat-1.5.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.5.1] /Users/johyeongchan/.gradle/caches/transforms-3/80e2ddf255aa85ed44e7ed55096608a4/transformed/appcompat-1.5.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/johyeongchan/.gradle/caches/transforms-3/ea131357df88666e68e9389d80c5cb84/transformed/viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/johyeongchan/.gradle/caches/transforms-3/ea131357df88666e68e9389d80c5cb84/transformed/viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-firestore:24.4.0] /Users/johyeongchan/.gradle/caches/transforms-3/a19c1ee8cba3775934599f4bf2729fd4/transformed/firebase-firestore-24.4.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-firestore:24.4.0] /Users/johyeongchan/.gradle/caches/transforms-3/a19c1ee8cba3775934599f4bf2729fd4/transformed/firebase-firestore-24.4.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.1.0] /Users/johyeongchan/.gradle/caches/transforms-3/7dc6277a8909536de63ce1e97107b8f7/transformed/firebase-appcheck-interop-16.1.0/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.1.0] /Users/johyeongchan/.gradle/caches/transforms-3/7dc6277a8909536de63ce1e97107b8f7/transformed/firebase-appcheck-interop-16.1.0/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.2] /Users/johyeongchan/.gradle/caches/transforms-3/7042e8ae544362e9b04497c10174fe6c/transformed/firebase-auth-interop-19.0.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.2] /Users/johyeongchan/.gradle/caches/transforms-3/7042e8ae544362e9b04497c10174fe6c/transformed/firebase-auth-interop-19.0.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-analytics:21.2.0] /Users/johyeongchan/.gradle/caches/transforms-3/29c3472ee7b202dda0aececfdf703002/transformed/firebase-analytics-21.2.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-analytics:21.2.0] /Users/johyeongchan/.gradle/caches/transforms-3/29c3472ee7b202dda0aececfdf703002/transformed/firebase-analytics-21.2.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:21.2.0] /Users/johyeongchan/.gradle/caches/transforms-3/55d7b9ce7714096f4aef16c27754ce7d/transformed/play-services-measurement-api-21.2.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:21.2.0] /Users/johyeongchan/.gradle/caches/transforms-3/55d7b9ce7714096f4aef16c27754ce7d/transformed/play-services-measurement-api-21.2.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-installations:17.1.0] /Users/johyeongchan/.gradle/caches/transforms-3/3c69217f7b584033cda1e9dfa82cc9d0/transformed/firebase-installations-17.1.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-installations:17.1.0] /Users/johyeongchan/.gradle/caches/transforms-3/3c69217f7b584033cda1e9dfa82cc9d0/transformed/firebase-installations-17.1.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-common:20.2.0] /Users/johyeongchan/.gradle/caches/transforms-3/33d441273fd25f7872fbf5cf027e181f/transformed/firebase-common-20.2.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-common:20.2.0] /Users/johyeongchan/.gradle/caches/transforms-3/33d441273fd25f7872fbf5cf027e181f/transformed/firebase-common-20.2.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-database-collection:18.0.1] /Users/johyeongchan/.gradle/caches/transforms-3/3b35d92d39f85e16329eddd080c18dc3/transformed/firebase-database-collection-18.0.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-database-collection:18.0.1] /Users/johyeongchan/.gradle/caches/transforms-3/3b35d92d39f85e16329eddd080c18dc3/transformed/firebase-database-collection-18.0.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/johyeongchan/.gradle/caches/transforms-3/f0a5589636bb4119bc21053f354c6b97/transformed/play-services-base-18.0.1/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/johyeongchan/.gradle/caches/transforms-3/f0a5589636bb4119bc21053f354c6b97/transformed/play-services-base-18.0.1/AndroidManifest.xml:18:5-43
+MERGED from [com.google.firebase:firebase-installations-interop:17.1.0] /Users/johyeongchan/.gradle/caches/transforms-3/bc8e300fded7fedfc4006318d413c0c6/transformed/firebase-installations-interop-17.1.0/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-installations-interop:17.1.0] /Users/johyeongchan/.gradle/caches/transforms-3/bc8e300fded7fedfc4006318d413c0c6/transformed/firebase-installations-interop-17.1.0/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /Users/johyeongchan/.gradle/caches/transforms-3/14f20eb45054c457bb88e5712b49436f/transformed/play-services-tasks-18.0.1/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /Users/johyeongchan/.gradle/caches/transforms-3/14f20eb45054c457bb88e5712b49436f/transformed/play-services-tasks-18.0.1/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-measurement:21.2.0] /Users/johyeongchan/.gradle/caches/transforms-3/da805760ed1491584f6be4931a06ec7d/transformed/play-services-measurement-21.2.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement:21.2.0] /Users/johyeongchan/.gradle/caches/transforms-3/da805760ed1491584f6be4931a06ec7d/transformed/play-services-measurement-21.2.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:21.2.0] /Users/johyeongchan/.gradle/caches/transforms-3/53ec19af29093b3cfeb82f3fc9ea1d9b/transformed/play-services-measurement-sdk-21.2.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:21.2.0] /Users/johyeongchan/.gradle/caches/transforms-3/53ec19af29093b3cfeb82f3fc9ea1d9b/transformed/play-services-measurement-sdk-21.2.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.2.0] /Users/johyeongchan/.gradle/caches/transforms-3/f9b481d7747751b640507f4333f2c84b/transformed/play-services-measurement-impl-21.2.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.2.0] /Users/johyeongchan/.gradle/caches/transforms-3/f9b481d7747751b640507f4333f2c84b/transformed/play-services-measurement-impl-21.2.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/johyeongchan/.gradle/caches/transforms-3/06c1d789f077eaefdae8b72d3b4473e1/transformed/play-services-ads-identifier-18.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/johyeongchan/.gradle/caches/transforms-3/06c1d789f077eaefdae8b72d3b4473e1/transformed/play-services-ads-identifier-18.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.2.0] /Users/johyeongchan/.gradle/caches/transforms-3/d7901f95f843cdcb2fefd4b5ec37004b/transformed/play-services-measurement-sdk-api-21.2.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.2.0] /Users/johyeongchan/.gradle/caches/transforms-3/d7901f95f843cdcb2fefd4b5ec37004b/transformed/play-services-measurement-sdk-api-21.2.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:21.2.0] /Users/johyeongchan/.gradle/caches/transforms-3/620b6e12900ef33f6a4003e1a2520571/transformed/play-services-measurement-base-21.2.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:21.2.0] /Users/johyeongchan/.gradle/caches/transforms-3/620b6e12900ef33f6a4003e1a2520571/transformed/play-services-measurement-base-21.2.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] /Users/johyeongchan/.gradle/caches/transforms-3/7a91ec62c09228dc62b68bb1663f5887/transformed/play-services-stats-17.0.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] /Users/johyeongchan/.gradle/caches/transforms-3/7a91ec62c09228dc62b68bb1663f5887/transformed/play-services-stats-17.0.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/johyeongchan/.gradle/caches/transforms-3/ad759023f64178129ab3b038e5b158cd/transformed/firebase-measurement-connector-19.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/johyeongchan/.gradle/caches/transforms-3/ad759023f64178129ab3b038e5b158cd/transformed/firebase-measurement-connector-19.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] /Users/johyeongchan/.gradle/caches/transforms-3/fff0785151b6c31c688512a42c37aeb9/transformed/play-services-basement-18.1.0/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] /Users/johyeongchan/.gradle/caches/transforms-3/fff0785151b6c31c688512a42c37aeb9/transformed/play-services-basement-18.1.0/AndroidManifest.xml:18:5-43
+MERGED from [androidx.fragment:fragment:1.3.6] /Users/johyeongchan/.gradle/caches/transforms-3/a4a12adc90cd646ae89ccf3122e05b5d/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] /Users/johyeongchan/.gradle/caches/transforms-3/a4a12adc90cd646ae89ccf3122e05b5d/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.5.1] /Users/johyeongchan/.gradle/caches/transforms-3/92e3eefb4ca72c065226908307c07778/transformed/activity-1.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.5.1] /Users/johyeongchan/.gradle/caches/transforms-3/92e3eefb4ca72c065226908307c07778/transformed/activity-1.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/johyeongchan/.gradle/caches/transforms-3/b4ca9ad2c5ddcd169469b77cb5884719/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/johyeongchan/.gradle/caches/transforms-3/b4ca9ad2c5ddcd169469b77cb5884719/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/johyeongchan/.gradle/caches/transforms-3/bdcb52750f9160d7a9757ca71676f6e6/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/johyeongchan/.gradle/caches/transforms-3/bdcb52750f9160d7a9757ca71676f6e6/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/johyeongchan/.gradle/caches/transforms-3/ebe06a3c178ad2fd58b62ab80e61278f/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/johyeongchan/.gradle/caches/transforms-3/ebe06a3c178ad2fd58b62ab80e61278f/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.1] /Users/johyeongchan/.gradle/caches/transforms-3/f976b8a368860193f85634df43a3b26c/transformed/lifecycle-viewmodel-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.1] /Users/johyeongchan/.gradle/caches/transforms-3/f976b8a368860193f85634df43a3b26c/transformed/lifecycle-viewmodel-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1] /Users/johyeongchan/.gradle/caches/transforms-3/88fed0acad8da10f60f3f2c2667f94b8/transformed/lifecycle-viewmodel-savedstate-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1] /Users/johyeongchan/.gradle/caches/transforms-3/88fed0acad8da10f60f3f2c2667f94b8/transformed/lifecycle-viewmodel-savedstate-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core-ktx:1.8.0] /Users/johyeongchan/.gradle/caches/transforms-3/e19bb3821e0aa0404e98f5b5184badbf/transformed/core-ktx-1.8.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-ktx:1.8.0] /Users/johyeongchan/.gradle/caches/transforms-3/e19bb3821e0aa0404e98f5b5184badbf/transformed/core-ktx-1.8.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.savedstate:savedstate:1.2.0] /Users/johyeongchan/.gradle/caches/transforms-3/ea1e5b6c3eff09214b6795ad9f3e081e/transformed/savedstate-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.2.0] /Users/johyeongchan/.gradle/caches/transforms-3/ea1e5b6c3eff09214b6795ad9f3e081e/transformed/savedstate-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] /Users/johyeongchan/.gradle/caches/transforms-3/47ae3b4d49c30e8d5d563395dc664a98/transformed/emoji2-views-helper-1.2.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] /Users/johyeongchan/.gradle/caches/transforms-3/47ae3b4d49c30e8d5d563395dc664a98/transformed/emoji2-views-helper-1.2.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/johyeongchan/.gradle/caches/transforms-3/283a5b61b5bf610ff27303faf492a8d6/transformed/emoji2-1.2.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/johyeongchan/.gradle/caches/transforms-3/283a5b61b5bf610ff27303faf492a8d6/transformed/emoji2-1.2.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/johyeongchan/.gradle/caches/transforms-3/852c552455e1e917ec6de75e371c8579/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/johyeongchan/.gradle/caches/transforms-3/852c552455e1e917ec6de75e371c8579/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/johyeongchan/.gradle/caches/transforms-3/6b9b287d119aaee982e9edd0106827c1/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/johyeongchan/.gradle/caches/transforms-3/6b9b287d119aaee982e9edd0106827c1/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] /Users/johyeongchan/.gradle/caches/transforms-3/90aa94a3b77ca876bc175d76226a1440/transformed/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] /Users/johyeongchan/.gradle/caches/transforms-3/90aa94a3b77ca876bc175d76226a1440/transformed/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/johyeongchan/.gradle/caches/transforms-3/88731f589fc9efadcb62fea0fc3e31ac/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/johyeongchan/.gradle/caches/transforms-3/88731f589fc9efadcb62fea0fc3e31ac/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/johyeongchan/.gradle/caches/transforms-3/05d66e4a876f298d83c9bc32bbe483fb/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/johyeongchan/.gradle/caches/transforms-3/05d66e4a876f298d83c9bc32bbe483fb/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/johyeongchan/.gradle/caches/transforms-3/b7afb6b8d889e8ba8c808b69523ea2ad/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/johyeongchan/.gradle/caches/transforms-3/b7afb6b8d889e8ba8c808b69523ea2ad/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/johyeongchan/.gradle/caches/transforms-3/3a07b6225e3bf75e5fabd2dac64ce412/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/johyeongchan/.gradle/caches/transforms-3/3a07b6225e3bf75e5fabd2dac64ce412/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] /Users/johyeongchan/.gradle/caches/transforms-3/fbd94636d7b823c2362e4b217a33e5e4/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] /Users/johyeongchan/.gradle/caches/transforms-3/fbd94636d7b823c2362e4b217a33e5e4/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.8.0] /Users/johyeongchan/.gradle/caches/transforms-3/9febd1ce4d4b7c6a9a839d5e3e558b1d/transformed/core-1.8.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.8.0] /Users/johyeongchan/.gradle/caches/transforms-3/9febd1ce4d4b7c6a9a839d5e3e558b1d/transformed/core-1.8.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/johyeongchan/.gradle/caches/transforms-3/49464ee8b09c416971ba1bc2c091040a/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/johyeongchan/.gradle/caches/transforms-3/49464ee8b09c416971ba1bc2c091040a/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /Users/johyeongchan/.gradle/caches/transforms-3/f560ecddab3b7d3a6ce1c41e99097a1e/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /Users/johyeongchan/.gradle/caches/transforms-3/f560ecddab3b7d3a6ce1c41e99097a1e/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.1] /Users/johyeongchan/.gradle/caches/transforms-3/96754a5721851a16f7b0fb7b02a799db/transformed/lifecycle-runtime-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.1] /Users/johyeongchan/.gradle/caches/transforms-3/96754a5721851a16f7b0fb7b02a799db/transformed/lifecycle-runtime-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/johyeongchan/.gradle/caches/transforms-3/c29466f59e6043f986a4256f06521cd5/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/johyeongchan/.gradle/caches/transforms-3/c29466f59e6043f986a4256f06521cd5/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-components:17.0.1] /Users/johyeongchan/.gradle/caches/transforms-3/bf17d87218d323c740d20f8693a98804/transformed/firebase-components-17.0.1/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-components:17.0.1] /Users/johyeongchan/.gradle/caches/transforms-3/bf17d87218d323c740d20f8693a98804/transformed/firebase-components-17.0.1/AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/johyeongchan/.gradle/caches/transforms-3/62c221a3eaccf222ddf956fa7ab619fa/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/johyeongchan/.gradle/caches/transforms-3/62c221a3eaccf222ddf956fa7ab619fa/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/johyeongchan/.gradle/caches/transforms-3/d2b892388d4f1220c8e1335791505248/transformed/startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/johyeongchan/.gradle/caches/transforms-3/d2b892388d4f1220c8e1335791505248/transformed/startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/johyeongchan/.gradle/caches/transforms-3/fc663e223c56b21ea95ab4560a7e9cf6/transformed/tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/johyeongchan/.gradle/caches/transforms-3/fc663e223c56b21ea95ab4560a7e9cf6/transformed/tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/johyeongchan/.gradle/caches/transforms-3/cf8ee542b8cccc6ce4fb91a35e2db156/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/johyeongchan/.gradle/caches/transforms-3/cf8ee542b8cccc6ce4fb91a35e2db156/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.1] /Users/johyeongchan/.gradle/caches/transforms-3/5134e4b2e56291515503adf052cd1468/transformed/lifecycle-livedata-core-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.1] /Users/johyeongchan/.gradle/caches/transforms-3/5134e4b2e56291515503adf052cd1468/transformed/lifecycle-livedata-core-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/johyeongchan/.gradle/caches/transforms-3/c5ddab29f2aea4f996f3200a32dcdfd9/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/johyeongchan/.gradle/caches/transforms-3/c5ddab29f2aea4f996f3200a32dcdfd9/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/johyeongchan/.gradle/caches/transforms-3/5686c67fa4c1361794fd1fa857566ece/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/johyeongchan/.gradle/caches/transforms-3/5686c67fa4c1361794fd1fa857566ece/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/johyeongchan/.gradle/caches/transforms-3/ba8913399b4a09f0ace326b0c2c99b73/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/johyeongchan/.gradle/caches/transforms-3/ba8913399b4a09f0ace326b0c2c99b73/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/johyeongchan/.gradle/caches/transforms-3/a08ea63b71f5f894c0c049133b288423/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/johyeongchan/.gradle/caches/transforms-3/a08ea63b71f5f894c0c049133b288423/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/johyeongchan/.gradle/caches/transforms-3/0458474bc9a269a35ecd6983c6682222/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/johyeongchan/.gradle/caches/transforms-3/0458474bc9a269a35ecd6983c6682222/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/johyeongchan/.gradle/caches/transforms-3/7f910f1b568381695fb20ea023101b78/transformed/annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/johyeongchan/.gradle/caches/transforms-3/7f910f1b568381695fb20ea023101b78/transformed/annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [io.grpc:grpc-android:1.48.1] /Users/johyeongchan/.gradle/caches/transforms-3/b427d44b9ef8c677701768275a50c799/transformed/grpc-android-1.48.1/AndroidManifest.xml:5:5-7:41
+MERGED from [io.grpc:grpc-android:1.48.1] /Users/johyeongchan/.gradle/caches/transforms-3/b427d44b9ef8c677701768275a50c799/transformed/grpc-android-1.48.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] /Users/johyeongchan/.gradle/caches/transforms-3/ef4b76c1e5b2c96a5a3b61078afa95a4/transformed/protolite-well-known-types-18.0.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] /Users/johyeongchan/.gradle/caches/transforms-3/ef4b76c1e5b2c96a5a3b61078afa95a4/transformed/protolite-well-known-types-18.0.0/AndroidManifest.xml:7:5-9:41
 INJECTED from /Users/johyeongchan/MediaProject-2022-2/inmysight-project/inmysight-front/app/src/main/AndroidManifest.xml
 INJECTED from /Users/johyeongchan/MediaProject-2022-2/inmysight-project/inmysight-front/app/src/main/AndroidManifest.xml
 	android:targetSdkVersion
@@ -233,29 +351,195 @@ INJECTED from /Users/johyeongchan/MediaProject-2022-2/inmysight-project/inmysigh
 		INJECTED from /Users/johyeongchan/MediaProject-2022-2/inmysight-project/inmysight-front/app/src/main/AndroidManifest.xml
 		ADDED from /Users/johyeongchan/MediaProject-2022-2/inmysight-project/inmysight-front/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/johyeongchan/MediaProject-2022-2/inmysight-project/inmysight-front/app/src/main/AndroidManifest.xml
-provider#androidx.startup.InitializationProvider
-ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/johyeongchan/.gradle/caches/transforms-3/848773e611bbde5d3ec0ec3e63d01c98/transformed/emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
-MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /Users/johyeongchan/.gradle/caches/transforms-3/a4f0fb44e9b56370f8c2ed23c9d5d030/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:26:9-34:20
-MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /Users/johyeongchan/.gradle/caches/transforms-3/a4f0fb44e9b56370f8c2ed23c9d5d030/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:26:9-34:20
-MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/johyeongchan/.gradle/caches/transforms-3/baef32cd3c953915a0114f73cc9cca3f/transformed/startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
-MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/johyeongchan/.gradle/caches/transforms-3/baef32cd3c953915a0114f73cc9cca3f/transformed/startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
-	tools:node
-		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/johyeongchan/.gradle/caches/transforms-3/848773e611bbde5d3ec0ec3e63d01c98/transformed/emoji2-1.2.0/AndroidManifest.xml:28:13-31
-	android:authorities
-		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/johyeongchan/.gradle/caches/transforms-3/848773e611bbde5d3ec0ec3e63d01c98/transformed/emoji2-1.2.0/AndroidManifest.xml:26:13-68
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.firebase:firebase-firestore-ktx:24.4.0] /Users/johyeongchan/.gradle/caches/transforms-3/a9b6d0bfde2e831ab008d73b64ea42ba/transformed/firebase-firestore-ktx-24.4.0/AndroidManifest.xml:11:9-17:19
+MERGED from [com.google.firebase:firebase-analytics-ktx:21.2.0] /Users/johyeongchan/.gradle/caches/transforms-3/8de6f5791aaa35082136d849cf72f2c9/transformed/firebase-analytics-ktx-21.2.0/AndroidManifest.xml:8:9-14:19
+MERGED from [com.google.firebase:firebase-analytics-ktx:21.2.0] /Users/johyeongchan/.gradle/caches/transforms-3/8de6f5791aaa35082136d849cf72f2c9/transformed/firebase-analytics-ktx-21.2.0/AndroidManifest.xml:8:9-14:19
+MERGED from [com.google.firebase:firebase-common-ktx:20.2.0] /Users/johyeongchan/.gradle/caches/transforms-3/dbd44cf8c8b491ea85f206844969bf3d/transformed/firebase-common-ktx-20.2.0/AndroidManifest.xml:11:9-17:19
+MERGED from [com.google.firebase:firebase-common-ktx:20.2.0] /Users/johyeongchan/.gradle/caches/transforms-3/dbd44cf8c8b491ea85f206844969bf3d/transformed/firebase-common-ktx-20.2.0/AndroidManifest.xml:11:9-17:19
+MERGED from [com.google.firebase:firebase-firestore:24.4.0] /Users/johyeongchan/.gradle/caches/transforms-3/a19c1ee8cba3775934599f4bf2729fd4/transformed/firebase-firestore-24.4.0/AndroidManifest.xml:16:9-22:19
+MERGED from [com.google.firebase:firebase-firestore:24.4.0] /Users/johyeongchan/.gradle/caches/transforms-3/a19c1ee8cba3775934599f4bf2729fd4/transformed/firebase-firestore-24.4.0/AndroidManifest.xml:16:9-22:19
+MERGED from [com.google.android.gms:play-services-measurement-api:21.2.0] /Users/johyeongchan/.gradle/caches/transforms-3/55d7b9ce7714096f4aef16c27754ce7d/transformed/play-services-measurement-api-21.2.0/AndroidManifest.xml:28:9-34:19
+MERGED from [com.google.android.gms:play-services-measurement-api:21.2.0] /Users/johyeongchan/.gradle/caches/transforms-3/55d7b9ce7714096f4aef16c27754ce7d/transformed/play-services-measurement-api-21.2.0/AndroidManifest.xml:28:9-34:19
+MERGED from [com.google.firebase:firebase-installations:17.1.0] /Users/johyeongchan/.gradle/caches/transforms-3/3c69217f7b584033cda1e9dfa82cc9d0/transformed/firebase-installations-17.1.0/AndroidManifest.xml:14:9-20:19
+MERGED from [com.google.firebase:firebase-installations:17.1.0] /Users/johyeongchan/.gradle/caches/transforms-3/3c69217f7b584033cda1e9dfa82cc9d0/transformed/firebase-installations-17.1.0/AndroidManifest.xml:14:9-20:19
+MERGED from [com.google.firebase:firebase-common:20.2.0] /Users/johyeongchan/.gradle/caches/transforms-3/33d441273fd25f7872fbf5cf027e181f/transformed/firebase-common-20.2.0/AndroidManifest.xml:32:9-36:35
+MERGED from [com.google.firebase:firebase-common:20.2.0] /Users/johyeongchan/.gradle/caches/transforms-3/33d441273fd25f7872fbf5cf027e181f/transformed/firebase-common-20.2.0/AndroidManifest.xml:32:9-36:35
 	android:exported
-		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/johyeongchan/.gradle/caches/transforms-3/848773e611bbde5d3ec0ec3e63d01c98/transformed/emoji2-1.2.0/AndroidManifest.xml:27:13-37
+		ADDED from [com.google.firebase:firebase-firestore-ktx:24.4.0] /Users/johyeongchan/.gradle/caches/transforms-3/a9b6d0bfde2e831ab008d73b64ea42ba/transformed/firebase-firestore-ktx-24.4.0/AndroidManifest.xml:13:13-37
+	tools:targetApi
+		ADDED from [com.google.firebase:firebase-common:20.2.0] /Users/johyeongchan/.gradle/caches/transforms-3/33d441273fd25f7872fbf5cf027e181f/transformed/firebase-common-20.2.0/AndroidManifest.xml:36:13-32
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:20.2.0] /Users/johyeongchan/.gradle/caches/transforms-3/33d441273fd25f7872fbf5cf027e181f/transformed/firebase-common-20.2.0/AndroidManifest.xml:34:13-43
 	android:name
-		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/johyeongchan/.gradle/caches/transforms-3/848773e611bbde5d3ec0ec3e63d01c98/transformed/emoji2-1.2.0/AndroidManifest.xml:25:13-67
+		ADDED from [com.google.firebase:firebase-firestore-ktx:24.4.0] /Users/johyeongchan/.gradle/caches/transforms-3/a9b6d0bfde2e831ab008d73b64ea42ba/transformed/firebase-firestore-ktx-24.4.0/AndroidManifest.xml:12:13-84
+meta-data#com.google.firebase.components:com.google.firebase.firestore.ktx.FirebaseFirestoreKtxRegistrar
+ADDED from [com.google.firebase:firebase-firestore-ktx:24.4.0] /Users/johyeongchan/.gradle/caches/transforms-3/a9b6d0bfde2e831ab008d73b64ea42ba/transformed/firebase-firestore-ktx-24.4.0/AndroidManifest.xml:14:13-16:85
+	android:value
+		ADDED from [com.google.firebase:firebase-firestore-ktx:24.4.0] /Users/johyeongchan/.gradle/caches/transforms-3/a9b6d0bfde2e831ab008d73b64ea42ba/transformed/firebase-firestore-ktx-24.4.0/AndroidManifest.xml:16:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-firestore-ktx:24.4.0] /Users/johyeongchan/.gradle/caches/transforms-3/a9b6d0bfde2e831ab008d73b64ea42ba/transformed/firebase-firestore-ktx-24.4.0/AndroidManifest.xml:15:17-126
+meta-data#com.google.firebase.components:com.google.firebase.analytics.ktx.FirebaseAnalyticsKtxRegistrar
+ADDED from [com.google.firebase:firebase-analytics-ktx:21.2.0] /Users/johyeongchan/.gradle/caches/transforms-3/8de6f5791aaa35082136d849cf72f2c9/transformed/firebase-analytics-ktx-21.2.0/AndroidManifest.xml:11:13-13:85
+	android:value
+		ADDED from [com.google.firebase:firebase-analytics-ktx:21.2.0] /Users/johyeongchan/.gradle/caches/transforms-3/8de6f5791aaa35082136d849cf72f2c9/transformed/firebase-analytics-ktx-21.2.0/AndroidManifest.xml:13:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics-ktx:21.2.0] /Users/johyeongchan/.gradle/caches/transforms-3/8de6f5791aaa35082136d849cf72f2c9/transformed/firebase-analytics-ktx-21.2.0/AndroidManifest.xml:12:17-126
+meta-data#com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonKtxRegistrar
+ADDED from [com.google.firebase:firebase-common-ktx:20.2.0] /Users/johyeongchan/.gradle/caches/transforms-3/dbd44cf8c8b491ea85f206844969bf3d/transformed/firebase-common-ktx-20.2.0/AndroidManifest.xml:14:13-16:85
+	android:value
+		ADDED from [com.google.firebase:firebase-common-ktx:20.2.0] /Users/johyeongchan/.gradle/caches/transforms-3/dbd44cf8c8b491ea85f206844969bf3d/transformed/firebase-common-ktx-20.2.0/AndroidManifest.xml:16:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-common-ktx:20.2.0] /Users/johyeongchan/.gradle/caches/transforms-3/dbd44cf8c8b491ea85f206844969bf3d/transformed/firebase-common-ktx-20.2.0/AndroidManifest.xml:15:17-113
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.firebase:firebase-firestore:24.4.0] /Users/johyeongchan/.gradle/caches/transforms-3/a19c1ee8cba3775934599f4bf2729fd4/transformed/firebase-firestore-24.4.0/AndroidManifest.xml:12:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:21.2.0] /Users/johyeongchan/.gradle/caches/transforms-3/55d7b9ce7714096f4aef16c27754ce7d/transformed/play-services-measurement-api-21.2.0/AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:21.2.0] /Users/johyeongchan/.gradle/caches/transforms-3/55d7b9ce7714096f4aef16c27754ce7d/transformed/play-services-measurement-api-21.2.0/AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-installations:17.1.0] /Users/johyeongchan/.gradle/caches/transforms-3/3c69217f7b584033cda1e9dfa82cc9d0/transformed/firebase-installations-17.1.0/AndroidManifest.xml:9:5-79
+MERGED from [com.google.firebase:firebase-installations:17.1.0] /Users/johyeongchan/.gradle/caches/transforms-3/3c69217f7b584033cda1e9dfa82cc9d0/transformed/firebase-installations-17.1.0/AndroidManifest.xml:9:5-79
+MERGED from [com.google.android.gms:play-services-measurement:21.2.0] /Users/johyeongchan/.gradle/caches/transforms-3/da805760ed1491584f6be4931a06ec7d/transformed/play-services-measurement-21.2.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement:21.2.0] /Users/johyeongchan/.gradle/caches/transforms-3/da805760ed1491584f6be4931a06ec7d/transformed/play-services-measurement-21.2.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.2.0] /Users/johyeongchan/.gradle/caches/transforms-3/f9b481d7747751b640507f4333f2c84b/transformed/play-services-measurement-impl-21.2.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.2.0] /Users/johyeongchan/.gradle/caches/transforms-3/f9b481d7747751b640507f4333f2c84b/transformed/play-services-measurement-impl-21.2.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.2.0] /Users/johyeongchan/.gradle/caches/transforms-3/d7901f95f843cdcb2fefd4b5ec37004b/transformed/play-services-measurement-sdk-api-21.2.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.2.0] /Users/johyeongchan/.gradle/caches/transforms-3/d7901f95f843cdcb2fefd4b5ec37004b/transformed/play-services-measurement-sdk-api-21.2.0/AndroidManifest.xml:24:5-79
+MERGED from [io.grpc:grpc-android:1.48.1] /Users/johyeongchan/.gradle/caches/transforms-3/b427d44b9ef8c677701768275a50c799/transformed/grpc-android-1.48.1/AndroidManifest.xml:9:5-79
+MERGED from [io.grpc:grpc-android:1.48.1] /Users/johyeongchan/.gradle/caches/transforms-3/b427d44b9ef8c677701768275a50c799/transformed/grpc-android-1.48.1/AndroidManifest.xml:9:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-firestore:24.4.0] /Users/johyeongchan/.gradle/caches/transforms-3/a19c1ee8cba3775934599f4bf2729fd4/transformed/firebase-firestore-24.4.0/AndroidManifest.xml:12:22-76
+uses-permission#android.permission.INTERNET
+ADDED from [com.google.firebase:firebase-firestore:24.4.0] /Users/johyeongchan/.gradle/caches/transforms-3/a19c1ee8cba3775934599f4bf2729fd4/transformed/firebase-firestore-24.4.0/AndroidManifest.xml:13:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:21.2.0] /Users/johyeongchan/.gradle/caches/transforms-3/55d7b9ce7714096f4aef16c27754ce7d/transformed/play-services-measurement-api-21.2.0/AndroidManifest.xml:22:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:21.2.0] /Users/johyeongchan/.gradle/caches/transforms-3/55d7b9ce7714096f4aef16c27754ce7d/transformed/play-services-measurement-api-21.2.0/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-installations:17.1.0] /Users/johyeongchan/.gradle/caches/transforms-3/3c69217f7b584033cda1e9dfa82cc9d0/transformed/firebase-installations-17.1.0/AndroidManifest.xml:10:5-67
+MERGED from [com.google.firebase:firebase-installations:17.1.0] /Users/johyeongchan/.gradle/caches/transforms-3/3c69217f7b584033cda1e9dfa82cc9d0/transformed/firebase-installations-17.1.0/AndroidManifest.xml:10:5-67
+MERGED from [com.google.android.gms:play-services-measurement:21.2.0] /Users/johyeongchan/.gradle/caches/transforms-3/da805760ed1491584f6be4931a06ec7d/transformed/play-services-measurement-21.2.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement:21.2.0] /Users/johyeongchan/.gradle/caches/transforms-3/da805760ed1491584f6be4931a06ec7d/transformed/play-services-measurement-21.2.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.2.0] /Users/johyeongchan/.gradle/caches/transforms-3/f9b481d7747751b640507f4333f2c84b/transformed/play-services-measurement-impl-21.2.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.2.0] /Users/johyeongchan/.gradle/caches/transforms-3/f9b481d7747751b640507f4333f2c84b/transformed/play-services-measurement-impl-21.2.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.2.0] /Users/johyeongchan/.gradle/caches/transforms-3/d7901f95f843cdcb2fefd4b5ec37004b/transformed/play-services-measurement-sdk-api-21.2.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.2.0] /Users/johyeongchan/.gradle/caches/transforms-3/d7901f95f843cdcb2fefd4b5ec37004b/transformed/play-services-measurement-sdk-api-21.2.0/AndroidManifest.xml:23:5-67
+	android:name
+		ADDED from [com.google.firebase:firebase-firestore:24.4.0] /Users/johyeongchan/.gradle/caches/transforms-3/a19c1ee8cba3775934599f4bf2729fd4/transformed/firebase-firestore-24.4.0/AndroidManifest.xml:13:22-64
+meta-data#com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar
+ADDED from [com.google.firebase:firebase-firestore:24.4.0] /Users/johyeongchan/.gradle/caches/transforms-3/a19c1ee8cba3775934599f4bf2729fd4/transformed/firebase-firestore-24.4.0/AndroidManifest.xml:19:13-21:85
+	android:value
+		ADDED from [com.google.firebase:firebase-firestore:24.4.0] /Users/johyeongchan/.gradle/caches/transforms-3/a19c1ee8cba3775934599f4bf2729fd4/transformed/firebase-firestore-24.4.0/AndroidManifest.xml:21:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-firestore:24.4.0] /Users/johyeongchan/.gradle/caches/transforms-3/a19c1ee8cba3775934599f4bf2729fd4/transformed/firebase-firestore-24.4.0/AndroidManifest.xml:20:17-111
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.android.gms:play-services-measurement-api:21.2.0] /Users/johyeongchan/.gradle/caches/transforms-3/55d7b9ce7714096f4aef16c27754ce7d/transformed/play-services-measurement-api-21.2.0/AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-measurement:21.2.0] /Users/johyeongchan/.gradle/caches/transforms-3/da805760ed1491584f6be4931a06ec7d/transformed/play-services-measurement-21.2.0/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement:21.2.0] /Users/johyeongchan/.gradle/caches/transforms-3/da805760ed1491584f6be4931a06ec7d/transformed/play-services-measurement-21.2.0/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.2.0] /Users/johyeongchan/.gradle/caches/transforms-3/f9b481d7747751b640507f4333f2c84b/transformed/play-services-measurement-impl-21.2.0/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.2.0] /Users/johyeongchan/.gradle/caches/transforms-3/f9b481d7747751b640507f4333f2c84b/transformed/play-services-measurement-impl-21.2.0/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.2.0] /Users/johyeongchan/.gradle/caches/transforms-3/d7901f95f843cdcb2fefd4b5ec37004b/transformed/play-services-measurement-sdk-api-21.2.0/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.2.0] /Users/johyeongchan/.gradle/caches/transforms-3/d7901f95f843cdcb2fefd4b5ec37004b/transformed/play-services-measurement-sdk-api-21.2.0/AndroidManifest.xml:25:5-68
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:21.2.0] /Users/johyeongchan/.gradle/caches/transforms-3/55d7b9ce7714096f4aef16c27754ce7d/transformed/play-services-measurement-api-21.2.0/AndroidManifest.xml:24:22-65
+uses-permission#com.google.android.gms.permission.AD_ID
+ADDED from [com.google.android.gms:play-services-measurement-api:21.2.0] /Users/johyeongchan/.gradle/caches/transforms-3/55d7b9ce7714096f4aef16c27754ce7d/transformed/play-services-measurement-api-21.2.0/AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.2.0] /Users/johyeongchan/.gradle/caches/transforms-3/f9b481d7747751b640507f4333f2c84b/transformed/play-services-measurement-impl-21.2.0/AndroidManifest.xml:27:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.2.0] /Users/johyeongchan/.gradle/caches/transforms-3/f9b481d7747751b640507f4333f2c84b/transformed/play-services-measurement-impl-21.2.0/AndroidManifest.xml:27:5-79
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/johyeongchan/.gradle/caches/transforms-3/06c1d789f077eaefdae8b72d3b4473e1/transformed/play-services-ads-identifier-18.0.0/AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/johyeongchan/.gradle/caches/transforms-3/06c1d789f077eaefdae8b72d3b4473e1/transformed/play-services-ads-identifier-18.0.0/AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.2.0] /Users/johyeongchan/.gradle/caches/transforms-3/d7901f95f843cdcb2fefd4b5ec37004b/transformed/play-services-measurement-sdk-api-21.2.0/AndroidManifest.xml:26:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.2.0] /Users/johyeongchan/.gradle/caches/transforms-3/d7901f95f843cdcb2fefd4b5ec37004b/transformed/play-services-measurement-sdk-api-21.2.0/AndroidManifest.xml:26:5-79
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:21.2.0] /Users/johyeongchan/.gradle/caches/transforms-3/55d7b9ce7714096f4aef16c27754ce7d/transformed/play-services-measurement-api-21.2.0/AndroidManifest.xml:25:22-76
+meta-data#com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar
+ADDED from [com.google.android.gms:play-services-measurement-api:21.2.0] /Users/johyeongchan/.gradle/caches/transforms-3/55d7b9ce7714096f4aef16c27754ce7d/transformed/play-services-measurement-api-21.2.0/AndroidManifest.xml:31:13-33:85
+	android:value
+		ADDED from [com.google.android.gms:play-services-measurement-api:21.2.0] /Users/johyeongchan/.gradle/caches/transforms-3/55d7b9ce7714096f4aef16c27754ce7d/transformed/play-services-measurement-api-21.2.0/AndroidManifest.xml:33:17-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:21.2.0] /Users/johyeongchan/.gradle/caches/transforms-3/55d7b9ce7714096f4aef16c27754ce7d/transformed/play-services-measurement-api-21.2.0/AndroidManifest.xml:32:17-139
+meta-data#com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar
+ADDED from [com.google.firebase:firebase-installations:17.1.0] /Users/johyeongchan/.gradle/caches/transforms-3/3c69217f7b584033cda1e9dfa82cc9d0/transformed/firebase-installations-17.1.0/AndroidManifest.xml:17:13-19:85
+	android:value
+		ADDED from [com.google.firebase:firebase-installations:17.1.0] /Users/johyeongchan/.gradle/caches/transforms-3/3c69217f7b584033cda1e9dfa82cc9d0/transformed/firebase-installations-17.1.0/AndroidManifest.xml:19:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-installations:17.1.0] /Users/johyeongchan/.gradle/caches/transforms-3/3c69217f7b584033cda1e9dfa82cc9d0/transformed/firebase-installations-17.1.0/AndroidManifest.xml:18:17-127
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:20.2.0] /Users/johyeongchan/.gradle/caches/transforms-3/33d441273fd25f7872fbf5cf027e181f/transformed/firebase-common-20.2.0/AndroidManifest.xml:25:9-30:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:20.2.0] /Users/johyeongchan/.gradle/caches/transforms-3/33d441273fd25f7872fbf5cf027e181f/transformed/firebase-common-20.2.0/AndroidManifest.xml:27:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:20.2.0] /Users/johyeongchan/.gradle/caches/transforms-3/33d441273fd25f7872fbf5cf027e181f/transformed/firebase-common-20.2.0/AndroidManifest.xml:29:13-37
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:20.2.0] /Users/johyeongchan/.gradle/caches/transforms-3/33d441273fd25f7872fbf5cf027e181f/transformed/firebase-common-20.2.0/AndroidManifest.xml:28:13-43
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:20.2.0] /Users/johyeongchan/.gradle/caches/transforms-3/33d441273fd25f7872fbf5cf027e181f/transformed/firebase-common-20.2.0/AndroidManifest.xml:30:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:20.2.0] /Users/johyeongchan/.gradle/caches/transforms-3/33d441273fd25f7872fbf5cf027e181f/transformed/firebase-common-20.2.0/AndroidManifest.xml:26:13-77
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:18.0.1] /Users/johyeongchan/.gradle/caches/transforms-3/f0a5589636bb4119bc21053f354c6b97/transformed/play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] /Users/johyeongchan/.gradle/caches/transforms-3/f0a5589636bb4119bc21053f354c6b97/transformed/play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] /Users/johyeongchan/.gradle/caches/transforms-3/f0a5589636bb4119bc21053f354c6b97/transformed/play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] /Users/johyeongchan/.gradle/caches/transforms-3/f0a5589636bb4119bc21053f354c6b97/transformed/play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+ADDED from [com.google.android.gms:play-services-measurement:21.2.0] /Users/johyeongchan/.gradle/caches/transforms-3/da805760ed1491584f6be4931a06ec7d/transformed/play-services-measurement-21.2.0/AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.2.0] /Users/johyeongchan/.gradle/caches/transforms-3/f9b481d7747751b640507f4333f2c84b/transformed/play-services-measurement-impl-21.2.0/AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.2.0] /Users/johyeongchan/.gradle/caches/transforms-3/f9b481d7747751b640507f4333f2c84b/transformed/play-services-measurement-impl-21.2.0/AndroidManifest.xml:26:5-110
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:21.2.0] /Users/johyeongchan/.gradle/caches/transforms-3/da805760ed1491584f6be4931a06ec7d/transformed/play-services-measurement-21.2.0/AndroidManifest.xml:26:22-107
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.android.gms:play-services-measurement:21.2.0] /Users/johyeongchan/.gradle/caches/transforms-3/da805760ed1491584f6be4931a06ec7d/transformed/play-services-measurement-21.2.0/AndroidManifest.xml:29:9-33:20
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:21.2.0] /Users/johyeongchan/.gradle/caches/transforms-3/da805760ed1491584f6be4931a06ec7d/transformed/play-services-measurement-21.2.0/AndroidManifest.xml:31:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:21.2.0] /Users/johyeongchan/.gradle/caches/transforms-3/da805760ed1491584f6be4931a06ec7d/transformed/play-services-measurement-21.2.0/AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:21.2.0] /Users/johyeongchan/.gradle/caches/transforms-3/da805760ed1491584f6be4931a06ec7d/transformed/play-services-measurement-21.2.0/AndroidManifest.xml:30:13-85
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.android.gms:play-services-measurement:21.2.0] /Users/johyeongchan/.gradle/caches/transforms-3/da805760ed1491584f6be4931a06ec7d/transformed/play-services-measurement-21.2.0/AndroidManifest.xml:35:9-38:40
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:21.2.0] /Users/johyeongchan/.gradle/caches/transforms-3/da805760ed1491584f6be4931a06ec7d/transformed/play-services-measurement-21.2.0/AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:21.2.0] /Users/johyeongchan/.gradle/caches/transforms-3/da805760ed1491584f6be4931a06ec7d/transformed/play-services-measurement-21.2.0/AndroidManifest.xml:38:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:21.2.0] /Users/johyeongchan/.gradle/caches/transforms-3/da805760ed1491584f6be4931a06ec7d/transformed/play-services-measurement-21.2.0/AndroidManifest.xml:36:13-84
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [com.google.android.gms:play-services-measurement:21.2.0] /Users/johyeongchan/.gradle/caches/transforms-3/da805760ed1491584f6be4931a06ec7d/transformed/play-services-measurement-21.2.0/AndroidManifest.xml:39:9-43:72
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:21.2.0] /Users/johyeongchan/.gradle/caches/transforms-3/da805760ed1491584f6be4931a06ec7d/transformed/play-services-measurement-21.2.0/AndroidManifest.xml:41:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:21.2.0] /Users/johyeongchan/.gradle/caches/transforms-3/da805760ed1491584f6be4931a06ec7d/transformed/play-services-measurement-21.2.0/AndroidManifest.xml:42:13-37
+	android:permission
+		ADDED from [com.google.android.gms:play-services-measurement:21.2.0] /Users/johyeongchan/.gradle/caches/transforms-3/da805760ed1491584f6be4931a06ec7d/transformed/play-services-measurement-21.2.0/AndroidManifest.xml:43:13-69
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:21.2.0] /Users/johyeongchan/.gradle/caches/transforms-3/da805760ed1491584f6be4931a06ec7d/transformed/play-services-measurement-21.2.0/AndroidManifest.xml:40:13-87
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:18.1.0] /Users/johyeongchan/.gradle/caches/transforms-3/fff0785151b6c31c688512a42c37aeb9/transformed/play-services-basement-18.1.0/AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:18.1.0] /Users/johyeongchan/.gradle/caches/transforms-3/fff0785151b6c31c688512a42c37aeb9/transformed/play-services-basement-18.1.0/AndroidManifest.xml:23:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:18.1.0] /Users/johyeongchan/.gradle/caches/transforms-3/fff0785151b6c31c688512a42c37aeb9/transformed/play-services-basement-18.1.0/AndroidManifest.xml:22:13-58
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/johyeongchan/.gradle/caches/transforms-3/283a5b61b5bf610ff27303faf492a8d6/transformed/emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /Users/johyeongchan/.gradle/caches/transforms-3/f560ecddab3b7d3a6ce1c41e99097a1e/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /Users/johyeongchan/.gradle/caches/transforms-3/f560ecddab3b7d3a6ce1c41e99097a1e/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/johyeongchan/.gradle/caches/transforms-3/d2b892388d4f1220c8e1335791505248/transformed/startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/johyeongchan/.gradle/caches/transforms-3/d2b892388d4f1220c8e1335791505248/transformed/startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/johyeongchan/.gradle/caches/transforms-3/283a5b61b5bf610ff27303faf492a8d6/transformed/emoji2-1.2.0/AndroidManifest.xml:28:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/johyeongchan/.gradle/caches/transforms-3/283a5b61b5bf610ff27303faf492a8d6/transformed/emoji2-1.2.0/AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/johyeongchan/.gradle/caches/transforms-3/283a5b61b5bf610ff27303faf492a8d6/transformed/emoji2-1.2.0/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/johyeongchan/.gradle/caches/transforms-3/283a5b61b5bf610ff27303faf492a8d6/transformed/emoji2-1.2.0/AndroidManifest.xml:25:13-67
 meta-data#androidx.emoji2.text.EmojiCompatInitializer
-ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/johyeongchan/.gradle/caches/transforms-3/848773e611bbde5d3ec0ec3e63d01c98/transformed/emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/johyeongchan/.gradle/caches/transforms-3/283a5b61b5bf610ff27303faf492a8d6/transformed/emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
 	android:value
-		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/johyeongchan/.gradle/caches/transforms-3/848773e611bbde5d3ec0ec3e63d01c98/transformed/emoji2-1.2.0/AndroidManifest.xml:31:17-49
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/johyeongchan/.gradle/caches/transforms-3/283a5b61b5bf610ff27303faf492a8d6/transformed/emoji2-1.2.0/AndroidManifest.xml:31:17-49
 	android:name
-		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/johyeongchan/.gradle/caches/transforms-3/848773e611bbde5d3ec0ec3e63d01c98/transformed/emoji2-1.2.0/AndroidManifest.xml:30:17-75
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/johyeongchan/.gradle/caches/transforms-3/283a5b61b5bf610ff27303faf492a8d6/transformed/emoji2-1.2.0/AndroidManifest.xml:30:17-75
 meta-data#androidx.lifecycle.ProcessLifecycleInitializer
-ADDED from [androidx.lifecycle:lifecycle-process:2.4.1] /Users/johyeongchan/.gradle/caches/transforms-3/a4f0fb44e9b56370f8c2ed23c9d5d030/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
+ADDED from [androidx.lifecycle:lifecycle-process:2.4.1] /Users/johyeongchan/.gradle/caches/transforms-3/f560ecddab3b7d3a6ce1c41e99097a1e/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
 	android:value
-		ADDED from [androidx.lifecycle:lifecycle-process:2.4.1] /Users/johyeongchan/.gradle/caches/transforms-3/a4f0fb44e9b56370f8c2ed23c9d5d030/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.1] /Users/johyeongchan/.gradle/caches/transforms-3/f560ecddab3b7d3a6ce1c41e99097a1e/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
 	android:name
-		ADDED from [androidx.lifecycle:lifecycle-process:2.4.1] /Users/johyeongchan/.gradle/caches/transforms-3/a4f0fb44e9b56370f8c2ed23c9d5d030/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.1] /Users/johyeongchan/.gradle/caches/transforms-3/f560ecddab3b7d3a6ce1c41e99097a1e/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
