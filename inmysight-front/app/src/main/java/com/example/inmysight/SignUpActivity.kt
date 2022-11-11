@@ -12,7 +12,7 @@ class SignUpActivity : AppCompatActivity() {
         // Sign up function
 
         // Move to main activity when press close button
-        val closeButton: Button = findViewById(R.id.signInCancelButton)
+        val closeButton: Button = findViewById(R.id.signUpCancelButton)
         closeButton.setOnClickListener{
             finish()
         }

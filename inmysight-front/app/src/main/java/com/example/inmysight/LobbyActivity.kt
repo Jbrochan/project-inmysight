@@ -12,7 +12,8 @@ class LobbyActivity : AppCompatActivity() {
 
         // Move to StockActivity when press stock button
         val stockButton: Button = findViewById(R.id.lobbyStockButton)
-        intent = Intent(this, StockActivity::class.java)
-        startActivity(intent)
+        stockButton.setOnClickListener {
+            intent = Intent(this, StockActivity::class.java)
+            startActivity(intent) }
     }
 }
