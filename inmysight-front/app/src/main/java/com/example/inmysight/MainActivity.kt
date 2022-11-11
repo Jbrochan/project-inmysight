@@ -15,13 +15,13 @@ class MainActivity : AppCompatActivity() {
         val db = Firebase.firestore
 
         // Move to sign-in activity when press sign-in button
-        val singInButton: Button = findViewById(R.id.signIn)
+        val singInButton: Button = findViewById(R.id.mainSignInButton)
         singInButton.setOnClickListener{
             intent = Intent(this, SignInActivity::class.java)
             startActivity(intent)
         }
         // Move to sign-up activity when press sign-up button
-        val signUpButton: Button = findViewById(R.id.signUp)
+        val signUpButton: Button = findViewById(R.id.mainSignUpButton)
         signUpButton.setOnClickListener {
             intent = Intent(this, SignUpActivity::class.java)
             startActivity(intent)

@@ -7,7 +7,7 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:id="@+id/lobby1Title"
+        android:id="@+id/mainTitle"
         android:layout_width="213dp"
         android:layout_height="43dp"
         android:text="@string/title1"
@@ -22,22 +22,22 @@
         app:layout_constraintVertical_bias="0.309" />
 
     <TextView
-        android:id="@+id/lobby1Title2"
+        android:id="@+id/mainSubTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/title2"
         android:textAlignment="center"
         android:textSize="18sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/signUp"
+        app:layout_constraintBottom_toTopOf="@+id/mainSignUpButton"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/lobby1Title"
+        app:layout_constraintTop_toBottomOf="@+id/mainTitle"
         app:layout_constraintVertical_bias="0.024" />
 
     <Button
-        android:id="@+id/signIn"
+        android:id="@+id/mainSignInButton"
         android:layout_width="216dp"
         android:layout_height="60dp"
         android:backgroundTint="@color/material_dynamic_neutral30"
@@ -46,11 +46,11 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/lobby1Title"
+        app:layout_constraintTop_toBottomOf="@+id/mainTitle"
         app:layout_constraintVertical_bias="0.516" />
 
     <Button
-        android:id="@+id/signUp"
+        android:id="@+id/mainSignUpButton"
         android:layout_width="216dp"
         android:layout_height="60dp"
         android:backgroundTint="@color/material_dynamic_neutral30"
@@ -59,7 +59,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/lobby1Title"
+        app:layout_constraintTop_toBottomOf="@+id/mainTitle"
         app:layout_constraintVertical_bias="0.702" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

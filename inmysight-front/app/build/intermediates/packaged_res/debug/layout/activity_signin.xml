@@ -7,7 +7,7 @@
     android:layout_height="match_parent">
 
     <EditText
-        android:id="@+id/idInput"
+        android:id="@+id/signInIdInput"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -22,35 +22,35 @@
         app:layout_constraintVertical_bias="0.366" />
 
     <EditText
-        android:id="@+id/passwordInput"
+        android:id="@+id/signInPasswordInput"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
         android:hint="@string/signin_hint_password"
         android:inputType="textPersonName"
         android:minHeight="48dp"
-        app:layout_constraintBottom_toTopOf="@+id/signInButton"
+        app:layout_constraintBottom_toTopOf="@+id/signInLogInButton"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/idInput"
+        app:layout_constraintTop_toBottomOf="@+id/signInIdInput"
         app:layout_constraintVertical_bias="0.514" />
 
     <Button
-        android:id="@+id/signInButton"
+        android:id="@+id/signInLogInButton"
         android:layout_width="210dp"
         android:layout_height="48dp"
         android:backgroundTint="@color/material_dynamic_neutral30"
         android:text="@string/signin_login_button"
-        app:layout_constraintBottom_toTopOf="@+id/cancelButton"
+        app:layout_constraintBottom_toTopOf="@+id/signInCancelButton"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/idInput"
+        app:layout_constraintTop_toBottomOf="@+id/signInIdInput"
         app:layout_constraintVertical_bias="0.846" />
 
     <Button
-        android:id="@+id/cancelButton"
+        android:id="@+id/signInCancelButton"
         android:layout_width="210dp"
         android:layout_height="48dp"
         android:backgroundTint="@color/material_dynamic_neutral30"
@@ -59,7 +59,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/idInput"
+        app:layout_constraintTop_toBottomOf="@+id/signInIdInput"
         app:layout_constraintVertical_bias="0.379" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

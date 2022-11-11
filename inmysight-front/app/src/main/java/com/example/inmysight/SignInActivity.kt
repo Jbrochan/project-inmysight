@@ -11,7 +11,7 @@ class SignInActivity : AppCompatActivity() {
         setContentView(R.layout.activity_signin)
 
         // Move to main activity when press sign-in button
-        val signInButton: Button = findViewById(R.id.signInButton)
+        val signInButton: Button = findViewById(R.id.signInLogInButton)
         signInButton.setOnClickListener {
             intent = Intent(this, LobbyActivity::class.java)
             startActivity(intent)
@@ -19,7 +19,7 @@ class SignInActivity : AppCompatActivity() {
 
 
         // Move to main activity when press close button
-        val closeButton: Button = findViewById(R.id.cancelButton)
+        val closeButton: Button = findViewById(R.id.signInCancelButton)
         closeButton.setOnClickListener {
             finish()
         }

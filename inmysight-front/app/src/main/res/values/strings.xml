@@ -7,7 +7,7 @@
     <string name="sign_in_button">로그인</string>
 
     <string name="signin_hint_id">아이디를 입력하세요</string>
-    <string name="signin_hint_password">비밀번호를 입력하세요</string>
+    <string name="signin_hint_password">비밀번호를 입력하세요</string>S
     <string name="signin_login_button">로그인</string>
     <string name="signin_login_button2">취소</string>
 
@@ -15,8 +15,16 @@
     <string name="signup_hint_password">비밀번호를 입력하세요</string>
     <string name="signup_button">회원가입</string>
     <string name="signup_button2">취소</string>
-    
+
     <string name="lobby_stock">입고하기</string>
     <string name="lobby_release">출고하기</string>
     <string name="lobby_storage">내 창고</string>
+
+    <string name="stock_stock">입고하기</string>
+    <string name="stock_cancel">취소</string>
+    <string name="stock_hint_name">이름을 입력하세요</string>
+    <string name="stock_hint_quantity">수량을 입력하세요</string>
+    <string name="stock_hint_stockDate">입고일을 입력하세요</string>
+    <string name="stock_hint_stockCustomer">입고처를 입력하세요</string>
+    <string name="stock_hint_memo">특이사항을 입력하세요</string>
 </resources>

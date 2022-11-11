@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/johyeongchan/MediaProject-2022-2/inmysight-project/inmysight-front/app/src/main/AndroidManifest.xml:2:1-43:12
-INJECTED from /Users/johyeongchan/MediaProject-2022-2/inmysight-project/inmysight-front/app/src/main/AndroidManifest.xml:2:1-43:12
-INJECTED from /Users/johyeongchan/MediaProject-2022-2/inmysight-project/inmysight-front/app/src/main/AndroidManifest.xml:2:1-43:12
-INJECTED from /Users/johyeongchan/MediaProject-2022-2/inmysight-project/inmysight-front/app/src/main/AndroidManifest.xml:2:1-43:12
+ADDED from /Users/johyeongchan/MediaProject-2022-2/inmysight-project/inmysight-front/app/src/main/AndroidManifest.xml:2:1-50:12
+INJECTED from /Users/johyeongchan/MediaProject-2022-2/inmysight-project/inmysight-front/app/src/main/AndroidManifest.xml:2:1-50:12
+INJECTED from /Users/johyeongchan/MediaProject-2022-2/inmysight-project/inmysight-front/app/src/main/AndroidManifest.xml:2:1-50:12
+INJECTED from /Users/johyeongchan/MediaProject-2022-2/inmysight-project/inmysight-front/app/src/main/AndroidManifest.xml:2:1-50:12
 MERGED from [com.google.firebase:firebase-firestore-ktx:24.4.0] /Users/johyeongchan/.gradle/caches/transforms-3/a9b6d0bfde2e831ab008d73b64ea42ba/transformed/firebase-firestore-ktx-24.4.0/AndroidManifest.xml:2:1-20:12
 MERGED from [com.google.firebase:firebase-analytics-ktx:21.2.0] /Users/johyeongchan/.gradle/caches/transforms-3/8de6f5791aaa35082136d849cf72f2c9/transformed/firebase-analytics-ktx-21.2.0/AndroidManifest.xml:2:1-17:12
 MERGED from [com.google.firebase:firebase-common-ktx:20.2.0] /Users/johyeongchan/.gradle/caches/transforms-3/dbd44cf8c8b491ea85f206844969bf3d/transformed/firebase-common-ktx-20.2.0/AndroidManifest.xml:2:1-20:12
@@ -70,27 +70,27 @@ MERGED from [androidx.print:print:1.0.0] /Users/johyeongchan/.gradle/caches/tran
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/johyeongchan/.gradle/caches/transforms-3/7f910f1b568381695fb20ea023101b78/transformed/annotation-experimental-1.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [io.grpc:grpc-android:1.48.1] /Users/johyeongchan/.gradle/caches/transforms-3/b427d44b9ef8c677701768275a50c799/transformed/grpc-android-1.48.1/AndroidManifest.xml:2:1-11:12
 MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] /Users/johyeongchan/.gradle/caches/transforms-3/ef4b76c1e5b2c96a5a3b61078afa95a4/transformed/protolite-well-known-types-18.0.0/AndroidManifest.xml:2:1-11:12
-INJECTED from /Users/johyeongchan/MediaProject-2022-2/inmysight-project/inmysight-front/app/src/main/AndroidManifest.xml:2:1-43:12
-INJECTED from /Users/johyeongchan/MediaProject-2022-2/inmysight-project/inmysight-front/app/src/main/AndroidManifest.xml:2:1-43:12
-INJECTED from /Users/johyeongchan/MediaProject-2022-2/inmysight-project/inmysight-front/app/src/main/AndroidManifest.xml:2:1-43:12
+INJECTED from /Users/johyeongchan/MediaProject-2022-2/inmysight-project/inmysight-front/app/src/main/AndroidManifest.xml:2:1-50:12
+INJECTED from /Users/johyeongchan/MediaProject-2022-2/inmysight-project/inmysight-front/app/src/main/AndroidManifest.xml:2:1-50:12
+INJECTED from /Users/johyeongchan/MediaProject-2022-2/inmysight-project/inmysight-front/app/src/main/AndroidManifest.xml:2:1-50:12
 	package
 		INJECTED from /Users/johyeongchan/MediaProject-2022-2/inmysight-project/inmysight-front/app/src/main/AndroidManifest.xml
-		ADDED from /Users/johyeongchan/MediaProject-2022-2/inmysight-project/inmysight-front/app/src/main/AndroidManifest.xml:2:1-43:12
+		ADDED from /Users/johyeongchan/MediaProject-2022-2/inmysight-project/inmysight-front/app/src/main/AndroidManifest.xml:2:1-50:12
 		INJECTED from /Users/johyeongchan/MediaProject-2022-2/inmysight-project/inmysight-front/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Users/johyeongchan/MediaProject-2022-2/inmysight-project/inmysight-front/app/src/main/AndroidManifest.xml
-		ADDED from /Users/johyeongchan/MediaProject-2022-2/inmysight-project/inmysight-front/app/src/main/AndroidManifest.xml:2:1-43:12
+		ADDED from /Users/johyeongchan/MediaProject-2022-2/inmysight-project/inmysight-front/app/src/main/AndroidManifest.xml:2:1-50:12
 		INJECTED from /Users/johyeongchan/MediaProject-2022-2/inmysight-project/inmysight-front/app/src/main/AndroidManifest.xml
 	xmlns:tools
 		ADDED from /Users/johyeongchan/MediaProject-2022-2/inmysight-project/inmysight-front/app/src/main/AndroidManifest.xml:3:5-51
 	android:versionCode
 		INJECTED from /Users/johyeongchan/MediaProject-2022-2/inmysight-project/inmysight-front/app/src/main/AndroidManifest.xml
-		ADDED from /Users/johyeongchan/MediaProject-2022-2/inmysight-project/inmysight-front/app/src/main/AndroidManifest.xml:2:1-43:12
+		ADDED from /Users/johyeongchan/MediaProject-2022-2/inmysight-project/inmysight-front/app/src/main/AndroidManifest.xml:2:1-50:12
 		INJECTED from /Users/johyeongchan/MediaProject-2022-2/inmysight-project/inmysight-front/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Users/johyeongchan/MediaProject-2022-2/inmysight-project/inmysight-front/app/src/main/AndroidManifest.xml:2:11-69
 application
-ADDED from /Users/johyeongchan/MediaProject-2022-2/inmysight-project/inmysight-front/app/src/main/AndroidManifest.xml:5:5-41:19
+ADDED from /Users/johyeongchan/MediaProject-2022-2/inmysight-project/inmysight-front/app/src/main/AndroidManifest.xml:5:5-48:19
 MERGED from [com.google.firebase:firebase-firestore-ktx:24.4.0] /Users/johyeongchan/.gradle/caches/transforms-3/a9b6d0bfde2e831ab008d73b64ea42ba/transformed/firebase-firestore-ktx-24.4.0/AndroidManifest.xml:10:5-18:19
 MERGED from [com.google.firebase:firebase-firestore-ktx:24.4.0] /Users/johyeongchan/.gradle/caches/transforms-3/a9b6d0bfde2e831ab008d73b64ea42ba/transformed/firebase-firestore-ktx-24.4.0/AndroidManifest.xml:10:5-18:19
 MERGED from [com.google.firebase:firebase-analytics-ktx:21.2.0] /Users/johyeongchan/.gradle/caches/transforms-3/8de6f5791aaa35082136d849cf72f2c9/transformed/firebase-analytics-ktx-21.2.0/AndroidManifest.xml:7:5-15:19
@@ -165,7 +165,7 @@ MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/johyeongchan/.gradle
 		ADDED from /Users/johyeongchan/MediaProject-2022-2/inmysight-project/inmysight-front/app/src/main/AndroidManifest.xml:13:9-47
 	android:dataExtractionRules
 		ADDED from /Users/johyeongchan/MediaProject-2022-2/inmysight-project/inmysight-front/app/src/main/AndroidManifest.xml:7:9-65
-activity#com.example.inmysight.LobbyActivity
+activity#com.example.inmysight.StockActivity
 ADDED from /Users/johyeongchan/MediaProject-2022-2/inmysight-project/inmysight-front/app/src/main/AndroidManifest.xml:15:9-21:20
 	android:exported
 		ADDED from /Users/johyeongchan/MediaProject-2022-2/inmysight-project/inmysight-front/app/src/main/AndroidManifest.xml:17:13-37
@@ -177,34 +177,40 @@ ADDED from /Users/johyeongchan/MediaProject-2022-2/inmysight-project/inmysight-f
 		ADDED from /Users/johyeongchan/MediaProject-2022-2/inmysight-project/inmysight-front/app/src/main/AndroidManifest.xml:20:17-33
 	android:name
 		ADDED from /Users/johyeongchan/MediaProject-2022-2/inmysight-project/inmysight-front/app/src/main/AndroidManifest.xml:19:17-52
+activity#com.example.inmysight.LobbyActivity
+ADDED from /Users/johyeongchan/MediaProject-2022-2/inmysight-project/inmysight-front/app/src/main/AndroidManifest.xml:22:9-28:20
+	android:exported
+		ADDED from /Users/johyeongchan/MediaProject-2022-2/inmysight-project/inmysight-front/app/src/main/AndroidManifest.xml:24:13-37
+	android:name
+		ADDED from /Users/johyeongchan/MediaProject-2022-2/inmysight-project/inmysight-front/app/src/main/AndroidManifest.xml:23:13-42
 activity#com.example.inmysight.MainActivity
-ADDED from /Users/johyeongchan/MediaProject-2022-2/inmysight-project/inmysight-front/app/src/main/AndroidManifest.xml:22:9-34:20
+ADDED from /Users/johyeongchan/MediaProject-2022-2/inmysight-project/inmysight-front/app/src/main/AndroidManifest.xml:29:9-41:20
 	android:exported
-		ADDED from /Users/johyeongchan/MediaProject-2022-2/inmysight-project/inmysight-front/app/src/main/AndroidManifest.xml:24:13-36
+		ADDED from /Users/johyeongchan/MediaProject-2022-2/inmysight-project/inmysight-front/app/src/main/AndroidManifest.xml:31:13-36
 	android:name
-		ADDED from /Users/johyeongchan/MediaProject-2022-2/inmysight-project/inmysight-front/app/src/main/AndroidManifest.xml:23:13-41
+		ADDED from /Users/johyeongchan/MediaProject-2022-2/inmysight-project/inmysight-front/app/src/main/AndroidManifest.xml:30:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/johyeongchan/MediaProject-2022-2/inmysight-project/inmysight-front/app/src/main/AndroidManifest.xml:25:13-29:29
+ADDED from /Users/johyeongchan/MediaProject-2022-2/inmysight-project/inmysight-front/app/src/main/AndroidManifest.xml:32:13-36:29
 action#android.intent.action.MAIN
-ADDED from /Users/johyeongchan/MediaProject-2022-2/inmysight-project/inmysight-front/app/src/main/AndroidManifest.xml:26:17-69
+ADDED from /Users/johyeongchan/MediaProject-2022-2/inmysight-project/inmysight-front/app/src/main/AndroidManifest.xml:33:17-69
 	android:name
-		ADDED from /Users/johyeongchan/MediaProject-2022-2/inmysight-project/inmysight-front/app/src/main/AndroidManifest.xml:26:25-66
+		ADDED from /Users/johyeongchan/MediaProject-2022-2/inmysight-project/inmysight-front/app/src/main/AndroidManifest.xml:33:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/johyeongchan/MediaProject-2022-2/inmysight-project/inmysight-front/app/src/main/AndroidManifest.xml:28:17-77
+ADDED from /Users/johyeongchan/MediaProject-2022-2/inmysight-project/inmysight-front/app/src/main/AndroidManifest.xml:35:17-77
 	android:name
-		ADDED from /Users/johyeongchan/MediaProject-2022-2/inmysight-project/inmysight-front/app/src/main/AndroidManifest.xml:28:27-74
+		ADDED from /Users/johyeongchan/MediaProject-2022-2/inmysight-project/inmysight-front/app/src/main/AndroidManifest.xml:35:27-74
 activity#com.example.inmysight.SignInActivity
-ADDED from /Users/johyeongchan/MediaProject-2022-2/inmysight-project/inmysight-front/app/src/main/AndroidManifest.xml:35:9-37:39
+ADDED from /Users/johyeongchan/MediaProject-2022-2/inmysight-project/inmysight-front/app/src/main/AndroidManifest.xml:42:9-44:39
 	android:exported
-		ADDED from /Users/johyeongchan/MediaProject-2022-2/inmysight-project/inmysight-front/app/src/main/AndroidManifest.xml:37:13-36
+		ADDED from /Users/johyeongchan/MediaProject-2022-2/inmysight-project/inmysight-front/app/src/main/AndroidManifest.xml:44:13-36
 	android:name
-		ADDED from /Users/johyeongchan/MediaProject-2022-2/inmysight-project/inmysight-front/app/src/main/AndroidManifest.xml:36:13-43
+		ADDED from /Users/johyeongchan/MediaProject-2022-2/inmysight-project/inmysight-front/app/src/main/AndroidManifest.xml:43:13-43
 activity#com.example.inmysight.SignUpActivity
-ADDED from /Users/johyeongchan/MediaProject-2022-2/inmysight-project/inmysight-front/app/src/main/AndroidManifest.xml:38:9-40:39
+ADDED from /Users/johyeongchan/MediaProject-2022-2/inmysight-project/inmysight-front/app/src/main/AndroidManifest.xml:45:9-47:39
 	android:exported
-		ADDED from /Users/johyeongchan/MediaProject-2022-2/inmysight-project/inmysight-front/app/src/main/AndroidManifest.xml:40:13-36
+		ADDED from /Users/johyeongchan/MediaProject-2022-2/inmysight-project/inmysight-front/app/src/main/AndroidManifest.xml:47:13-36
 	android:name
-		ADDED from /Users/johyeongchan/MediaProject-2022-2/inmysight-project/inmysight-front/app/src/main/AndroidManifest.xml:39:13-43
+		ADDED from /Users/johyeongchan/MediaProject-2022-2/inmysight-project/inmysight-front/app/src/main/AndroidManifest.xml:46:13-43
 uses-sdk
 INJECTED from /Users/johyeongchan/MediaProject-2022-2/inmysight-project/inmysight-front/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/johyeongchan/MediaProject-2022-2/inmysight-project/inmysight-front/app/src/main/AndroidManifest.xml

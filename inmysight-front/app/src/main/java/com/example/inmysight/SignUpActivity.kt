@@ -1,6 +1,5 @@
 package com.example.inmysight
 
-import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
 import androidx.appcompat.app.AppCompatActivity
@@ -13,7 +12,7 @@ class SignUpActivity : AppCompatActivity() {
         // Sign up function
 
         // Move to main activity when press close button
-        val closeButton: Button = findViewById(R.id.cancelButton)
+        val closeButton: Button = findViewById(R.id.signInCancelButton)
         closeButton.setOnClickListener{
             finish()
         }
