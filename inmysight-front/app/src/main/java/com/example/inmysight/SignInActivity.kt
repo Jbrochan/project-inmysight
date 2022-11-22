@@ -4,6 +4,7 @@ import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
 import android.widget.TextView
+import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import com.google.firebase.firestore.ktx.firestore
 import com.google.firebase.ktx.Firebase
@@ -32,10 +33,17 @@ class SignInActivity : AppCompatActivity() {
                 .collection("companies").document(userCompany)
                 .collection("users").document(userId).get()
                 .addOnSuccessListener {documentSnapshot ->
+                    // Log-in success when validation passed
                     if(userPassword == documentSnapshot["userPassword"]){
                         intent = Intent(this, LobbyActivity::class.java)
                         startActivity(intent)
                     }
+                    else {
+                        Toast.makeText(this, "정보를 다시 입력해주세요", Toast.LENGTH_SHORT).show()
+                    }
+                }
+                .addOnFailureListener{
+                    Toast.makeText(this, "정보를 다시 입력해주세요", Toast.LENGTH_SHORT).show()
                 }
         }
 
