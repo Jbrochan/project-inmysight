@@ -24,7 +24,7 @@ class SignUpActivity : AppCompatActivity() {
         // Sign up function
         val signUpButton: Button = findViewById(R.id.signUpLogInButton)
         signUpButton.setOnClickListener {
-            // Store user id, password, company at variables from plain text
+            // Store in user id, password, company at variables from plain text
             userId = findViewById<TextView>(R.id.signUpIdInput).text.toString()
             userPassword = findViewById<TextView>(R.id.signUpPasswordInput).text.toString()
             userCompany = findViewById<TextView>(R.id.signUpCompanyInput).text.toString()

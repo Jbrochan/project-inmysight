@@ -20,6 +20,7 @@ class SignInActivity : AppCompatActivity() {
         var userPassword: String = ""    // User password
         var userCompany: String = ""    // User's company
 
+
         // Move to main activity when press sign-in button
         val signInButton: Button = findViewById(R.id.signInLogInButton)
         signInButton.setOnClickListener {
@@ -36,6 +37,7 @@ class SignInActivity : AppCompatActivity() {
                     // Log-in success when validation passed
                     if(userPassword == documentSnapshot["userPassword"]){
                         intent = Intent(this, LobbyActivity::class.java)
+                        intent.putExtra("userCompany", userCompany)
                         startActivity(intent)
                     }
                     else {
