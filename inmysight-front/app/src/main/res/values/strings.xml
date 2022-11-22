@@ -25,9 +25,11 @@
 
     <string name="stock_stock">입고하기</string>
     <string name="stock_cancel">취소</string>
+    <string name="stock_hint_shelf">선반을 입력하세요</string>
     <string name="stock_hint_name">이름을 입력하세요</string>
     <string name="stock_hint_quantity">수량을 입력하세요</string>
     <string name="stock_hint_stockDate">입고일을 입력하세요</string>
     <string name="stock_hint_stockCustomer">입고처를 입력하세요</string>
     <string name="stock_hint_memo">특이사항을 입력하세요</string>
+    <string name="stock_hint_alert">알림 수량을 입력하세요</string>
 </resources>
