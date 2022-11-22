@@ -45,7 +45,7 @@ class StockActivity : AppCompatActivity() {
                 "productShelf" to productShelf,
                 "productName" to productName,
                 "productQuantity" to productQuantity,
-                "productStockDdate" to productStockDate,
+                "productStockDate" to productStockDate,
                 "productStockCustomer" to productStockCustomer,
                 "productMemo" to productMemo,
                 "productAlert" to productAlert
