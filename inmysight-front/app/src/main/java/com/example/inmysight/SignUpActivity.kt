@@ -36,9 +36,8 @@ class SignUpActivity : AppCompatActivity() {
             db.collection("root").document("company")
                 .collection("companies").document(userCompany)
                 .collection("users").document(userId).set(userData).addOnSuccessListener { Log.d(TAG, "Sign Up Success!!") }
-            // Go to LobbyActivity
-            intent = Intent(this, LobbyActivity::class.java)
-            startActivity(intent)
+            // Go to MainActivity
+            finish()
         }
 
         // Move to main activity when press close button
