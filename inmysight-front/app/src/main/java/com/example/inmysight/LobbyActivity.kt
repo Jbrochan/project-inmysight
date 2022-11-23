@@ -20,5 +20,6 @@ class LobbyActivity : AppCompatActivity() {
             intent = Intent(this, StockActivity::class.java)
             intent.putExtra("userCompany", userCompany)
             startActivity(intent) }
+        
     }
 }

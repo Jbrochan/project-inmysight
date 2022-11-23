@@ -32,4 +32,14 @@
     <string name="stock_hint_stockCustomer">입고처를 입력하세요</string>
     <string name="stock_hint_memo">특이사항을 입력하세요</string>
     <string name="stock_hint_alert">알림 수량을 입력하세요</string>
+
+    <string name="release_release">출고하기</string>
+    <string name="release_cancel">취소</string>
+    <string name="release_hint_shelf">선반을 입력하세요</string>
+    <string name="release_hint_name">이름을 입력하세요</string>
+    <string name="release_hint_quantity">수량을 입력하세요</string>
+    <string name="release_hint_releaseDate">출고일을 입력하세요</string>
+    <string name="release_hint_releaseCustomer">출고처를 입력하세요</string>
+    <string name="release_hint_memo">특이사항을 입력하세요</string>
+    <string name="release_hint_alert">알림 수량을 입력하세요</string>
 </resources>
