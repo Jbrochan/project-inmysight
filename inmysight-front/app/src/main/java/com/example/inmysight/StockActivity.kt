@@ -65,7 +65,7 @@ class StockActivity : AppCompatActivity() {
                         findViewById<TextView>(R.id.stockShelfInput).text = ""
                         findViewById<TextView>(R.id.stockNameInput).text = ""
                         findViewById<TextView>(R.id.stockQuantityInput).text = ""
-                        findViewById<TextView>(R.id.stockDateInput).text = ""
+                        findViewById<TextView>(R.id.stockDateInput).text = LocalDate.now().toString()
                         findViewById<TextView>(R.id.stockCustomerInput).text = ""
                         findViewById<TextView>(R.id.stockMemoInput).text = ""
                         findViewById<TextView>(R.id.stockAlertInput).text = ""
