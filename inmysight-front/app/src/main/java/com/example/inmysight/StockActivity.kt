@@ -58,6 +58,14 @@ class StockActivity : AppCompatActivity() {
                     .collection("product").document(productName).set(productData)
                     .addOnSuccessListener {
                         Toast.makeText(this, "입고에 성공했습니다", Toast.LENGTH_SHORT).show()
+                        findViewById<TextView>(R.id.stockShelfInput).text = ""
+                        findViewById<TextView>(R.id.stockNameInput).text = ""
+                        findViewById<TextView>(R.id.stockQuantityInput).text = ""
+                        findViewById<TextView>(R.id.stockDateInput).text = ""
+                        findViewById<TextView>(R.id.stockCustomerInput).text = ""
+                        findViewById<TextView>(R.id.stockMemoInput).text = ""
+                        findViewById<TextView>(R.id.stockAlertInput).text = ""
+
                     }
                     .addOnFailureListener{
                         Toast.makeText(this, "입고에 실패하였습니다", Toast.LENGTH_SHORT).show()
