@@ -19,7 +19,15 @@ class LobbyActivity : AppCompatActivity() {
         stockButton.setOnClickListener {
             intent = Intent(this, StockActivity::class.java)
             intent.putExtra("userCompany", userCompany)
-            startActivity(intent) }
-        
+            startActivity(intent)
+        }
+
+        // Move to ReleaseActivity when press release button
+        val releaseButton: Button = findViewById(R.id.lobbyReleaseButton)
+        releaseButton.setOnClickListener {
+            intent = Intent(this, ReleaseActivity::class.java)
+            intent.putExtra("userCompany", userCompany)
+            startActivity(intent)
+        }
     }
 }
