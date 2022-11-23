@@ -1,18 +1,18 @@
 package com.example.inmysight
 
-import android.content.ContentValues
-import android.content.ContentValues.TAG
+import android.os.Build
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.util.Log
 import android.widget.Button
 import android.widget.TextView
 import android.widget.Toast
+import androidx.annotation.RequiresApi
 import com.google.firebase.firestore.ktx.firestore
 import com.google.firebase.ktx.Firebase
-import org.w3c.dom.Text
+import java.time.LocalDate
 
 class StockActivity : AppCompatActivity() {
+    @RequiresApi(Build.VERSION_CODES.O)
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_stock)
@@ -27,6 +27,10 @@ class StockActivity : AppCompatActivity() {
         var productStockCustomer: String = ""    // Product's stock customer
         var productMemo: String = ""    // Product's memo
         var productAlert: String = ""    // Product's alert quantity
+
+        // Set stockDateInput's text to today's date
+        // now() method require min API level 26
+        findViewById<TextView>(R.id.stockDateInput).text = LocalDate.now().toString()
 
         // Stock to fire-store database when click stock button
         val stockButton: Button = findViewById(R.id.stockInputButton)

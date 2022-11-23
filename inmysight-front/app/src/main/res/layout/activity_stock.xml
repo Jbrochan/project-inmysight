@@ -13,7 +13,7 @@
         android:layout_marginBottom="12dp"
         android:ems="10"
         android:hint="@string/stock_hint_stockDate"
-        android:inputType="textPersonName"
+        android:inputType="date"
         android:minHeight="48dp"
         android:textColorHint="#757575"
         app:layout_constraintBottom_toTopOf="@+id/stockCustomerInput"
