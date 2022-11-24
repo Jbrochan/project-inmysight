@@ -1,5 +1,6 @@
 package com.example.inmysight
 
+import android.content.ContentValues
 import android.content.ContentValues.TAG
 import android.os.Build
 import androidx.appcompat.app.AppCompatActivity
@@ -18,17 +19,18 @@ class ReleaseActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_release)
+        Log.d(TAG, "ReleaseActivity is started successfully")
 
         // Variables
         val db = Firebase.firestore    // Firebase fire-store database
         val userCompany = intent.getStringExtra("userCompany")
-        var productShelf: String = ""    // Product's location
-        var productName: String = ""    // Product's name
-        var productQuantity: String = ""    // Product's quantity
-        var productStockDate: String = ""    // Product's stock date
-        var productStockCustomer: String = ""    // Product's stock customer
-        var productMemo: String = ""    // Product's memo
-        var productAlert: String = ""    // Product's alert quantity
+        var productShelf: String    // Product's location
+        var productName: String    // Product's name
+        var productQuantity: String    // Product's quantity
+        var productStockDate: String    // Product's stock date
+        var productStockCustomer: String    // Product's stock customer
+        var productMemo: String    // Product's memo
+        var productAlert: String    // Product's alert quantity
 
         // Set releaseDateInput's text to today's date
         // now() method require min API level 26
@@ -54,10 +56,10 @@ class ReleaseActivity : AppCompatActivity() {
                     .collection("product").document(productName).get()
                     .addOnSuccessListener {
                         // Calculate change of quantity
-                        var presentQuantity: Int = it.get("productQuantity").toString().toInt()
-                        var finalQuantity: String = (presentQuantity - productQuantity.toInt()).toString()
-                        Log.d(TAG, "presentQuantity : $presentQuantity")
-                        Log.d(TAG, "finalQuantity : $finalQuantity")
+                        val presentQuantity: Int = it.get("productQuantity").toString().toInt()
+                        val finalQuantity: String = (presentQuantity - productQuantity.toInt()).toString()
+                        Log.d(TAG, "Product quantity before release : $presentQuantity")
+                        Log.d(TAG, "Product quantity after release : $finalQuantity")
 
                         // Release product if quantity of product is not zero
                         if(finalQuantity.toInt() > 0){
@@ -76,11 +78,11 @@ class ReleaseActivity : AppCompatActivity() {
                                 .collection("product").document(productName).set(productData)
                                 .addOnSuccessListener {
                                     Log.d(TAG, "${productName}, ${productQuantity}개 출고 성공")
-                                    Toast.makeText(this, "출고에 성공했습니다", Toast.LENGTH_SHORT).show()
+                                    Toast.makeText(this, "출고에 성공했습니다", Toast.LENGTH_LONG).show()
                                 }
                                 .addOnFailureListener{
                                     Log.d(TAG, "${productName}, ${productQuantity}개 출고 실패")
-                                    Toast.makeText(this, "출고에 실패하였습니다", Toast.LENGTH_SHORT).show()
+                                    Toast.makeText(this, "출고에 실패하였습니다", Toast.LENGTH_LONG).show()
                                 }
 
                         }
@@ -110,7 +112,7 @@ class ReleaseActivity : AppCompatActivity() {
                         findViewById<TextView>(R.id.releaseAlertInput).text = ""
                     }
                     .addOnFailureListener{
-                        Toast.makeText(this, "출고에 실패하였습니다", Toast.LENGTH_SHORT).show()
+                        Toast.makeText(this, "출고에 실패하였습니다", Toast.LENGTH_LONG).show()
                     }
             }
         }
@@ -119,6 +121,7 @@ class ReleaseActivity : AppCompatActivity() {
         val closeButton: Button = findViewById(R.id.releaseCancelButton)
         closeButton.setOnClickListener{
             finish()
+            Log.d(TAG, "ReleaseActivity is canceled successfully")
         }
     }
 }
