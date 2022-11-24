@@ -19,9 +19,9 @@ class SignInActivity : AppCompatActivity() {
 
         // Variables
         val db = Firebase.firestore
-        var userId: String = ""    // User id
-        var userPassword: String = ""    // User password
-        var userCompany: String = ""    // User's company
+        var userId: String    // User id
+        var userPassword: String    // User password
+        var userCompany: String    // User's company
 
 
         // Move to main activity when press sign-in button

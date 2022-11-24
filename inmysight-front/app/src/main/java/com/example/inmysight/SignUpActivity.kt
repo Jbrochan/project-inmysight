@@ -1,7 +1,6 @@
 package com.example.inmysight
 
 import android.content.ContentValues.TAG
-import android.content.Intent
 import android.os.Bundle
 import android.util.Log
 import android.widget.Button
@@ -19,9 +18,9 @@ class SignUpActivity : AppCompatActivity() {
 
         // Variables
         val db = Firebase.firestore    // Firebase fire-store database
-        var userId: String = ""    // User id
-        var userPassword: String = ""    // User password
-        var userCompany: String = ""    // User's company
+        var userId: String    // User id
+        var userPassword: String    // User password
+        var userCompany: String    // User's company
 
         // Sign up function
         val signUpButton: Button = findViewById(R.id.signUpLogInButton)
