@@ -39,19 +39,20 @@ class SignInActivity : AppCompatActivity() {
                 .addOnSuccessListener {documentSnapshot ->
                     // Log-in success when validation passed
                     if(userPassword == documentSnapshot["userPassword"]){
-                        Log.d(TAG, "Log in success!")
                         intent = Intent(this, LobbyActivity::class.java)
                         intent.putExtra("userCompany", userCompany)
                         startActivity(intent)
+                        Log.d(TAG, "Log in success!!")
+                        Toast.makeText(this, "로그인에 성공하였습니다.", Toast.LENGTH_SHORT).show()
                     }
                     else {
-                        Log.d(TAG, "Log in fail!")
-                        Toast.makeText(this, "정보를 다시 입력해주세요", Toast.LENGTH_SHORT).show()
+                        Log.d(TAG, "Log in fail!!")
+                        Toast.makeText(this, "정보를 다시 입력해주세요.", Toast.LENGTH_SHORT).show()
                     }
                 }
                 .addOnFailureListener{
-                    Log.d(TAG, "Log in fail!")
-                    Toast.makeText(this, "정보를 다시 입력해주세요", Toast.LENGTH_SHORT).show()
+                    Log.d(TAG, "Log in fail!!")
+                    Toast.makeText(this, "정보를 다시 입력해주세요.", Toast.LENGTH_SHORT).show()
                 }
         }
 
@@ -60,7 +61,7 @@ class SignInActivity : AppCompatActivity() {
         val closeButton: Button = findViewById(R.id.signInCancelButton)
         closeButton.setOnClickListener {
             finish()
-            Log.d(TAG, "SignInActivity is finished successfully")
+            Log.d(TAG, "SignInActivity is canceled successfully")
         }
     }
 }

@@ -6,6 +6,7 @@ import android.os.Bundle
 import android.util.Log
 import android.widget.Button
 import android.widget.TextView
+import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import com.google.firebase.firestore.ktx.firestore
 import com.google.firebase.ktx.Firebase
@@ -14,9 +15,10 @@ class SignUpActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?){
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_signup)
+        Log.d(TAG, "SignUpActivity is started successfully")
 
         // Variables
-        val db = Firebase.firestore    // Firebase firestore database
+        val db = Firebase.firestore    // Firebase fire-store database
         var userId: String = ""    // User id
         var userPassword: String = ""    // User password
         var userCompany: String = ""    // User's company
@@ -35,15 +37,19 @@ class SignUpActivity : AppCompatActivity() {
             // Send user's id, password, company to database
             db.collection("root").document("company")
                 .collection("companies").document(userCompany)
-                .collection("users").document(userId).set(userData).addOnSuccessListener { Log.d(TAG, "Sign Up Success!!") }
+                .collection("users").document(userId).set(userData)
+                .addOnSuccessListener { Log.d(TAG, "Sign up Success!!") }
             // Go to MainActivity
             finish()
+            Log.d(TAG, "SignUpActivity is finished successfully")
+            Toast.makeText(this, "회원가입에 성공하였습니다.", Toast.LENGTH_SHORT).show()
         }
 
         // Move to main activity when press close button
         val closeButton: Button = findViewById(R.id.signUpCancelButton)
         closeButton.setOnClickListener{
             finish()
+            Log.d(TAG, "SignUpActivity is canceled successfully")
         }
     }
 }
