@@ -1,7 +1,9 @@
 package com.example.inmysight
 
+import android.content.ContentValues.TAG
 import android.content.Intent
 import android.os.Bundle
+import android.util.Log
 import android.widget.Button
 import android.widget.TextView
 import android.widget.Toast
@@ -13,6 +15,7 @@ class SignInActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?){
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_signin)
+        Log.d(TAG, "SignInActivity is started successfully")
 
         // Variables
         val db = Firebase.firestore
@@ -30,21 +33,24 @@ class SignInActivity : AppCompatActivity() {
             userCompany = findViewById<TextView>(R.id.signInCompanyInput).text.toString()
 
             // Validate user's id, password, company from database
-            val userData = db.collection("root").document("company")
+            db.collection("root").document("company")
                 .collection("companies").document(userCompany)
                 .collection("users").document(userId).get()
                 .addOnSuccessListener {documentSnapshot ->
                     // Log-in success when validation passed
                     if(userPassword == documentSnapshot["userPassword"]){
+                        Log.d(TAG, "Log in success!")
                         intent = Intent(this, LobbyActivity::class.java)
                         intent.putExtra("userCompany", userCompany)
                         startActivity(intent)
                     }
                     else {
+                        Log.d(TAG, "Log in fail!")
                         Toast.makeText(this, "정보를 다시 입력해주세요", Toast.LENGTH_SHORT).show()
                     }
                 }
                 .addOnFailureListener{
+                    Log.d(TAG, "Log in fail!")
                     Toast.makeText(this, "정보를 다시 입력해주세요", Toast.LENGTH_SHORT).show()
                 }
         }
@@ -54,6 +60,7 @@ class SignInActivity : AppCompatActivity() {
         val closeButton: Button = findViewById(R.id.signInCancelButton)
         closeButton.setOnClickListener {
             finish()
+            Log.d(TAG, "SignInActivity is finished successfully")
         }
     }
 }
