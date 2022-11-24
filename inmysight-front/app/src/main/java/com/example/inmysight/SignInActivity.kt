@@ -43,16 +43,16 @@ class SignInActivity : AppCompatActivity() {
                         intent.putExtra("userCompany", userCompany)
                         startActivity(intent)
                         Log.d(TAG, "Log in success!!")
-                        Toast.makeText(this, "로그인에 성공하였습니다.", Toast.LENGTH_SHORT).show()
+                        Toast.makeText(this, "로그인에 성공하였습니다.", Toast.LENGTH_LONG).show()
                     }
                     else {
                         Log.d(TAG, "Log in fail!!")
-                        Toast.makeText(this, "정보를 다시 입력해주세요.", Toast.LENGTH_SHORT).show()
+                        Toast.makeText(this, "정보를 다시 입력해주세요.", Toast.LENGTH_LONG).show()
                     }
                 }
                 .addOnFailureListener{
                     Log.d(TAG, "Log in fail!!")
-                    Toast.makeText(this, "정보를 다시 입력해주세요.", Toast.LENGTH_SHORT).show()
+                    Toast.makeText(this, "정보를 다시 입력해주세요.", Toast.LENGTH_LONG).show()
                 }
         }
 

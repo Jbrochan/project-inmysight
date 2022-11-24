@@ -1,8 +1,10 @@
 package com.example.inmysight
 
+import android.content.ContentValues
 import android.os.Build
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.util.Log
 import android.widget.Button
 import android.widget.TextView
 import android.widget.Toast
@@ -16,17 +18,19 @@ class StockActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_stock)
+        Log.d(ContentValues.TAG, "StockActivity is started successfully")
 
         // Variables
         val db = Firebase.firestore    // Firebase fire-store database
         val userCompany = intent.getStringExtra("userCompany")
-        var productShelf: String = ""    // Product's location
-        var productName: String = ""    // Product's name
-        var productQuantity: String = ""    // Product's quantity
-        var productStockDate: String = ""    // Product's stock date
-        var productStockCustomer: String = ""    // Product's stock customer
-        var productMemo: String = ""    // Product's memo
-        var productAlert: String = ""    // Product's alert quantity
+        var productShelf: String    // Product's location
+        var productName: String    // Product's name
+        var productQuantity: String    // Product's quantity
+        var productStockDate: String    // Product's stock date
+        var productStockCustomer: String    // Product's stock customer
+        var productMemo: String    // Product's memo
+        var productAlert: String    // Product's alert quantity
+        Log.d(ContentValues.TAG, "Present userCompany in StockActivity is $userCompany")
 
         // Set stockDateInput's text to today's date
         // now() method require min API level 26
@@ -61,7 +65,7 @@ class StockActivity : AppCompatActivity() {
                     .collection("companies").document(userCompany)
                     .collection("product").document(productName).set(productData)
                     .addOnSuccessListener {
-                        Toast.makeText(this, "입고에 성공했습니다", Toast.LENGTH_SHORT).show()
+                        Toast.makeText(this, "입고에 성공했습니다.", Toast.LENGTH_LONG).show()
                         findViewById<TextView>(R.id.stockShelfInput).text = ""
                         findViewById<TextView>(R.id.stockNameInput).text = ""
                         findViewById<TextView>(R.id.stockQuantityInput).text = ""
@@ -69,20 +73,18 @@ class StockActivity : AppCompatActivity() {
                         findViewById<TextView>(R.id.stockCustomerInput).text = ""
                         findViewById<TextView>(R.id.stockMemoInput).text = ""
                         findViewById<TextView>(R.id.stockAlertInput).text = ""
-
                     }
                     .addOnFailureListener{
-                        Toast.makeText(this, "입고에 실패하였습니다", Toast.LENGTH_SHORT).show()
+                        Toast.makeText(this, "입고에 실패하였습니다.", Toast.LENGTH_LONG).show()
                     }
             }
         }
-
 
         // Move to lobby activity when press close button
         val closeButton: Button = findViewById(R.id.stockCancelButton)
         closeButton.setOnClickListener{
             finish()
+            Log.d(ContentValues.TAG, "StockActivity is canceled successfully")
         }
-
     }
 }

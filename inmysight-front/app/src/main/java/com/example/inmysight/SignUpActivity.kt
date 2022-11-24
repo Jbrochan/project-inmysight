@@ -41,7 +41,7 @@ class SignUpActivity : AppCompatActivity() {
             // Go to MainActivity
             finish()
             Log.d(TAG, "SignUpActivity is finished successfully")
-            Toast.makeText(this, "회원가입에 성공하였습니다.", Toast.LENGTH_SHORT).show()
+            Toast.makeText(this, "회원가입에 성공하였습니다.", Toast.LENGTH_LONG).show()
         }
 
         // Move to main activity when press close button
