@@ -1,18 +1,21 @@
 package com.example.inmysight
 
+import android.content.ContentValues
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.util.Log
 import android.widget.Button
-import android.widget.Toast
 
 class LobbyActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_lobby)
+        Log.d(ContentValues.TAG, "LobbyActivity is started successfully")
 
         // Variables
-        var userCompany = intent.getStringExtra("userCompany")
+        val userCompany = intent.getStringExtra("userCompany")
+        Log.d(ContentValues.TAG, "Present userCompany in LobbyActivity is $userCompany")
 
         // Move to StockActivity when press stock button
         val stockButton: Button = findViewById(R.id.lobbyStockButton)
