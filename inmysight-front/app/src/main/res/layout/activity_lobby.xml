@@ -9,44 +9,44 @@
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/categoryLayout"
-        android:layout_width="355dp"
-        android:layout_height="56dp"
+        android:layout_width="408dp"
+        android:layout_height="59dp"
         app:layout_constraintBottom_toTopOf="@+id/lobbyRecyclerView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.483"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lobbySeeButton"
         app:layout_constraintVertical_bias="1.0">
 
         <TextView
-            android:id="@+id/textView4"
-            android:layout_width="85dp"
-            android:layout_height="55dp"
+            android:id="@+id/categoryShelf"
+            android:layout_width="82dp"
+            android:layout_height="60dp"
             android:text="@string/lobby_category_shelf"
             android:textAlignment="center"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toStartOf="@+id/textView5"
-            app:layout_constraintHorizontal_bias="0.022"
+            app:layout_constraintEnd_toStartOf="@+id/categoryName"
+            app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.0" />
+            app:layout_constraintVertical_bias="1.0" />
 
         <TextView
-            android:id="@+id/textView5"
-            android:layout_width="128dp"
-            android:layout_height="55dp"
-            android:layout_marginEnd="8dp"
+            android:id="@+id/categoryName"
+            android:layout_width="142dp"
+            android:layout_height="58dp"
+            android:layout_marginEnd="12dp"
             android:text="@string/lobby_category_name"
             android:textAlignment="center"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toStartOf="@+id/textView6"
+            app:layout_constraintEnd_toStartOf="@+id/categoryQuantity"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.0" />
 
         <TextView
-            android:id="@+id/textView6"
-            android:layout_width="127dp"
-            android:layout_height="56dp"
+            android:id="@+id/categoryQuantity"
+            android:layout_width="149dp"
+            android:layout_height="60dp"
             android:layout_marginEnd="4dp"
             android:text="@string/lobby_category_quantity"
             android:textAlignment="center"
@@ -58,7 +58,7 @@
 
     <Button
         android:id="@+id/lobbyReleaseButton"
-        android:layout_width="202dp"
+        android:layout_width="200dp"
         android:layout_height="56dp"
         android:layout_marginStart="4dp"
         android:layout_marginTop="4dp"
@@ -107,13 +107,22 @@
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/lobbyRecyclerView"
-        android:layout_width="355dp"
-        android:layout_height="476dp"
+        android:layout_width="402dp"
+        android:layout_height="417dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintHorizontal_bias="0.444"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/lobbyStockButton"
-        app:layout_constraintVertical_bias="0.93" />
+        app:layout_constraintVertical_bias="0.969" />
+
+    <Button
+        android:id="@+id/lobbySeeButton"
+        android:layout_width="408dp"
+        android:layout_height="69dp"
+        android:text="@string/lobby_button_see"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lobbyReleaseButton" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

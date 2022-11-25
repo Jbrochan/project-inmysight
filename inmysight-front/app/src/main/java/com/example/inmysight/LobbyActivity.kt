@@ -50,7 +50,7 @@ class LobbyActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
-        val searchButton: Button = findViewById(R.id.lobbySearchButton)
+        val searchButton: Button = findViewById(R.id.lobbySeeButton)
         searchButton.setOnClickListener {
             if (userCompany != null) {
                 db.collection("root").document("company")
