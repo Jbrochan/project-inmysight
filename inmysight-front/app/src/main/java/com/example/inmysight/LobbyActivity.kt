@@ -50,8 +50,9 @@ class LobbyActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
-        val searchButton: Button = findViewById(R.id.lobbySeeButton)
-        searchButton.setOnClickListener {
+        // Show list of products through recycler view
+        val showButton: Button = findViewById(R.id.lobbySeeButton)
+        showButton.setOnClickListener {
             if (userCompany != null) {
                 db.collection("root").document("company")
                     .collection("companies").document(userCompany)
@@ -68,6 +69,24 @@ class LobbyActivity : AppCompatActivity() {
                     }
                     .addOnFailureListener {
                         Log.d(TAG, "Recyclerview fail!")
+                    }
+            }
+        }
+
+        // Search product that user want to find
+        val searchButton: Button = findViewById(R.id.lobbySearchButton)
+        searchButton.setOnClickListener {
+            val product = binding.lobbySearchInput.text.toString()
+            if (userCompany != null) {
+                db.collection("root").document("company")
+                    .collection("companies").document(userCompany)
+                    .collection("product").document(product)
+                    .get().addOnSuccessListener {
+                        Log.d(TAG, "productQuantity : ${it.get("productQuantity")}, productName : ${it.get("productName")}")
+                        // If there are no product such that name, return null
+                        // Have to make null-checking part
+                    }.addOnFailureListener {
+                        Log.d(TAG, "Fail to read from database")
                     }
             }
         }
