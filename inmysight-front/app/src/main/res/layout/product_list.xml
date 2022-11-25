@@ -14,6 +14,7 @@
         android:ems="10"
         android:inputType="textPersonName"
         android:text="Name"
+        android:textAlignment="center"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/itemName"
@@ -26,6 +27,7 @@
         android:ems="10"
         android:inputType="textPersonName"
         android:text="Name"
+        android:textAlignment="center"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toEndOf="@+id/itemShelf"
         app:layout_constraintTop_toTopOf="parent" />
@@ -37,6 +39,7 @@
         android:ems="10"
         android:inputType="textPersonName"
         android:text="Name"
+        android:textAlignment="center"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
