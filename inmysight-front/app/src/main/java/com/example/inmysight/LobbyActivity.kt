@@ -7,6 +7,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
 import android.widget.Button
+import androidx.appcompat.app.AlertDialog
 import androidx.recyclerview.widget.DividerItemDecoration
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.inmysight.databinding.ActivityLobbyBinding
@@ -82,6 +83,16 @@ class LobbyActivity : AppCompatActivity() {
                     .collection("companies").document(userCompany)
                     .collection("product").document(product)
                     .get().addOnSuccessListener {
+                        val builder = AlertDialog.Builder(this)
+                        builder.setTitle("재고 찾기")
+                            .setMessage("재고 위치 : ${it.get("productShelf")}\n" +
+                                    "재고 이름 : ${it.get("productName")}\n" +
+                                    "재고 수량 : ${it.get("productQuantity")}")
+                            .setPositiveButton("확인",{
+                                dialouge, id ->
+                            })
+                        builder.create()
+                        builder.show()
                         Log.d(TAG, "productQuantity : ${it.get("productQuantity")}, productName : ${it.get("productName")}")
                         // If there are no product such that name, return null
                         // Have to make null-checking part
