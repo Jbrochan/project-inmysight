@@ -116,7 +116,6 @@ class ReleaseActivity : AppCompatActivity() {
                             builder.show()
                         }
 
-
                         // Set input space to initial value
                         findViewById<TextView>(R.id.releaseShelfInput).text = ""
                         findViewById<TextView>(R.id.releaseNameInput).text = ""
