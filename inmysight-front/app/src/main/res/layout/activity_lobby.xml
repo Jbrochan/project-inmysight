@@ -8,15 +8,77 @@
     tools:context=".LobbyActivity">
 
     <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/searchLayout"
+        android:layout_width="410dp"
+        android:layout_height="70dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <EditText
+            android:id="@+id/lobbySearchInput"
+            android:layout_width="286dp"
+            android:layout_height="49dp"
+            android:hint="@string/lobby_hint_search"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColorHint="#757575"
+            android:textSize="14sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/lobbySearchButton"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/lobbySearchButton"
+            android:layout_width="118dp"
+            android:layout_height="49dp"
+            android:backgroundTint="@color/material_dynamic_neutral30"
+            android:text="@string/lobby_button_search"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/stockReleaseLayout"
+        android:layout_width="416dp"
+        android:layout_height="68dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/searchLayout">
+
+        <Button
+            android:id="@+id/lobbyStockButton"
+            android:layout_width="202dp"
+            android:layout_height="57dp"
+            android:backgroundTint="@color/material_dynamic_neutral30"
+            android:text="@string/lobby_button_stock"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/lobbyReleaseButton"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/lobbyReleaseButton"
+            android:layout_width="202dp"
+            android:layout_height="57dp"
+            android:backgroundTint="@color/material_dynamic_neutral30"
+            android:text="@string/lobby_button_release"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/categoryLayout"
         android:layout_width="408dp"
         android:layout_height="59dp"
-        app:layout_constraintBottom_toTopOf="@+id/lobbyRecyclerView"
+        android:layout_marginTop="4dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.483"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/lobbySeeButton"
-        app:layout_constraintVertical_bias="1.0">
+        app:layout_constraintTop_toBottomOf="@+id/lobbySeeButton">
 
         <TextView
             android:id="@+id/categoryShelf"
@@ -56,68 +118,14 @@
             app:layout_constraintVertical_bias="0.0" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 
-    <Button
-        android:id="@+id/lobbyReleaseButton"
-        android:layout_width="200dp"
-        android:layout_height="56dp"
-        android:layout_marginStart="4dp"
-        android:layout_marginTop="4dp"
-        android:backgroundTint="@color/material_dynamic_neutral30"
-        android:text="@string/lobby_button_release"
-        app:layout_constraintStart_toEndOf="@+id/lobbyStockButton"
-        app:layout_constraintTop_toBottomOf="@+id/lobbySearchButton" />
-
-    <Button
-        android:id="@+id/lobbyStockButton"
-        android:layout_width="202dp"
-        android:layout_height="57dp"
-        android:layout_marginTop="4dp"
-        android:backgroundTint="@color/material_dynamic_neutral30"
-        android:text="@string/lobby_button_stock"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/lobbySearchInput" />
-
-    <EditText
-        android:id="@+id/lobbySearchInput"
-        android:layout_width="286dp"
-        android:layout_height="49dp"
-        android:hint="@string/lobby_hint_search"
-        android:textAlignment="center"
-        android:textAllCaps="false"
-        android:textSize="14sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0" />
-
-    <Button
-        android:id="@+id/lobbySearchButton"
-        android:layout_width="118dp"
-        android:layout_height="49dp"
-        android:layout_marginEnd="16dp"
-        android:backgroundTint="@color/material_dynamic_neutral30"
-        android:text="@string/lobby_button_search"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toEndOf="@+id/lobbySearchInput"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0" />
-
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/lobbyRecyclerView"
-        android:layout_width="402dp"
-        android:layout_height="417dp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_width="389dp"
+        android:layout_height="335dp"
+        android:layout_marginTop="12dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.444"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/lobbyStockButton"
-        app:layout_constraintVertical_bias="0.969" />
+        app:layout_constraintTop_toBottomOf="@+id/categoryLayout" />
 
     <Button
         android:id="@+id/lobbySeeButton"
@@ -127,6 +135,6 @@
         android:text="@string/lobby_button_see"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/lobbyReleaseButton" />
+        app:layout_constraintTop_toBottomOf="@+id/stockReleaseLayout" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
