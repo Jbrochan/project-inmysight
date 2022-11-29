@@ -45,7 +45,6 @@
         android:hint="@string/signup_hint_company"
         android:inputType="textPersonName"
         android:minHeight="48dp"
-        android:password="true"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintStart_toStartOf="parent"
