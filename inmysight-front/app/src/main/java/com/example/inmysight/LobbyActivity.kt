@@ -35,6 +35,25 @@ class LobbyActivity : AppCompatActivity() {
         val userCompany = intent.getStringExtra("userCompany")
         Log.d(ContentValues.TAG, "Present userCompany in LobbyActivity is $userCompany")
 
+        if (userCompany != null) {
+            db.collection("root").document("company")
+                .collection("companies").document(userCompany)
+                .collection("product").get()
+                .addOnSuccessListener {
+                    itemList.clear()
+                    for(document in it){
+                        val item = Product(document["productShelf"] as String, document["productName"] as String, document["productQuantity"] as String)
+                        itemList.add(item)
+                        Log.d(TAG, "${item.shelf}, ${item.name}, ${item.quantity}")
+                    }
+                    adapter.notifyDataSetChanged()
+                    Log.d(TAG, "Recyclerview success!")
+                }
+                .addOnFailureListener {
+                    Log.d(TAG, "Recyclerview fail!")
+                }
+        }
+
         // Move to StockActivity when press stock button
         val stockButton: Button = findViewById(R.id.lobbyStockButton)
         stockButton.setOnClickListener {
