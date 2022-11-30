@@ -6,19 +6,23 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
+import android.widget.ArrayAdapter
 import android.widget.Button
+import android.widget.TextView
+import android.widget.Toast
 import androidx.appcompat.app.AlertDialog
 import androidx.recyclerview.widget.DividerItemDecoration
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.inmysight.databinding.ActivityLobbyBinding
 import com.google.firebase.firestore.FirebaseFirestore
+import kotlin.math.log
 
 class LobbyActivity : AppCompatActivity() {
     // Member variables
     private lateinit var binding : ActivityLobbyBinding
     val db = FirebaseFirestore.getInstance()
-    val itemList = arrayListOf<Product>()
-    val adapter = ListAdapter(itemList)
+    var itemList = arrayListOf<Product>()
+    var adapter = ListAdapter(itemList)
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -119,6 +123,60 @@ class LobbyActivity : AppCompatActivity() {
                         Log.d(TAG, "Fail to read from database")
                     }
             }
+        }
+
+        // Re-order item list compared by its shelf
+        val shelfText: TextView = findViewById(R.id.lobbyCategoryShelf)
+        shelfText.setOnClickListener{
+            // Set comparator of Product class compared by its shelf
+            val comparator: Comparator<Product> = compareBy{
+                it.shelf
+            }
+            // Re-order
+            val newItemList = itemList.sortedWith(comparator)
+            itemList.clear()
+            for(item in newItemList){
+                itemList.add(item)
+            }
+            adapter.notifyDataSetChanged()
+            Log.d(TAG, "Re-set by order of shelf")
+            Toast.makeText(this, "선반순으로 정렬하였습니다.", Toast.LENGTH_SHORT)
+        }
+
+        // Re-order item list compared by its name
+        val nameText: TextView = findViewById(R.id.lobbyCategoryName)
+        nameText.setOnClickListener{
+            // Set comparator of Product class compared by its name
+            val comparator: Comparator<Product> = compareBy {
+                it.name
+            }
+            // Re-order
+            val newItemList = itemList.sortedWith(comparator)
+            itemList.clear()
+            for(item in newItemList){
+                itemList.add(item)
+            }
+            adapter.notifyDataSetChanged()
+            Log.d(TAG, "Re-set by order of name")
+            Toast.makeText(this, "이름순으로 정렬하였습니다.", Toast.LENGTH_SHORT)
+        }
+
+        // Re-order item list compared by its quantity
+        val quantityText: TextView = findViewById(R.id.lobbyCategoryQuantity)
+        quantityText.setOnClickListener{
+            // Set comparator of Product class compared by its name
+            val comparator: Comparator<Product> = compareBy {
+                it.quantity.toInt()
+            }
+            // Re-order
+            val newItemList = itemList.sortedWith(comparator)
+            itemList.clear()
+            for(item in newItemList){
+                itemList.add(item)
+            }
+            adapter.notifyDataSetChanged()
+            Log.d(TAG, "Re-set by order of quantity")
+            Toast.makeText(this, "재고수량순으로 정렬하였습니다.", Toast.LENGTH_SHORT)
         }
     }
 }

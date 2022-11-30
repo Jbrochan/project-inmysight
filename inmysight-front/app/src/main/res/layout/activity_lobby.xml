@@ -71,7 +71,7 @@
     </androidx.constraintlayout.widget.ConstraintLayout>
 
     <androidx.constraintlayout.widget.ConstraintLayout
-        android:id="@+id/categoryLayout"
+        android:id="@+id/lobbyCategoryLayout"
         android:layout_width="408dp"
         android:layout_height="59dp"
         android:layout_marginTop="4dp"
@@ -81,32 +81,32 @@
         app:layout_constraintTop_toBottomOf="@+id/lobbySeeButton">
 
         <TextView
-            android:id="@+id/categoryShelf"
+            android:id="@+id/lobbyCategoryShelf"
             android:layout_width="82dp"
             android:layout_height="60dp"
             android:text="@string/lobby_category_shelf"
             android:textAlignment="center"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toStartOf="@+id/categoryName"
+            app:layout_constraintEnd_toStartOf="@+id/lobbyCategoryName"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="1.0" />
 
         <TextView
-            android:id="@+id/categoryName"
+            android:id="@+id/lobbyCategoryName"
             android:layout_width="142dp"
             android:layout_height="58dp"
             android:layout_marginEnd="12dp"
             android:text="@string/lobby_category_name"
             android:textAlignment="center"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toStartOf="@+id/categoryQuantity"
+            app:layout_constraintEnd_toStartOf="@+id/lobbyCategoryQuantity"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.0" />
 
         <TextView
-            android:id="@+id/categoryQuantity"
+            android:id="@+id/lobbyCategoryQuantity"
             android:layout_width="149dp"
             android:layout_height="60dp"
             android:layout_marginEnd="4dp"
@@ -125,7 +125,7 @@
         android:layout_marginTop="12dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/categoryLayout" />
+        app:layout_constraintTop_toBottomOf="@+id/lobbyCategoryLayout" />
 
     <Button
         android:id="@+id/lobbySeeButton"
