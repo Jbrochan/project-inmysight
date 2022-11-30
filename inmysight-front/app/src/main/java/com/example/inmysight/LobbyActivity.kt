@@ -1,12 +1,10 @@
 package com.example.inmysight
 
-import android.content.ContentValues
 import android.content.ContentValues.TAG
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
-import android.widget.ArrayAdapter
 import android.widget.Button
 import android.widget.TextView
 import android.widget.Toast
@@ -15,21 +13,20 @@ import androidx.recyclerview.widget.DividerItemDecoration
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.inmysight.databinding.ActivityLobbyBinding
 import com.google.firebase.firestore.FirebaseFirestore
-import kotlin.math.log
 
 class LobbyActivity : AppCompatActivity() {
     // Member variables
     private lateinit var binding : ActivityLobbyBinding
-    val db = FirebaseFirestore.getInstance()
-    var itemList = arrayListOf<Product>()
-    var adapter = ListAdapter(itemList)
+    private val db = FirebaseFirestore.getInstance()
+    private var itemList = arrayListOf<Product>()
+    private var adapter = ListAdapter(itemList)
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityLobbyBinding.inflate(layoutInflater)
         val view = binding.root
         setContentView(view)
-        Log.d(ContentValues.TAG, "LobbyActivity is started successfully")
+        Log.d(TAG, "LobbyActivity is started successfully")
 
         binding.lobbyRecyclerView.layoutManager = LinearLayoutManager(this)
         binding.lobbyRecyclerView.adapter = adapter
@@ -37,7 +34,7 @@ class LobbyActivity : AppCompatActivity() {
 
         // Variables
         val userCompany = intent.getStringExtra("userCompany")
-        Log.d(ContentValues.TAG, "Present userCompany in LobbyActivity is $userCompany")
+        Log.d(TAG, "Present userCompany in LobbyActivity is $userCompany")
 
         if (userCompany != null) {
             db.collection("root").document("company")
@@ -111,9 +108,9 @@ class LobbyActivity : AppCompatActivity() {
                             .setMessage("재고 위치 : ${it.get("productShelf")}\n" +
                                     "재고 이름 : ${it.get("productName")}\n" +
                                     "재고 수량 : ${it.get("productQuantity")}")
-                            .setPositiveButton("확인",{
-                                dialouge, id ->
-                            })
+                            .setPositiveButton("확인") { _, _ ->
+                                // Underscore for unused variables
+                            }
                         builder.create()
                         builder.show()
                         Log.d(TAG, "productQuantity : ${it.get("productQuantity")}, productName : ${it.get("productName")}")
@@ -140,7 +137,7 @@ class LobbyActivity : AppCompatActivity() {
             }
             adapter.notifyDataSetChanged()
             Log.d(TAG, "Re-set by order of shelf")
-            Toast.makeText(this, "선반순으로 정렬하였습니다.", Toast.LENGTH_SHORT)
+            Toast.makeText(this, "선반순으로 정렬하였습니다.", Toast.LENGTH_SHORT).show()
         }
 
         // Re-order item list compared by its name
@@ -158,7 +155,7 @@ class LobbyActivity : AppCompatActivity() {
             }
             adapter.notifyDataSetChanged()
             Log.d(TAG, "Re-set by order of name")
-            Toast.makeText(this, "이름순으로 정렬하였습니다.", Toast.LENGTH_SHORT)
+            Toast.makeText(this, "이름순으로 정렬하였습니다.", Toast.LENGTH_SHORT).show()
         }
 
         // Re-order item list compared by its quantity
@@ -176,7 +173,7 @@ class LobbyActivity : AppCompatActivity() {
             }
             adapter.notifyDataSetChanged()
             Log.d(TAG, "Re-set by order of quantity")
-            Toast.makeText(this, "재고수량순으로 정렬하였습니다.", Toast.LENGTH_SHORT)
+            Toast.makeText(this, "재고수량순으로 정렬하였습니다.", Toast.LENGTH_SHORT).show()
         }
     }
 }
