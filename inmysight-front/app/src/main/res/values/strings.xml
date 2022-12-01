@@ -53,4 +53,10 @@
 
     <string name="lobby_button_management">재고 관리</string>
     <string name="lobby_button_record">기록 확인</string>
+
+    <string name="record_button_search">검색</string>
+    <string name="record_hint_search">찾으시는 제품명을 입력하세요</string>
+    <string name="record_category_shelf">제품 위치</string>
+    <string name="record_category_name">제품 이름</string>
+    <string name="record_category_quantity">제품 수량</string>
 </resources>

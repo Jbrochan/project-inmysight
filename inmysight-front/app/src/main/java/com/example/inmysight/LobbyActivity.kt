@@ -20,5 +20,13 @@ class LobbyActivity : AppCompatActivity() {
             intent.putExtra("userCompany", userCompany)
             startActivity(intent)
         }
+
+        // Move to RecordActivity when press record button
+        val recordButton: Button = findViewById(R.id.lobbyRecordButton)
+        recordButton.setOnClickListener {
+            intent = Intent(this, RecordActivity::class.java)
+            intent.putExtra("userCompany", userCompany)
+            startActivity(intent)
+        }
     }
 }
