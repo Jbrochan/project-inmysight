@@ -1,6 +1,7 @@
 package com.example.inmysight
 
 import android.content.ContentValues
+import android.content.ContentValues.TAG
 import android.os.Build
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -58,6 +59,12 @@ class StockActivity : AppCompatActivity() {
                 "productMemo" to productMemo,
                 "productAlert" to productAlert
             )
+            val stockRecordData = hashMapOf(
+                "stockName" to productName,
+                "stockCustomer" to productStockCustomer,
+                "stockQuantity" to productQuantity,
+                "stockDate" to productStockDate
+            )
 
             // Store in fire-store database from variables
             if (userCompany != null) {
@@ -76,6 +83,12 @@ class StockActivity : AppCompatActivity() {
                     }
                     .addOnFailureListener{
                         Toast.makeText(this, "입고에 실패하였습니다.", Toast.LENGTH_LONG).show()
+                    }
+                db.collection("root").document("company")
+                    .collection("companies").document(userCompany)
+                    .collection("records").document("stockRecord")
+                    .collection("stockRecords").add(stockRecordData).addOnSuccessListener {
+                        Log.d(TAG, "기록 완료")
                     }
             }
         }

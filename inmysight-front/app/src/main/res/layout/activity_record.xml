@@ -42,13 +42,12 @@
         android:id="@+id/recordCategoryLayout"
         android:layout_width="408dp"
         android:layout_height="59dp"
-        android:layout_marginBottom="496dp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/recordRecyclerView"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.666"
+        app:layout_constraintHorizontal_bias="0.333"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/recordSearchLayout"
-        app:layout_constraintVertical_bias="0.617">
+        app:layout_constraintVertical_bias="0.77">
 
         <TextView
             android:id="@+id/recordCategoryShelf"
@@ -87,5 +86,16 @@
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.0" />
     </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recordRecyclerView"
+        android:layout_width="387dp"
+        android:layout_height="506dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="4dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/managementCategoryLayout" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
