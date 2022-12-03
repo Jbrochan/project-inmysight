@@ -75,10 +75,11 @@ class ReleaseActivity : AppCompatActivity() {
                             "productAlert" to productAlert
                         )
                         val releaseRecordData = hashMapOf(
-                            "releaseName" to productName,
-                            "releaseCustomer" to productReleaseCustomer,
-                            "releaseQuantity" to productQuantity,
-                            "releaseDate" to productReleaseDate
+                            "productTrade" to "출고",
+                            "productName" to productName,
+                            "productCustomer" to productReleaseCustomer,
+                            "productQuantity" to productQuantity,
+                            "productDate" to productReleaseDate
                         )
                         Log.d(TAG, "Hashmap 으로 변환 성공")
                         Log.d(TAG, "변환 후 잔여량 : $finalQuantity")
@@ -91,8 +92,7 @@ class ReleaseActivity : AppCompatActivity() {
                                 .addOnSuccessListener {
                                     db.collection("root").document("company")
                                         .collection("companies").document(userCompany)
-                                        .collection("records").document("releaseRecord")
-                                        .collection("releaseRecords").add(releaseRecordData).addOnSuccessListener {
+                                        .collection("records").add(releaseRecordData).addOnSuccessListener {
                                             Log.d(TAG, "출고 내역 기록 완료")
                                         }
                                     Toast.makeText(this, "출고에 성공했습니다.", Toast.LENGTH_LONG).show()
@@ -107,8 +107,7 @@ class ReleaseActivity : AppCompatActivity() {
                                 .addOnSuccessListener {
                                     db.collection("root").document("company")
                                         .collection("companies").document(userCompany)
-                                        .collection("records").document("releaseRecord")
-                                        .collection("releaseRecords").add(releaseRecordData).addOnSuccessListener {
+                                        .collection("records").add(releaseRecordData).addOnSuccessListener {
                                             Log.d(TAG, "출고 내역 기록 완료")
                                         }
                                     Toast.makeText(this, "출고에 성공했으며\n잔여수량을 모두 출고하였습니다.", Toast.LENGTH_LONG).show()

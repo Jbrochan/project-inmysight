@@ -20,7 +20,7 @@ class ManagementActivity : AppCompatActivity() {
     private lateinit var binding : ActivityManagementBinding
     private val db = FirebaseFirestore.getInstance()
     private var itemList = arrayListOf<Product>()
-    private var adapter = ListAdapter(itemList)
+    private var adapter = ProductListAdapter(itemList)
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

@@ -58,7 +58,8 @@
     <string name="record_button_show">전체 기록 확인</string>
     <string name="record_hint_search">찾으시는 제품명을 입력하세요</string>
     <string name="record_category_trade">거래 종류</string>
-    <string name="record_category_date">거래 일시</string>
     <string name="record_category_name">제품 이름</string>
+    <string name="record_category_customer">거래처</string>
     <string name="record_category_quantity">거래 수량</string>
+    <string name="record_category_date">거래 일시</string>
 </resources>

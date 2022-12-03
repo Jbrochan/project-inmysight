@@ -60,10 +60,11 @@ class StockActivity : AppCompatActivity() {
                 "productAlert" to productAlert
             )
             val stockRecordData = hashMapOf(
-                "stockName" to productName,
-                "stockCustomer" to productStockCustomer,
-                "stockQuantity" to productQuantity,
-                "stockDate" to productStockDate
+                "productTrade" to "입고",
+                "productName" to productName,
+                "productCustomer" to productStockCustomer,
+                "productQuantity" to productQuantity,
+                "productDate" to productStockDate
             )
 
             // Store in fire-store database from variables
@@ -86,8 +87,7 @@ class StockActivity : AppCompatActivity() {
                     }
                 db.collection("root").document("company")
                     .collection("companies").document(userCompany)
-                    .collection("records").document("stockRecord")
-                    .collection("stockRecords").add(stockRecordData).addOnSuccessListener {
+                    .collection("records").add(stockRecordData).addOnSuccessListener {
                         Log.d(TAG, "입고 내역 기록 완료")
                     }
             }
