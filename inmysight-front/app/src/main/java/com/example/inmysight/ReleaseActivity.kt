@@ -4,7 +4,6 @@ import android.app.AlertDialog
 import android.content.ContentValues
 import android.content.ContentValues.TAG
 import android.content.DialogInterface
-import android.content.Intent
 import android.os.Build
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -30,8 +29,8 @@ class ReleaseActivity : AppCompatActivity() {
         var productShelf: String    // Product's location
         var productName: String    // Product's name
         var productQuantity: String    // Product's quantity
-        var productStockDate: String    // Product's stock date
-        var productStockCustomer: String    // Product's stock customer
+        var productReleaseDate: String    // Product's stock date
+        var productReleaseCustomer: String    // Product's stock customer
         var productMemo: String    // Product's memo
         var productAlert: String    // Product's alert quantity
         Log.d(ContentValues.TAG, "Present userCompany in ReleaseActivity is $userCompany")
@@ -47,8 +46,8 @@ class ReleaseActivity : AppCompatActivity() {
             productShelf = findViewById<TextView>(R.id.releaseShelfInput).text.toString()
             productName = findViewById<TextView>(R.id.releaseNameInput).text.toString()
             productQuantity = findViewById<TextView>(R.id.releaseQuantityInput).text.toString()
-            productStockDate = findViewById<TextView>(R.id.releaseDateInput).text.toString()
-            productStockCustomer = findViewById<TextView>(R.id.releaseCustomerInput).text.toString()
+            productReleaseDate = findViewById<TextView>(R.id.releaseDateInput).text.toString()
+            productReleaseCustomer = findViewById<TextView>(R.id.releaseCustomerInput).text.toString()
             productMemo = findViewById<TextView>(R.id.releaseMemoInput).text.toString()
             productAlert = findViewById<TextView>(R.id.releaseAlertInput).text.toString()
 
@@ -70,10 +69,16 @@ class ReleaseActivity : AppCompatActivity() {
                             "productShelf" to productShelf,
                             "productName" to productName,
                             "productQuantity" to finalQuantity,
-                            "productReleaseDate" to productStockDate,
-                            "productReleaseCustomer" to productStockCustomer,
+                            "productReleaseDate" to productReleaseDate,
+                            "productReleaseCustomer" to productReleaseCustomer,
                             "productMemo" to productMemo,
                             "productAlert" to productAlert
+                        )
+                        val releaseRecordData = hashMapOf(
+                            "releaseName" to productName,
+                            "releaseCustomer" to productReleaseCustomer,
+                            "releaseQuantity" to productQuantity,
+                            "releaseDate" to productReleaseDate
                         )
                         Log.d(TAG, "Hashmap 으로 변환 성공")
                         Log.d(TAG, "변환 후 잔여량 : $finalQuantity")
@@ -84,6 +89,12 @@ class ReleaseActivity : AppCompatActivity() {
                                 .collection("companies").document(userCompany)
                                 .collection("product").document(productName).set(productData)
                                 .addOnSuccessListener {
+                                    db.collection("root").document("company")
+                                        .collection("companies").document(userCompany)
+                                        .collection("records").document("releaseRecord")
+                                        .collection("releaseRecords").add(releaseRecordData).addOnSuccessListener {
+                                            Log.d(TAG, "출고 내역 기록 완료")
+                                        }
                                     Toast.makeText(this, "출고에 성공했습니다.", Toast.LENGTH_LONG).show()
                                 }.addOnFailureListener {
                                     Toast.makeText(this, "출고에 실패했습니다.", Toast.LENGTH_LONG).show()
@@ -93,7 +104,15 @@ class ReleaseActivity : AppCompatActivity() {
                             db.collection("root").document("company")
                                 .collection("companies").document(userCompany)
                                 .collection("product").document(productName).delete()
-                            Toast.makeText(this, "출고에 성공했으며\n잔여수량을 모두 출고하였습니다.", Toast.LENGTH_LONG).show()
+                                .addOnSuccessListener {
+                                    db.collection("root").document("company")
+                                        .collection("companies").document(userCompany)
+                                        .collection("records").document("releaseRecord")
+                                        .collection("releaseRecords").add(releaseRecordData).addOnSuccessListener {
+                                            Log.d(TAG, "출고 내역 기록 완료")
+                                        }
+                                    Toast.makeText(this, "출고에 성공했으며\n잔여수량을 모두 출고하였습니다.", Toast.LENGTH_LONG).show()
+                                }
                         } else{
                             // Require of releasing quantity is
                             Toast.makeText(this, "잔여 수량을 초과하였습니다\n다시 작성 해주세요.", Toast.LENGTH_LONG).show()

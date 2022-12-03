@@ -88,7 +88,7 @@ class StockActivity : AppCompatActivity() {
                     .collection("companies").document(userCompany)
                     .collection("records").document("stockRecord")
                     .collection("stockRecords").add(stockRecordData).addOnSuccessListener {
-                        Log.d(TAG, "기록 완료")
+                        Log.d(TAG, "입고 내역 기록 완료")
                     }
             }
         }
