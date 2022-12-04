@@ -82,11 +82,11 @@
 
         <TextView
             android:id="@+id/managementCategoryShelf"
-            android:layout_width="82dp"
-            android:layout_height="60dp"
+            android:layout_width="105dp"
+            android:layout_height="61dp"
+            android:gravity="center"
             android:text="@string/management_category_shelf"
             android:textAlignment="center"
-            android:gravity="center"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toStartOf="@+id/managementCategoryName"
             app:layout_constraintHorizontal_bias="0.0"
@@ -96,25 +96,25 @@
 
         <TextView
             android:id="@+id/managementCategoryName"
-            android:layout_width="142dp"
+            android:layout_width="106dp"
             android:layout_height="58dp"
-            android:layout_marginEnd="12dp"
+            android:layout_marginEnd="8dp"
+            android:gravity="center"
             android:text="@string/management_category_name"
             android:textAlignment="center"
-            android:gravity="center"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toStartOf="@+id/managementCategoryQuantity"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.0" />
+            app:layout_constraintVertical_bias="1.0" />
 
         <TextView
             android:id="@+id/managementCategoryQuantity"
-            android:layout_width="149dp"
+            android:layout_width="173dp"
             android:layout_height="60dp"
             android:layout_marginEnd="4dp"
+            android:gravity="center"
             android:text="@string/management_category_quantity"
             android:textAlignment="center"
-            android:gravity="center"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent"
