@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".RecordActivity">
+
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/recordSearchLayout"
         android:layout_width="410dp"
@@ -44,12 +45,9 @@
         android:id="@+id/recordCategoryLayout"
         android:layout_width="408dp"
         android:layout_height="59dp"
-        app:layout_constraintBottom_toTopOf="@+id/recordRecyclerView"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.333"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/recordSearchLayout"
-        app:layout_constraintVertical_bias="0.77">
+        app:layout_constraintTop_toBottomOf="@+id/recordShowAllButton">
 
         <TextView
             android:id="@+id/recordCategoryTrade"
@@ -122,13 +120,9 @@
         android:id="@+id/recordRecyclerView"
         android:layout_width="413dp"
         android:layout_height="448dp"
-        android:layout_marginBottom="4dp"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/recordSearchLayout"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintTop_toBottomOf="@+id/recordCategoryLayout" />
 
     <Button
         android:id="@+id/recordShowAllButton"
@@ -137,7 +131,6 @@
         android:backgroundTint="@color/material_dynamic_neutral30"
         android:fontFamily="@font/nanum_square_neo"
         android:text="@string/record_button_show"
-        app:layout_constraintBottom_toTopOf="@+id/recordCategoryLayout"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/recordSearchLayout" />
