@@ -6,6 +6,8 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
 import android.widget.Button
+import android.widget.TextView
+import android.widget.Toast
 import androidx.recyclerview.widget.DividerItemDecoration
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.inmysight.databinding.ActivityRecordBinding
@@ -100,6 +102,96 @@ class RecordActivity : AppCompatActivity() {
                         Log.d(TAG, "Recyclerview fail!")
                     }
             }
+        }
+
+        // Re-order record list compared by its kind of trade
+        val tradeText: TextView = binding.recordCategoryTrade
+        tradeText.setOnClickListener{
+            // Set comparator of Record class compared by its shelf
+            val comparator: Comparator<Record> = compareBy {
+                it.trade
+            }
+            // Re-order
+            val newItemList = itemList.sortedWith(comparator)
+            itemList.clear()
+            for(item in newItemList){
+                itemList.add(item)
+            }
+            adapter.notifyDataSetChanged()
+            Log.d(TAG, "Re-set by order of trade")
+            Toast.makeText(this, "거래종류순으로 정렬하였습니다.", Toast.LENGTH_SHORT).show()
+        }
+
+        // Re-order record list compared by its kind of name
+        val nameText: TextView = binding.recordCategoryName
+        nameText.setOnClickListener{
+            // Set comparator of Record class compared by its shelf
+            val comparator: Comparator<Record> = compareBy {
+                it.name
+            }
+            // Re-order
+            val newItemList = itemList.sortedWith(comparator)
+            itemList.clear()
+            for(item in newItemList){
+                itemList.add(item)
+            }
+            adapter.notifyDataSetChanged()
+            Log.d(TAG, "Re-set by order of name")
+            Toast.makeText(this, "이름순으로 정렬하였습니다.", Toast.LENGTH_SHORT).show()
+        }
+
+        // Re-order record list compared by its kind of quantity
+        val quantityText: TextView = binding.recordCategoryQuantity
+        quantityText.setOnClickListener{
+            // Set comparator of Record class compared by its shelf
+            val comparator: Comparator<Record> = compareBy {
+                it.quantity
+            }
+            // Re-order
+            val newItemList = itemList.sortedWith(comparator)
+            itemList.clear()
+            for(item in newItemList){
+                itemList.add(item)
+            }
+            adapter.notifyDataSetChanged()
+            Log.d(TAG, "Re-set by order of quantity")
+            Toast.makeText(this, "거래수량순으로 정렬하였습니다.", Toast.LENGTH_SHORT).show()
+        }
+
+        // Re-order record list compared by its kind of customer
+        val customerText: TextView = binding.recordCategoryCustomer
+        customerText.setOnClickListener{
+            // Set comparator of Record class compared by its shelf
+            val comparator: Comparator<Record> = compareBy {
+                it.customer
+            }
+            // Re-order
+            val newItemList = itemList.sortedWith(comparator)
+            itemList.clear()
+            for(item in newItemList){
+                itemList.add(item)
+            }
+            adapter.notifyDataSetChanged()
+            Log.d(TAG, "Re-set by order of customer")
+            Toast.makeText(this, "거래처순으로 정렬하였습니다.", Toast.LENGTH_SHORT).show()
+        }
+
+        // Re-order record list compared by its kind of date
+        val dateText: TextView = binding.recordCategoryDate
+        dateText.setOnClickListener{
+            // Set comparator of Record class compared by its shelf
+            val comparator: Comparator<Record> = compareBy {
+                it.date
+            }
+            // Re-order
+            val newItemList = itemList.sortedWith(comparator)
+            itemList.clear()
+            for(item in newItemList){
+                itemList.add(item)
+            }
+            adapter.notifyDataSetChanged()
+            Log.d(TAG, "Re-set by order of date")
+            Toast.makeText(this, "거래일순으로 정렬하였습니다.", Toast.LENGTH_SHORT).show()
         }
     }
 }

@@ -50,7 +50,7 @@
         app:layout_constraintVertical_bias="0.77">
 
         <TextView
-            android:id="@+id/recordCategoryShelf"
+            android:id="@+id/recordCategoryTrade"
             android:layout_width="65dp"
             android:layout_height="59dp"
             android:gravity="center"
@@ -83,11 +83,11 @@
             android:text="@string/management_category_quantity"
             android:textAlignment="center"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toStartOf="@+id/recordCategoryQuantity3"
+            app:layout_constraintEnd_toStartOf="@+id/recordCategoryCustomer"
             app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
-            android:id="@+id/recordCategoryQuantity3"
+            android:id="@+id/recordCategoryCustomer"
             android:layout_width="89dp"
             android:layout_height="59dp"
             android:layout_marginEnd="1dp"
@@ -95,11 +95,11 @@
             android:text="@string/record_category_customer"
             android:textAlignment="center"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toStartOf="@+id/recordCategoryQuantity2"
+            app:layout_constraintEnd_toStartOf="@+id/recordCategoryDate"
             app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
-            android:id="@+id/recordCategoryQuantity2"
+            android:id="@+id/recordCategoryDate"
             android:layout_width="119dp"
             android:layout_height="61dp"
             android:gravity="center"
@@ -114,12 +114,13 @@
         android:id="@+id/recordRecyclerView"
         android:layout_width="413dp"
         android:layout_height="448dp"
-        android:layout_marginTop="12dp"
         android:layout_marginBottom="4dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/managementCategoryLayout" />
+        app:layout_constraintTop_toBottomOf="@+id/recordSearchLayout"
+        app:layout_constraintVertical_bias="1.0" />
 
     <Button
         android:id="@+id/recordShowAllButton"
