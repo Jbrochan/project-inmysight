@@ -28,5 +28,13 @@ class LobbyActivity : AppCompatActivity() {
             intent.putExtra("userCompany", userCompany)
             startActivity(intent)
         }
+
+        // Move to ShelfActivity when press record button
+        val shelfButton: Button = findViewById(R.id.lobbyShelfButton)
+        shelfButton.setOnClickListener {
+            intent = Intent(this, ShelfActivity::class.java)
+            intent.putExtra("userCompany", userCompany)
+            startActivity(intent)
+        }
     }
 }

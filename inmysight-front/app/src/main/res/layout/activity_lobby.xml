@@ -10,25 +10,35 @@
         android:id="@+id/lobbyManagementButton"
         android:layout_width="213dp"
         android:layout_height="54dp"
+        android:layout_marginTop="224dp"
         android:backgroundTint="@color/material_dynamic_neutral30"
         android:fontFamily="@font/nanum_square_neo"
         android:text="@string/lobby_button_management"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.409" />
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/lobbyShelfButton"
+        android:layout_width="213dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="24dp"
+        android:backgroundTint="@color/material_dynamic_neutral30"
+        android:fontFamily="@font/nanum_square_neo"
+        android:text="@string/lobby_button_location"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lobbyManagementButton" />
 
     <Button
         android:id="@+id/lobbyRecordButton"
         android:layout_width="213dp"
         android:layout_height="54dp"
+        android:layout_marginTop="24dp"
         android:backgroundTint="@color/material_dynamic_neutral30"
         android:fontFamily="@font/nanum_square_neo"
         android:text="@string/lobby_button_record"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/lobbyManagementButton"
-        app:layout_constraintVertical_bias="0.171" />
+        app:layout_constraintTop_toBottomOf="@+id/lobbyShelfButton" />
 </androidx.constraintlayout.widget.ConstraintLayout>

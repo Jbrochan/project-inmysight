@@ -66,6 +66,9 @@ class StockActivity : AppCompatActivity() {
                 "productQuantity" to productQuantity,
                 "productDate" to productStockDate
             )
+            val shelfData = hashMapOf(
+                "productShelf" to productShelf
+            )
 
             // Store in fire-store database from variables
             if (userCompany != null) {
@@ -89,6 +92,13 @@ class StockActivity : AppCompatActivity() {
                     .collection("companies").document(userCompany)
                     .collection("records").add(stockRecordData).addOnSuccessListener {
                         Log.d(TAG, "입고 내역 기록 완료")
+                    }
+
+                db.collection("root").document("company")
+                    .collection("companies").document(userCompany)
+                    .collection("shelf").add(shelfData)
+                    .addOnSuccessListener {
+                        Log.d(TAG, "선반 기록 완료")
                     }
             }
         }

@@ -16,7 +16,7 @@ import com.google.firebase.ktx.Firebase
 
 class RecordActivity : AppCompatActivity() {
     // Member variables
-    private  lateinit var binding: ActivityRecordBinding
+    private lateinit var binding: ActivityRecordBinding
     private val db = FirebaseFirestore.getInstance()
     private var itemList = arrayListOf<Record>()
     private var adapter = RecordListAdapter(itemList)

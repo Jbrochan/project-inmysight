@@ -51,7 +51,8 @@
     <string name="dialogue_search_record_button">입출고 기록</string>
     <string name="dialogue_search_close_button">닫기</string>
 
-    <string name="lobby_button_management">재고 관리</string>
+    <string name="lobby_button_management">개별 재고 관리</string>
+    <string name="lobby_button_location">선반별 재고 관리</string>
     <string name="lobby_button_record">기록 확인</string>
 
     <string name="record_button_search">검색</string>
