@@ -110,7 +110,6 @@ class ReleaseActivity : AppCompatActivity() {
                                         .collection("records").add(releaseRecordData).addOnSuccessListener {
                                             Log.d(TAG, "출고 내역 기록 완료")
                                         }
-                                    Toast.makeText(this, "출고에 성공했으며\n잔여수량을 모두 출고하였습니다.", Toast.LENGTH_LONG).show()
                                 }
                         } else{
                             // Require of releasing quantity is
@@ -119,7 +118,7 @@ class ReleaseActivity : AppCompatActivity() {
 
 
                         // Send Alarm to user that product is re-ordered
-                        if(it.get("productQuantity").toString().toInt() <= it.get("productAlert").toString().toInt()){
+                        if(finalQuantity.toInt() <= productAlert.toInt()){
                             //Toast.makeText(this, "출고 후, 상품의 잔여량이 부족합니다\n재주문 해주세요", Toast.LENGTH_LONG).show()
                             val builder = AlertDialog.Builder(this)
                             builder

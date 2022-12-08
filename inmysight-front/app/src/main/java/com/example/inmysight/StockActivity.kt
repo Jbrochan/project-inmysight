@@ -52,6 +52,15 @@ class StockActivity : AppCompatActivity() {
             productAlert = findViewById<TextView>(R.id.stockAlertInput).text.toString()
 
             // Change to hash map for storing in database
+            val productData = hashMapOf(
+                "productShelf" to productShelf,
+                "productName" to productName,
+                "productQuantity" to productQuantity,
+                "productStockDate" to productStockDate,
+                "productStockCustomer" to productStockCustomer,
+                "productMemo" to productMemo,
+                "productAlert" to productAlert
+            )
             val stockRecordData = hashMapOf(
                 "productTrade" to "입고",
                 "productName" to productName,
@@ -68,70 +77,20 @@ class StockActivity : AppCompatActivity() {
                 // Store product
                 db.collection("root").document("company")
                     .collection("companies").document(userCompany)
-                    .collection("product").document(productName).get()
+                    .collection("product").document(productName).set(productData)
                     .addOnSuccessListener {
-                        // Calculate change of quantity
-                        val presentQuantity: Int = it.get("productQuantity").toString().toInt()
-                        val finalQuantity: String = (presentQuantity + productQuantity.toInt()).toString()
-                        Log.d(TAG, "Product quantity before release : $presentQuantity")
-                        Log.d(TAG, "Product quantity after release : ${finalQuantity.toInt()}")
-
-                        val productData = hashMapOf(
-                            "productShelf" to productShelf,
-                            "productName" to productName,
-                            "productQuantity" to finalQuantity,
-                            "productStockDate" to productStockDate,
-                            "productStockCustomer" to productStockCustomer,
-                            "productMemo" to productMemo,
-                            "productAlert" to productAlert
-                        )
-
-                        db.collection("root").document("company")
-                            .collection("companies").document(userCompany)
-                            .collection("product").document(productName).set(productData)
-                            .addOnSuccessListener {
-                                Toast.makeText(this, "입고에 성공했습니다.", Toast.LENGTH_LONG).show()
-                                findViewById<TextView>(R.id.stockShelfInput).text = ""
-                                findViewById<TextView>(R.id.stockNameInput).text = ""
-                                findViewById<TextView>(R.id.stockQuantityInput).text = ""
-                                findViewById<TextView>(R.id.stockDateInput).text = LocalDate.now().toString()
-                                findViewById<TextView>(R.id.stockCustomerInput).text = ""
-                                findViewById<TextView>(R.id.stockMemoInput).text = ""
-                                findViewById<TextView>(R.id.stockAlertInput).text = ""
-                            }
-                            .addOnFailureListener{
-                                Toast.makeText(this, "입고에 실패하였습니다.", Toast.LENGTH_LONG).show()
-                            }
+                        Toast.makeText(this, "입고에 성공했습니다.", Toast.LENGTH_LONG).show()
+                        findViewById<TextView>(R.id.stockShelfInput).text = ""
+                        findViewById<TextView>(R.id.stockNameInput).text = ""
+                        findViewById<TextView>(R.id.stockQuantityInput).text = ""
+                        findViewById<TextView>(R.id.stockDateInput).text = LocalDate.now().toString()
+                        findViewById<TextView>(R.id.stockCustomerInput).text = ""
+                        findViewById<TextView>(R.id.stockMemoInput).text = ""
+                        findViewById<TextView>(R.id.stockAlertInput).text = ""
                     }
-                    .addOnFailureListener {
-                        val productData = hashMapOf(
-                            "productShelf" to productShelf,
-                            "productName" to productName,
-                            "productQuantity" to productQuantity,
-                            "productStockDate" to productStockDate,
-                            "productStockCustomer" to productStockCustomer,
-                            "productMemo" to productMemo,
-                            "productAlert" to productAlert
-                        )
-                        db.collection("root").document("company")
-                            .collection("companies").document(userCompany)
-                            .collection("product").document(productName).set(productData)
-                            .addOnSuccessListener {
-                                Toast.makeText(this, "입고에 성공했습니다.", Toast.LENGTH_LONG).show()
-                                findViewById<TextView>(R.id.stockShelfInput).text = ""
-                                findViewById<TextView>(R.id.stockNameInput).text = ""
-                                findViewById<TextView>(R.id.stockQuantityInput).text = ""
-                                findViewById<TextView>(R.id.stockDateInput).text = LocalDate.now().toString()
-                                findViewById<TextView>(R.id.stockCustomerInput).text = ""
-                                findViewById<TextView>(R.id.stockMemoInput).text = ""
-                                findViewById<TextView>(R.id.stockAlertInput).text = ""
-                            }
-                            .addOnFailureListener{
-                                Toast.makeText(this, "입고에 실패하였습니다.", Toast.LENGTH_LONG).show()
-                            }
-
+                    .addOnFailureListener{
+                        Toast.makeText(this, "입고에 실패하였습니다.", Toast.LENGTH_LONG).show()
                     }
-
 
                 // Store record
                 db.collection("root").document("company")
