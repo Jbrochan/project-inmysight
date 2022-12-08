@@ -57,6 +57,7 @@ class ShelfActivity : AppCompatActivity() {
         intent.putExtra("userCompany", userCompany)
         adapter.setOnShelfClickListener(object : ShelfListAdapter.OnShelfClickListener{
             override fun onShelfClick(view: View, position: Int) {
+                intent.putExtra("productShelf", itemList[position].shelf)
                 startActivity(intent)
             }
         })
