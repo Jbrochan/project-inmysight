@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/shelfManagementLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ShelfManagementActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/shelfManagementSearchLayout"
+        android:layout_width="410dp"
+        android:layout_height="70dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <EditText
+            android:id="@+id/shelfManagementSearchInput"
+            android:layout_width="286dp"
+            android:layout_height="49dp"
+            android:fontFamily="@font/nanum_square_neo"
+            android:hint="@string/management_hint_search"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColorHint="#757575"
+            android:textSize="14sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/shelfManagementSearchButton"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/shelfManagementSearchButton"
+            android:layout_width="118dp"
+            android:layout_height="49dp"
+            android:backgroundTint="@color/material_dynamic_neutral30"
+            android:fontFamily="@font/nanum_square_neo"
+            android:text="@string/management_button_search"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/shelfManagementStockReleaseLayout"
+        android:layout_width="416dp"
+        android:layout_height="68dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/shelfManagementSearchLayout">
+
+        <Button
+            android:id="@+id/shelfManagementStockButton"
+            android:layout_width="202dp"
+            android:layout_height="57dp"
+            android:backgroundTint="@color/material_dynamic_neutral30"
+            android:fontFamily="@font/nanum_square_neo"
+            android:text="@string/management_button_stock"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/shelfManagementReleaseButton"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/shelfManagementReleaseButton"
+            android:layout_width="202dp"
+            android:layout_height="57dp"
+            android:backgroundTint="@color/material_dynamic_neutral30"
+            android:fontFamily="@font/nanum_square_neo"
+            android:text="@string/management_button_release"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/shelfManagementCategoryLayout"
+        android:layout_width="408dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/shelfManagementSeeButton">
+
+        <TextView
+            android:id="@+id/shelfManagementCategoryShelf"
+            android:layout_width="105dp"
+            android:layout_height="61dp"
+            android:fontFamily="@font/nanum_square_neo"
+            android:gravity="center"
+            android:text="@string/management_category_shelf"
+            android:textAlignment="center"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/shelfManagementCategoryName"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <TextView
+            android:id="@+id/shelfManagementCategoryName"
+            android:layout_width="106dp"
+            android:layout_height="58dp"
+            android:layout_marginEnd="8dp"
+            android:fontFamily="@font/nanum_square_neo"
+            android:gravity="center"
+            android:text="@string/management_category_name"
+            android:textAlignment="center"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/shelfManagementCategoryQuantity"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <TextView
+            android:id="@+id/shelfManagementCategoryQuantity"
+            android:layout_width="173dp"
+            android:layout_height="60dp"
+            android:layout_marginEnd="4dp"
+            android:fontFamily="@font/nanum_square_neo"
+            android:gravity="center"
+            android:text="@string/management_category_quantity"
+            android:textAlignment="center"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/shelfManagementRecyclerView"
+        android:layout_width="389dp"
+        android:layout_height="335dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/shelfManagementCategoryLayout" />
+
+    <Button
+        android:id="@+id/shelfManagementSeeButton"
+        android:layout_width="408dp"
+        android:layout_height="69dp"
+        android:backgroundTint="@color/material_dynamic_neutral30"
+        android:fontFamily="@font/nanum_square_neo"
+        android:text="@string/management_button_see"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/shelfManagementStockReleaseLayout" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

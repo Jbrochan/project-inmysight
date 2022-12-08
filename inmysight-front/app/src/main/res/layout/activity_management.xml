@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/managementLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ManagementActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/managementSearchLayout"
+        android:layout_width="410dp"
+        android:layout_height="70dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <EditText
+            android:id="@+id/managementSearchInput"
+            android:layout_width="286dp"
+            android:layout_height="49dp"
+            android:fontFamily="@font/nanum_square_neo"
+            android:hint="@string/management_hint_search"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColorHint="#757575"
+            android:textSize="14sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/managementSearchButton"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/managementSearchButton"
+            android:layout_width="118dp"
+            android:layout_height="49dp"
+            android:backgroundTint="@color/material_dynamic_neutral30"
+            android:fontFamily="@font/nanum_square_neo"
+            android:text="@string/management_button_search"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/managementStockReleaseLayout"
+        android:layout_width="416dp"
+        android:layout_height="68dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/managementSearchLayout">
+
+        <Button
+            android:id="@+id/managementStockButton"
+            android:layout_width="202dp"
+            android:layout_height="57dp"
+            android:backgroundTint="@color/material_dynamic_neutral30"
+            android:fontFamily="@font/nanum_square_neo"
+            android:text="@string/management_button_stock"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/managementReleaseButton"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/managementReleaseButton"
+            android:layout_width="202dp"
+            android:layout_height="57dp"
+            android:backgroundTint="@color/material_dynamic_neutral30"
+            android:fontFamily="@font/nanum_square_neo"
+            android:text="@string/management_button_release"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/managementCategoryLayout"
+        android:layout_width="408dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/managementSeeButton">
+
+        <TextView
+            android:id="@+id/managementCategoryShelf"
+            android:layout_width="105dp"
+            android:layout_height="61dp"
+            android:fontFamily="@font/nanum_square_neo"
+            android:gravity="center"
+            android:text="@string/management_category_shelf"
+            android:textAlignment="center"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/managementCategoryName"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <TextView
+            android:id="@+id/managementCategoryName"
+            android:layout_width="106dp"
+            android:layout_height="58dp"
+            android:layout_marginEnd="8dp"
+            android:fontFamily="@font/nanum_square_neo"
+            android:gravity="center"
+            android:text="@string/management_category_name"
+            android:textAlignment="center"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/managementCategoryQuantity"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <TextView
+            android:id="@+id/managementCategoryQuantity"
+            android:layout_width="173dp"
+            android:layout_height="60dp"
+            android:layout_marginEnd="4dp"
+            android:fontFamily="@font/nanum_square_neo"
+            android:gravity="center"
+            android:text="@string/management_category_quantity"
+            android:textAlignment="center"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/managementRecyclerView"
+        android:layout_width="389dp"
+        android:layout_height="335dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/managementCategoryLayout" />
+
+    <Button
+        android:id="@+id/managementSeeButton"
+        android:layout_width="408dp"
+        android:layout_height="69dp"
+        android:backgroundTint="@color/material_dynamic_neutral30"
+        android:fontFamily="@font/nanum_square_neo"
+        android:text="@string/management_button_see"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/managementStockReleaseLayout" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

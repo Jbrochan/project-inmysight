@@ -1,0 +1,66 @@
+<resources>
+    <string name="app_name">InMySight</string>
+    <string name="title1">INMYSIGHT</string>
+    <string name="title2">재고 관리를 쉽고 간편하게</string>
+    <string name="start_button">START</string>
+    <string name="sign_up_button">회원가입</string>
+    <string name="sign_in_button">로그인</string>
+
+    <string name="signin_hint_id">아이디를 입력하세요</string>
+    <string name="signin_hint_password">비밀번호를 입력하세요</string>
+    <string name="signin_hint_company">회사명을 입력하세요</string>
+    <string name="signin_login_button">로그인</string>
+    <string name="signin_login_button2">취소</string>
+
+    <string name="signup_hint_id">아이디를 입력하세요</string>
+    <string name="signup_hint_password">비밀번호를 입력하세요</string>
+    <string name="signup_hint_company">회사명을 입력하세요</string>
+    <string name="signup_button">회원가입</string>
+    <string name="signup_button2">취소</string>
+
+    <string name="management_button_stock">입고하기</string>
+    <string name="management_button_release">출고하기</string>
+    <string name="management_button_search">검색</string>
+    <string name="management_button_see">재고 목록 새로고침</string>
+    <string name="management_hint_search">찾으시는 제품명을 입력하세요</string>
+    <string name="management_category_shelf">제품 위치</string>
+    <string name="management_category_name">제품 이름</string>
+    <string name="management_category_quantity">제품 수량</string>
+
+    <string name="stock_stock">입고하기</string>
+    <string name="stock_cancel">취소</string>
+    <string name="stock_hint_shelf">선반을 입력하세요</string>
+    <string name="stock_hint_name">이름을 입력하세요</string>
+    <string name="stock_hint_quantity">수량을 입력하세요</string>
+    <string name="stock_hint_stockDate">입고일을 입력하세요</string>
+    <string name="stock_hint_stockCustomer">입고처를 입력하세요</string>
+    <string name="stock_hint_memo">특이사항을 입력하세요</string>
+    <string name="stock_hint_alert">알림 수량을 입력하세요</string>
+
+    <string name="release_release">출고하기</string>
+    <string name="release_cancel">취소</string>
+    <string name="release_hint_shelf">선반을 입력하세요</string>
+    <string name="release_hint_name">이름을 입력하세요</string>
+    <string name="release_hint_quantity">수량을 입력하세요</string>
+    <string name="release_hint_releaseDate">출고일을 입력하세요</string>
+    <string name="release_hint_releaseCustomer">출고처를 입력하세요</string>
+    <string name="release_hint_memo">특이사항을 입력하세요</string>
+    <string name="release_hint_alert">알림 수량을 입력하세요</string>
+
+    <string name="dialogue_search_title">재고 찾기</string>
+    <string name="dialogue_search_record_button">입출고 기록</string>
+    <string name="dialogue_search_close_button">닫기</string>
+
+    <string name="lobby_button_management">개별 재고 관리</string>
+    <string name="lobby_button_location">선반별 재고 관리</string>
+    <string name="lobby_button_record">기록 확인</string>
+
+    <string name="record_button_search">검색</string>
+    <string name="record_button_show">전체 기록 확인</string>
+    <string name="record_hint_search">찾으시는 제품명을 입력하세요</string>
+    <string name="record_category_trade">거래 종류</string>
+    <string name="record_category_name">제품 이름</string>
+    <string name="record_category_customer">거래처</string>
+    <string name="record_category_quantity">거래 수량</string>
+    <string name="record_category_date">거래 일시</string>
+</resources>
