@@ -81,6 +81,9 @@ class ReleaseActivity : AppCompatActivity() {
                             "productQuantity" to productQuantity,
                             "productDate" to productReleaseDate
                         )
+                        val shelfData = hashMapOf(
+                            "productShelf" to productShelf
+                        )
                         Log.d(TAG, "Hashmap 으로 변환 성공")
                         Log.d(TAG, "변환 후 잔여량 : $finalQuantity")
 
@@ -94,6 +97,13 @@ class ReleaseActivity : AppCompatActivity() {
                                         .collection("companies").document(userCompany)
                                         .collection("records").add(releaseRecordData).addOnSuccessListener {
                                             Log.d(TAG, "출고 내역 기록 완료")
+                                        }
+                                    // Store shelf
+                                    db.collection("root").document("company")
+                                        .collection("companies").document(userCompany)
+                                        .collection("shelf").document(productShelf).set(shelfData)
+                                        .addOnSuccessListener {
+                                            Log.d(TAG, "선반 기록 완료")
                                         }
                                     Toast.makeText(this, "출고에 성공했습니다.", Toast.LENGTH_LONG).show()
                                 }.addOnFailureListener {
@@ -109,6 +119,13 @@ class ReleaseActivity : AppCompatActivity() {
                                         .collection("companies").document(userCompany)
                                         .collection("records").add(releaseRecordData).addOnSuccessListener {
                                             Log.d(TAG, "출고 내역 기록 완료")
+                                        }
+                                    // Store shelf
+                                    db.collection("root").document("company")
+                                        .collection("companies").document(userCompany)
+                                        .collection("shelf").document(productShelf).set(shelfData)
+                                        .addOnSuccessListener {
+                                            Log.d(TAG, "선반 기록 완료")
                                         }
                                 }
                         } else{
