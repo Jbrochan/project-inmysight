@@ -51,9 +51,10 @@ class ShelfActivity : AppCompatActivity() {
                     Log.d(TAG, "Recyclerview fail!")
                 }
         }
-        
+
         // Click listener
-        intent = Intent(this, ManagementActivity::class.java)
+        intent = Intent(this, ShelfManagementActivity::class.java)
+        intent.putExtra("userCompany", userCompany)
         adapter.setOnShelfClickListener(object : ShelfListAdapter.OnShelfClickListener{
             override fun onShelfClick(view: View, position: Int) {
                 startActivity(intent)
