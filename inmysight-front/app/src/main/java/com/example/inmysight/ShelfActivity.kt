@@ -1,9 +1,12 @@
 package com.example.inmysight
 
 import android.content.ContentValues.TAG
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
+import android.view.View
+import android.widget.Toast
 import androidx.recyclerview.widget.DividerItemDecoration
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.inmysight.databinding.ActivityShelfBinding
@@ -48,5 +51,13 @@ class ShelfActivity : AppCompatActivity() {
                     Log.d(TAG, "Recyclerview fail!")
                 }
         }
+        
+        // Click listener
+        intent = Intent(this, ManagementActivity::class.java)
+        adapter.setOnShelfClickListener(object : ShelfListAdapter.OnShelfClickListener{
+            override fun onShelfClick(view: View, position: Int) {
+                startActivity(intent)
+            }
+        })
     }
 }
