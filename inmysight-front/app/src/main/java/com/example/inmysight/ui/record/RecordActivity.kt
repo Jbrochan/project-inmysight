@@ -1,7 +1,6 @@
-package com.example.inmysight
+package com.example.inmysight.ui.record
 
 import android.content.ContentValues.TAG
-import android.os.Binder
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
@@ -11,8 +10,8 @@ import android.widget.Toast
 import androidx.recyclerview.widget.DividerItemDecoration
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.inmysight.databinding.ActivityRecordBinding
+import com.example.inmysight.model.Record
 import com.google.firebase.firestore.FirebaseFirestore
-import com.google.firebase.ktx.Firebase
 
 class RecordActivity : AppCompatActivity() {
     // Member variables

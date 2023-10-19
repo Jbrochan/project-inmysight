@@ -1,9 +1,13 @@
-package com.example.inmysight
+package com.example.inmysight.ui.lobby
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
+import com.example.inmysight.R
+import com.example.inmysight.ui.record.RecordActivity
+import com.example.inmysight.ui.shelf.ShelfActivity
+import com.example.inmysight.ui.management.ManagementActivity
 
 class LobbyActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

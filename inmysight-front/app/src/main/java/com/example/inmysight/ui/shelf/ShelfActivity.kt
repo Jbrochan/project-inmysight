@@ -1,4 +1,4 @@
-package com.example.inmysight
+package com.example.inmysight.ui.shelf
 
 import android.content.ContentValues.TAG
 import android.content.Intent
@@ -6,10 +6,10 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
 import android.view.View
-import android.widget.Toast
 import androidx.recyclerview.widget.DividerItemDecoration
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.inmysight.databinding.ActivityShelfBinding
+import com.example.inmysight.model.Shelf
 import com.google.firebase.firestore.FirebaseFirestore
 
 class ShelfActivity : AppCompatActivity() {
@@ -55,7 +55,7 @@ class ShelfActivity : AppCompatActivity() {
         // Click listener
         intent = Intent(this, ShelfManagementActivity::class.java)
         intent.putExtra("userCompany", userCompany)
-        adapter.setOnShelfClickListener(object : ShelfListAdapter.OnShelfClickListener{
+        adapter.setOnShelfClickListener(object : ShelfListAdapter.OnShelfClickListener {
             override fun onShelfClick(view: View, position: Int) {
                 intent.putExtra("productShelf", itemList[position].shelf)
                 startActivity(intent)

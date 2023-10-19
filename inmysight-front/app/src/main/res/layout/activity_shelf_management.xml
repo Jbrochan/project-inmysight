@@ -5,7 +5,7 @@
     android:id="@+id/shelfManagementLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ShelfManagementActivity">
+    tools:context=".ui.shelf.ShelfManagementActivity">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/shelfManagementSearchLayout"

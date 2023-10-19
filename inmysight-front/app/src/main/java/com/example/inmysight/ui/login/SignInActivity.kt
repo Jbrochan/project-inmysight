@@ -1,4 +1,4 @@
-package com.example.inmysight
+package com.example.inmysight.ui.login
 
 import android.content.ContentValues.TAG
 import android.content.Intent
@@ -8,6 +8,8 @@ import android.widget.Button
 import android.widget.TextView
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
+import com.example.inmysight.R
+import com.example.inmysight.ui.lobby.LobbyActivity
 import com.google.firebase.firestore.ktx.firestore
 import com.google.firebase.ktx.Firebase
 

@@ -5,7 +5,7 @@
     android:id="@+id/managementLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ManagementActivity">
+    tools:context=".ui.management.ManagementActivity">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/managementSearchLayout"

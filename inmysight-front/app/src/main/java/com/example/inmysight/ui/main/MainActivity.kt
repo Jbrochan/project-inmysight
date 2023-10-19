@@ -1,9 +1,12 @@
-package com.example.inmysight
+package com.example.inmysight.ui.main
 
 import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
 import androidx.appcompat.app.AppCompatActivity
+import com.example.inmysight.R
+import com.example.inmysight.ui.login.SignInActivity
+import com.example.inmysight.ui.login.SignUpActivity
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

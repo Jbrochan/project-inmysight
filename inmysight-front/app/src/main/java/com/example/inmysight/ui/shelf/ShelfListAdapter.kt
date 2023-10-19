@@ -1,4 +1,4 @@
-package com.example.inmysight
+package com.example.inmysight.ui.shelf
 
 import android.content.ContentValues.TAG
 import android.util.Log
@@ -6,9 +6,9 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
-import android.widget.Toast
 import androidx.recyclerview.widget.RecyclerView
 import com.example.inmysight.databinding.ShelfListBinding
+import com.example.inmysight.model.Shelf
 
 
 class ShelfListAdapter(val itemList: ArrayList<Shelf>): RecyclerView.Adapter<ShelfListAdapter.ViewHolder>() {

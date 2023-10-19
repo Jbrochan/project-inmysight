@@ -1,4 +1,4 @@
-package com.example.inmysight
+package com.example.inmysight.ui.shelf
 
 import android.content.ContentValues
 import android.content.Intent
@@ -12,7 +12,11 @@ import androidx.appcompat.app.AlertDialog
 import androidx.recyclerview.widget.DividerItemDecoration
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import com.example.inmysight.ui.product.ProductListAdapter
+import com.example.inmysight.ui.release.ReleaseActivity
+import com.example.inmysight.ui.stock.StockActivity
 import com.example.inmysight.databinding.ActivityShelfManagementBinding
+import com.example.inmysight.model.Product
 import com.google.firebase.firestore.FirebaseFirestore
 
 class ShelfManagementActivity : AppCompatActivity() {

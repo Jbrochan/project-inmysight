@@ -1,10 +1,12 @@
-package com.example.inmysight
+package com.example.inmysight.ui.record
 
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
+import com.example.inmysight.R
+import com.example.inmysight.model.Record
 
 class RecordListAdapter (val itemList: ArrayList<Record>): RecyclerView.Adapter<RecordListAdapter.ViewHolder>(){
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {

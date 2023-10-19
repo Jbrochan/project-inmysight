@@ -1,4 +1,4 @@
-package com.example.inmysight
+package com.example.inmysight.ui.release
 
 import android.app.AlertDialog
 import android.content.ContentValues
@@ -12,6 +12,7 @@ import android.widget.Button
 import android.widget.TextView
 import android.widget.Toast
 import androidx.annotation.RequiresApi
+import com.example.inmysight.R
 import com.google.firebase.firestore.ktx.firestore
 import com.google.firebase.ktx.Firebase
 import java.time.LocalDate
