@@ -13,4 +13,4 @@ dependencyResolutionManagement {
     }
 }
 rootProject.name = "InMySight"
-include ':app'
+include (":app")
